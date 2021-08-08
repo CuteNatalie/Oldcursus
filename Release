@@ -5,7 +5,8 @@ Version: 1.0
 Codename: triangle
 Architectures: iphoneos-arm
 Components: main
-Description: Debs from procursusMD5Sum:
+Description: Debs from procursus
+MD5Sum:
  696d0ce3e1543fddd2ec77219ff7834b 371857 Packages
  4c2e31510659e82a8e55ef2dece8fe1e 79747 Packages.bz2
  4e885b5dc962828cf974e4ec2bf4ff92 97596 Packages.gz
