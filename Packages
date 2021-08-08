@@ -2345,6 +2345,46 @@ Description: BSD editline and history libraries
  .
  It slightly resembles GNU readline.
 
+Package: libepoxy-dev
+Version: 1.5.7
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1544
+Depends: libepoxy0
+Filename: debs/libepoxy-dev_1.5.7_iphoneos-arm.deb
+Size: 117272
+MD5sum: 3f1ef4b88512b46f9dfa1f39a5820176
+SHA1: c27973ee2755c0402eef2c773ce5dc2519a33b68
+SHA256: d4a8ac55af56c20c28b9b6376d8f3e3cd19d51190a0371a75c3498fcdc13f1b9
+Section: Development
+Priority: optional
+Description: OpenGL function pointer management library- development
+ It hides the complexity of dlopen(), dlsym(), glXGetProcAddress(),
+ eglGetProcAddress(), etc. from the app developer, with very little
+ knowledge needed on their part.  They get to read GL specs and write
+ code using undecorated function names like glCompileShader().
+ .
+ This package contains the development headers for the library found in
+ libepoxy0. Non-developers likely have little use for this package.
+
+Package: libepoxy0
+Version: 1.5.7
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 656
+Filename: debs/libepoxy0_1.5.7_iphoneos-arm.deb
+Size: 142828
+MD5sum: cbf5417fb9809249df0c146de0aa7bae
+SHA1: 9310577eabb7a84971b6c7d899c95e329a625657
+SHA256: 9def42df251e92bbfa25686fa688a93b6db134130d882ceef8eb5e0215b0c4d3
+Section: Libraries
+Priority: optional
+Description: OpenGL function pointer management library
+ It hides the complexity of dlopen(), dlsym(), glXGetProcAddress(),
+ eglGetProcAddress(), etc. from the app developer, with very little
+ knowledge needed on their part.  They get to read GL specs and write
+ code using undecorated function names like glCompileShader().
+
 Package: libexpat1
 Version: 2.2.10
 Architecture: iphoneos-arm
@@ -2608,10 +2648,10 @@ Conflicts: libgl-dev
 Replaces: libgl-dev
 Provides: libgl-dev
 Filename: debs/libgl1-mesa-dev_21.0.2_iphoneos-arm.deb
-Size: 1212
-MD5sum: 9de00c30a4d434d5d3fdfb3c6bbe1f39
-SHA1: 7363dd7d11b013a675cf77ffb46023eb6a78a942
-SHA256: 7dbbcbd6181ecd860ecbdfc28d47a5e13f60483751544a98d9a6972026e1d20e
+Size: 1214
+MD5sum: 079d70caa6f3236ab0fdca7734a28df8
+SHA1: b89be630f9ac392ec358154f458ba706ac28c6bf
+SHA256: 81c1719f13a89063fc7fd159a759dbd6acfad3b85b755a803e238569d7ea8297
 Section: Development
 Priority: optional
 Homepage: https://mesa3d.org/
@@ -2636,10 +2676,10 @@ Conflicts: libgl1
 Replaces: libgl1
 Provides: libgl1
 Filename: debs/libgl1-mesa-glx_21.0.2_iphoneos-arm.deb
-Size: 2246244
-MD5sum: a7ed46b7521246b1e41e214b051a7bc7
-SHA1: 5044703e8e0367849b912203f6fa4cfa66d6fce4
-SHA256: 7d57327cd15a1dcbb220bc0a4385f1c8f3eb065e1b1d2e188cb6feaabe350188
+Size: 2246238
+MD5sum: 1f3a99ca9cad1195c7e5e7bb74e9f8df
+SHA1: ea0917bd300fdc9162a94c4456ff1c80ecc43f90
+SHA256: 035dcdffd747700cde78faf05d9271807d70c2674bf1eab9ab1f9f1f926a9a71
 Section: Libraries
 Priority: optional
 Homepage: https://mesa3d.org/
@@ -2660,10 +2700,10 @@ Architecture: iphoneos-arm
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 168
 Filename: debs/libglapi-mesa_21.0.2_iphoneos-arm.deb
-Size: 32652
-MD5sum: 99d730512abcb6bc78ed6acffb5556e0
-SHA1: 86145e8ff75f275da9af636aa45ac80bcc5538be
-SHA256: 4326e439fd2c3c5b5ed5cab851eea1fdbb197e42e1b64dbf69cd418bd4186f97
+Size: 32660
+MD5sum: 6511d4d353751589265ff570919a3909
+SHA1: eabb0f946c9c816c1bd4a545e775a5bf0cfe9fa6
+SHA256: ae624cd2a0169b654c9d72fc6a592d16dfa8439a8bcdc5be93d20ba1be7dc613
 Section: Libraries
 Priority: optional
 Homepage: https://mesa3d.org/
@@ -2682,10 +2722,10 @@ Conflicts: libgles2
 Replaces: libgles2
 Provides: libgles2
 Filename: debs/libgles2-mesa_21.0.2_iphoneos-arm.deb
-Size: 12774
-MD5sum: 74291c03b2605a9deca5fb8f108f4cec
-SHA1: 9739e3f1c97c5d2b0e90f04edc967e4d374988cb
-SHA256: 88bb01701fb90cb72002b15a750a785f5d128a682c13290dbc1f1d0cc9a496af
+Size: 12734
+MD5sum: fdd315b3621b95fe9eaaea288a0cf802
+SHA1: 9f7fdf1f00aa71b5f586098db36524c08470269a
+SHA256: 2d19e5d517ad276ddc5ecc0a52e9af83a607fdc6bdf28280fb38e37887eeb503
 Section: Libraries
 Priority: optional
 Homepage: https://mesa3d.org/
@@ -2705,10 +2745,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 608
 Depends: libgles2-mesa (= 21.0.2), mesa-common-dev (= 21.0.2)
 Filename: debs/libgles2-mesa-dev_21.0.2_iphoneos-arm.deb
-Size: 42184
-MD5sum: 3dbdefde4b77d5e4ba751d62e0fe8fb2
-SHA1: 318a6eba93a7b5a4a762f68f43fdbb5ccefa92f0
-SHA256: ce3f32a6b03cf9ed6155920fae7a9a0341f797cb942cd272f36f4a5cbb40ff57
+Size: 42220
+MD5sum: 50bfddbe88228f5e325145c29b536ce8
+SHA1: 9463fd48ff5c72522412ce5f114a41a09a576722
+SHA256: 7716136dbfe531dfd236e49bf2f2e9cdc784c53c15690dbf1e9ee864c4c62daa
 Section: Development
 Priority: optional
 Homepage: https://mesa3d.org/
@@ -7041,10 +7081,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 628
 Depends: libxfont2 (= 2.0.4), x11proto-dev, libfreetype-dev, libfontenc-dev
 Filename: debs/libxfont-dev_2.0.4_iphoneos-arm.deb
-Size: 254198
-MD5sum: a3b8771a7571c4ae73f09a1e30295941
-SHA1: 866252d25f32f280893574f8980fd810a19f59ba
-SHA256: 08133fad4e6fd7ff7fd1eebef1949f002d927abaae53e8e431e63149c95483ba
+Size: 254192
+MD5sum: b1c5f03cf2d226be4b42d0c0423d4aff
+SHA1: e0c5d83a0c69fc52532c4e0cb95508ccc6ed45e7
+SHA256: 013d174084093e57e369154bdf7ba75133ddab909d50020d44cd2f5857a3aca1
 Section: Development
 Priority: optional
 Description: X11 font rasterisation library (development headers)
@@ -7067,10 +7107,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 176
 Depends: libfreetype6, libfontenc1
 Filename: debs/libxfont2_2.0.4_iphoneos-arm.deb
-Size: 88128
-MD5sum: 229fbd5d20a66d19bf145f3f117fa40c
-SHA1: 632d5a0b6f6f7fa606a21c06122810890de13e9f
-SHA256: 6a90a66f6cc826e891c8205541be9345215102007852b1532c699c2e4fb1cd9a
+Size: 88124
+MD5sum: c475973bfd7ea70d851cea810db27300
+SHA1: 0cd5d89379053cd0681278d5526ce0639b904bcf
+SHA256: 4be0052e0f5fa6c4dbb021ae1a19ff57a837e80fe8dbb876ad35bc0e5db51526
 Section: Libraries
 Priority: optional
 Description: X11 font rasterisation library
@@ -7559,10 +7599,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1412
 Depends: libx11-dev
 Filename: debs/mesa-common-dev_21.0.2_iphoneos-arm.deb
-Size: 110796
-MD5sum: 32d8883d46a95e50a9a7492e1dc4c93a
-SHA1: 6f64e2069bc9dcc8b1e1726b4a10a9965cf2d9b1
-SHA256: f24395cb833f290b8a91162e305965ce7caaf194208c6df5b2c7001f544bf840
+Size: 110790
+MD5sum: 91a3f0e6a461ee2cf58053922df6bc15
+SHA1: 10d0078fdb3d3656e2fbe257a5eb829f3a783484
+SHA256: e238fbf328208bff823bd182baa8bfff97a0874d629fa206327740eb32abb8df
 Section: Development
 Priority: optional
 Homepage: https://mesa3d.org/
@@ -8642,10 +8682,10 @@ Installed-Size: 1004
 Depends: libmd0, libpixman-1-0, libx11-6, libxau6, libxdmcp6, libxext6, libxfixes3, libxfont2, libxi6, libxmuu1, libxrender1, xserver-common
 Provides: xserver
 Filename: debs/xdmx_1.20.11_iphoneos-arm.deb
-Size: 575874
-MD5sum: 0e0181c096d3e24dbc635c35975840c5
-SHA1: 4ef02ba6402d04c05e2a5c80c85558892de3b940
-SHA256: afa595558e1a44b66007d0370599c0832a8de693b8870c432a805be076b46e1b
+Size: 575878
+MD5sum: f7372aa133620809e0a0c64f7b230493
+SHA1: f9a9f49097330619b18ed8e7a5a82e97fede7c47
+SHA256: 9e031707edc24fc676d60b04d6dd00ba4ef96b3a17defef0b7ddb6bd2394791d
 Section: X11
 Priority: optional
 Homepage: https://www.x.org/
@@ -8671,10 +8711,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 568
 Depends: xdmx, libdmx1, libx11-6, libxaw7, libxext6, libxmu6, libxpm4, libxt6
 Filename: debs/xdmx-tools_1.20.11_iphoneos-arm.deb
-Size: 42072
-MD5sum: 3e44e283d93f5d8350954a51044e63fb
-SHA1: 2985ffd2681139c4e27493f7e5f57f4229c20e76
-SHA256: 4b6ffbeb72b5a841ae86802929d0cc88a220b0442f0d3f0f81421253172ccca6
+Size: 42080
+MD5sum: 359c7c8f42a0f642fc3bf3b28cd48dbb
+SHA1: bc17d227537830fc2b794a89cb7b3f7f34f69599
+SHA256: 69bf5f996944cdb25c87fccb79b1dd2ab304232cb3d54a383469eee1634b7049
 Section: X11
 Priority: optional
 Description: Distributed Multihead X tools
@@ -8707,10 +8747,10 @@ Installed-Size: 900
 Depends: libmd0, libpixman-1-0, libx11-6, libxau6, libxdmcp6, libxext6, libxfont2, xserver-common
 Provides: xserver
 Filename: debs/xnest_1.20.11_iphoneos-arm.deb
-Size: 503914
-MD5sum: 6541c52d7a9d7bc53e3b92f5b2a58701
-SHA1: a3e980a2d4670b3dca57a01c33b786a41454068f
-SHA256: 0e11eeea1bdbc29a73af18af4161cb28abf4bca3255ed8f96e23d59e724bb1a4
+Size: 503926
+MD5sum: b51ab142e669684c1cab6543588cf385
+SHA1: 5b57ade45270c7e4ecfc69ad3a965656cf82ced2
+SHA256: c02cb62a38c83b9932ca0f30905b4840018e1c3cfae71ed608369be9703c2788
 Section: X11
 Description: Nested X server
  Xnest is a nested X server that simply relays all its requests to another
@@ -8756,10 +8796,10 @@ Installed-Size: 32
 Depends: xkbcomp,  xkeyboard-config
 Recommends: xauth
 Filename: debs/xserver-common_1.20.11_all.deb
-Size: 7426
-MD5sum: bda79d3332a024bb8f0b518ae3f36562
-SHA1: d37a5942fcbcee7ac5a8f916298be20fb6b9f315
-SHA256: 09e5076a8cc578052259d0f7e88823d96e077a69b265a4da0de8958539406ba0
+Size: 7428
+MD5sum: a01ffe0bf2be8ac3d72bc9a604b39d14
+SHA1: 6f043fc07282e0502e088bb30ee8f2313281dfbc
+SHA256: e3fb9fa99096567ea14966eb768277f1c4dd02918cd6eeeaa947a032a9ea3afc
 Section: X11
 Priority: optional
 Description: common files used by various X servers
@@ -8773,10 +8813,10 @@ Installed-Size: 1092
 Depends: libepoxy0, libmd0, libpixman-1-0, libx11-6, libx11-xcb1, libxau6, libxcb-glx0, libxcb-icccm4, libxcb-image0, libxcb-keysyms1, libxcb-randr0, libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0, libxcb-util1, libxcb-xf86dri0, libxcb-xkb1, libxcb1, libxdmcp6, libxfont2, libxcb-xv0, xserver-common, libgl1-mesa-glx
 Provides: xserver
 Filename: debs/xserver-xephyr_1.20.11_iphoneos-arm.deb
-Size: 630638
-MD5sum: fb1523eb1cd4804dc8be5528a6db57aa
-SHA1: 28c3a2470ba0c587a9ebc91c96a6fc552ed48cc6
-SHA256: d3f5df85f02ece3bce4b72dc752d24c085ebeee848f7358522d029fb7ac17de9
+Size: 630652
+MD5sum: b486fbab43cd346124f16152aea0a404
+SHA1: 6fd6443c8e24f9cf49020d7011d6a1166bbd971a
+SHA256: c21b28c94a171e094eb97e4c7ecf0f813d7fc46fdb92f4d531f499f6ea247cdd
 Section: X11
 Priority: optional
 Description: nested X server
@@ -8798,10 +8838,10 @@ Installed-Size: 1936
 Depends: libgl1, libepoxy0, libmd0, libpixman-1-0, libxau6, libxdmcp6, libxfont2, xserver-common
 Provides: xserver
 Filename: debs/xserver-xorg-core_1.20.11_iphoneos-arm.deb
-Size: 883676
-MD5sum: 4f634cfcf5ba3cdf88cc9a726cb34d34
-SHA1: 97f4684a886512f908f2f721da3a94cba718444d
-SHA256: 50e18569987cd40586dc1a8e040537d56c50a44af6067ee9486ce5f6c09d1c3f
+Size: 883738
+MD5sum: a72d3917a6702f84aafed3408a73ee5c
+SHA1: a8ac731a0a54c243b2e8b5380607caba6ea9cd0e
+SHA256: 2851e50cdb1f5d6b46c5a464e5c123b64fef0910ca78d0bdbb4a672732ed21c7
 Section: X11
 Priority: optional
 Description: Xorg X server - core server
@@ -8823,10 +8863,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1340
 Depends: libpixman-1-dev, x11proto-dev, libxfont-dev, libxkbfile-dev, mesa-common-dev
 Filename: debs/xserver-xorg-dev_1.20.11_iphoneos-arm.deb
-Size: 179796
-MD5sum: a8e2e68c8dcd663435a78d2f65721b4b
-SHA1: ced944d4ddde222b27089966a45ad36163f8cbac
-SHA256: 462a8210c528f19ef9304727a19e8d50d41dfc2542ac2305cad1f499675da119
+Size: 179814
+MD5sum: 00d63db2e1d3c5bd2b58295a4fe8632e
+SHA1: 8b10e49befd2954338a476af4bc33e7426c179c9
+SHA256: b996f88c946e56e543a737d324a2d2bb3d9d352e0aa02563aced728ee6b20e76
 Section: Development
 Priority: optional
 Description: Xorg X server - development files
@@ -8898,10 +8938,10 @@ Depends: libmd0, libpixman-1-0, libxau6, libxdmcp6, libxfont2, xserver-common
 Recommends: xauth
 Provides: xserver
 Filename: debs/xvfb_1.20.11_iphoneos-arm.deb
-Size: 568974
-MD5sum: 716a178988faef05f7e3287a68d982aa
-SHA1: b7e53b6ef7658f909d9dce3d34674247bfeda8d2
-SHA256: 0e7a26d7308db701e993206483fe5f1400f3c2f8c029183f59aa7c533954124c
+Size: 568992
+MD5sum: 183587c72f0b08bca80c98d8a50d53d3
+SHA1: 5c4e1f81cf3c1ebe1e8347c81b8587cd862b4c43
+SHA256: 972c33539e9a7c9a9b26c6c96326be5c812b56a5817854c54b40fbed3925fe78
 Section: X11
 Priority: optional
 Description: Virtual Framebuffer 'fake' X server
