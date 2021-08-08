@@ -1,0 +1,37 @@
+Origin: Procursus(Apple TV)	
+Label: Procursus(Apple TV)
+Suite: stable
+Version: 1.0
+Codename: triangle
+Architectures: iphoneos-arm
+Components: main
+Description: Debs from procursus
+MD5Sum:
+ 05abb415deb82fea6044a1673a279dec 165662 Packages
+ c08e310769d2a08c826d221d2aeb6a48 43886 Packages.bz2
+ d005edebc017172145ccaa4b057b86a8 50292 Packages.gz
+ 77b105b90162855fce7c01681a1b9188 44996 Packages.zst
+SHA256:
+ f5860abee638d998bd90be698a395c32d44d9bfd87395f9216db11be53a0d625 165662 Packages
+ fa4287de9a2876eb65021af2f8fe36a1f75683ff8e90c12be1173b801af9899c 43886 Packages.bz2
+ 99c7f89424202cab60613de12fa82e0352cb351ae8f9d71d9da13869b93a0ccd 50292 Packages.gz
+ bef9d708b3dbe201d014a97be4df521157de1b2570b417ea2ccc00ebc38b304d 44996 Packages.zst
+
+Origin: Procursus(Apple TV)	
+Label: Procursus(Apple TV)
+Suite: stable
+Version: 1.0
+Codename: triangle
+Architectures: darwin-amd64
+Components: main
+Description: Debs from procursus
+MD5Sum:
+ 05abb415deb82fea6044a1673a279dec 165662 Packages
+ c08e310769d2a08c826d221d2aeb6a48 43886 Packages.bz2
+ d005edebc017172145ccaa4b057b86a8 50292 Packages.gz
+ 77b105b90162855fce7c01681a1b9188 44996 Packages.zst
+SHA256:
+ f5860abee638d998bd90be698a395c32d44d9bfd87395f9216db11be53a0d625 165662 Packages
+ fa4287de9a2876eb65021af2f8fe36a1f75683ff8e90c12be1173b801af9899c 43886 Packages.bz2
+ 99c7f89424202cab60613de12fa82e0352cb351ae8f9d71d9da13869b93a0ccd 50292 Packages.gz
+ bef9d708b3dbe201d014a97be4df521157de1b2570b417ea2ccc00ebc38b304d 44996 Packages.zst

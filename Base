@@ -1,0 +1,8 @@
+Origin: Procursus(Apple TV)	
+Label: Procursus(Apple TV)
+Suite: stable
+Version: 1.0
+Codename: triangle
+Architectures: iphoneos-arm
+Components: main
+Description: Debs from procursus
