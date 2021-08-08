@@ -7021,6 +7021,143 @@ Description: X11 Display Manager Control Protocol library
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXdmcp
 
+Package: libxext-dev
+Version: 1.3.4-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 292
+Depends: libxext6 (= 1.3.4-1),  libx11-dev, x11proto-dev
+Filename: debs/libxext-dev_1.3.4-1_iphoneos-arm.deb
+Size: 79300
+MD5sum: 5d4b5211da5dde29a9b15e09a7c4e1ac
+SHA1: f2b719802edad2e6c0035c91345ff11eda514321
+SHA256: 1f9e373267c6dd9c44830d16548c29ad3ef8134e5854c4dfc66ac32bc7dce7a5
+Section: Development
+Priority: optional
+Description: X11 miscellaneous extension library (development headers)
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
+Package: libxext-doc
+Version: 1.3.4-1
+Architecture: all
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 248
+Filename: debs/libxext-doc_1.3.4-1_all.deb
+Size: 47838
+MD5sum: 028531bb94622a95c45bfab3331aedae
+SHA1: 566ed207ff774551e306dc7030565781753832e9
+SHA256: 3e31d4ccce1a9f2b813af2987c50c14f4a584ce8275794c3756a078df5e16659
+Section: X11
+Priority: optional
+Description: X11 miscellaneous extensions library (documentation)
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ This package contains the documentation for the included protocol extension
+ libraries. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
+Package: libxext6
+Version: 1.3.4-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 80
+Depends: libx11-6
+Filename: debs/libxext6_1.3.4-1_iphoneos-arm.deb
+Size: 20520
+MD5sum: de147d25e8ec03d32d975490ef84aa79
+SHA1: 58408b303a20e15d10f25130d84147477b0b51c0
+SHA256: c4f6a0c36459423e8521d2c31aa2727a2f55c3d51f7154cc75a723fb6f1a18ae
+Section: Libraries
+Priority: optional
+Description: X11 miscellaneous extension library
+ libXext provides an X Window System client interface to several extensions to
+ the X protocol.
+ .
+ The supported protocol extensions are:
+  - DOUBLE-BUFFER (DBE), the Double Buffer extension;
+  - DPMS, the VESA Display Power Management System extension;
+  - Extended-Visual-Information (EVI), an extension for gathering extra
+    information about the X server's visuals;
+  - LBX, the Low Bandwidth X extension;
+  - MIT-SHM, the MIT X client/server shared memory extension;
+  - MIT-SUNDRY-NONSTANDARD, a miscellaneous extension by MIT;
+  - Multi-Buffering, the multi-buffering and stereo display extension;
+  - SECURITY, the X security extension;
+  - SHAPE, the non-rectangular shaped window extension;
+  - SYNC, the X synchronization extension;
+  - TOG-CUP, the Open Group's Colormap Utilization extension;
+  - XC-APPGROUP, the X Consortium's Application Group extension;
+  - XC-MISC, the X Consortium's resource ID querying extension;
+  - XTEST, the X test extension (this is one of two client-side
+    implementations; the other is in the libXtst library, provided by the
+    libxtst6 package);
+ .
+ libXext also provides a small set of utility functions to aid authors of
+ client APIs for X protocol extensions.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXext
+
 Package: libxfixes-dev
 Version: 5.0.3
 Architecture: iphoneos-arm
