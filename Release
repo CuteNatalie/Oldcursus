@@ -1,0 +1,17 @@
+Origin: Procursus(Apple TV)	
+Label: Procursus(Apple TV)
+Suite: stable
+Version: 1.0
+Codename: triangle
+Architectures: iphoneos-arm
+Components: main
+Description: Debs from procursusMD5Sum:
+ 211e091227682fc0efac63cd5632f119 390347 Packages
+ dba3923ea7993565196c89d02211e591 84290 Packages.bz2
+ a662ced05cc962f2d86c58b01c12f536 103626 Packages.gz
+ c8cfc818cf2d3ec8cf6c5f2425a0a182 87554 Packages.zst
+SHA256:
+ 0bea98a6cf704ef45b3704723c9cbdbb0f3784b4419ef28d1e4aac1775331e22 390347 Packages
+ 59704f7d2a74a399b81d25f9ac69798e59f56cbe15370abae951518c41a57309 84290 Packages.bz2
+ 1d5916b40f35c3aa7ee9602d2ed396b9412ba4c2b0469b6e2083c8cd28086683 103626 Packages.gz
+ ac3894dcb0c47cde14114c48889adbe2f393ecef80d4897ada94dcad190e7976 87554 Packages.zst
