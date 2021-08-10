@@ -1,11 +1,12 @@
-Origin: Procursus(Apple TV)	
-Label: Procursus(Apple TV)
+Origin: Oldcursus
+Label: Oldcursus
 Suite: stable
 Version: 1.0
 Codename: triangle
 Architectures: iphoneos-arm
 Components: main
-Description: Debs from procursusMD5Sum:
+Description: Procursus but for ios 10 and lower
+MD5Sum:
  f54771768f10f2b4ee851cb71fca4a38 373462 Packages
  2c190e7d79c30dfc243c39a6be242461 79992 Packages.bz2
  0930a44d27cba0bb210dcca501c2034d 98103 Packages.gz
