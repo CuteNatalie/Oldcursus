@@ -8498,6 +8498,41 @@ Section: Administration
 Priority: required
 Description: temporarily assume root priviledges
 
+Package: sudo
+Version: 1.9.7p2-4
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 6568
+Depends: libintl8, libiosexec1
+Filename: debs/sudo_1.9.7p2-4_iphoneos-arm.deb
+Size: 1661840
+MD5sum: 78a19dfca4433dde2da79b5c73aae002
+SHA1: cb89920c3e4961a7e7f680115ee4d71787e97394
+SHA256: c2314d0f1d1a4159a71298ce2dc44c4684d8d23b8c657eece4a2a4a12953b6cc
+Section: Administration
+Priority: required
+Description: temporarily assume root priviledges
+
+Package: system-cmds
+Version: 854.40.2-11
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 288
+Pre-Depends: libiosexec1
+Depends: firmware-sbin, file-cmds, libcrypt2, libpam2
+Recommends: vi
+Provides: login, passwd, reboot
+Filename: debs/system-cmds_854.40.2-11_iphoneos-arm.deb
+Size: 79622
+MD5sum: 62db90c9973c9f0b0b7f790b4c9f6ba8
+SHA1: 00d5745287700bb45bc26f794b6d776c66f8ae55
+SHA256: 3e03701ec7c2af9b58523e67885232b1eabd5e2dc7354625647824c68797d8cd
+Section: Administration
+Priority: required
+Description: iostat, login, passwd, sync, sysctl, pw
+
 Package: tar
 Version: 1.34
 Architecture: iphoneos-arm
@@ -8533,6 +8568,22 @@ Description: TENEX C Shell, an enhanced version of Berkeley csh
  The TENEX C Shell is an enhanced version of the Berkeley Unix C shell.
  It includes all features of 4.4BSD C shell, plus a command-line editor,
  programmable word completion, spelling correction and more.
+
+Package: tmux
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 628
+Depends: libevent-2.1-7, libutf8proc2, libncursesw6, gettext-localizations
+Filename: debs/tmux_3.2_iphoneos-arm.deb
+Size: 337704
+MD5sum: 3425e164dc2a1a52701dcc80f543f371
+SHA1: 6b2571d0ed2353e6330e3e09e7d586d5af3de130
+SHA256: cc898c4448426f1b6b5cbde40fe2b92cc75125bdc5e5b33c0bb7fb33ee4191c3
+Section: Terminal_Support
+Priority: important
+Description: multiplexes a terminal into many
+Tag: purpose::console, role::hacker
 
 Package: tree
 Version: 1.8.0-1
