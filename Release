@@ -3,16 +3,15 @@ Label: Procursus(Apple TV)
 Suite: stable
 Version: 1.0
 Codename: triangle
-Date: Sun, 08 Aug 2021 20:59:16 +0000
 Architectures: iphoneos-arm
 Components: main
 Description: Debs from procursusMD5Sum:
- 696d0ce3e1543fddd2ec77219ff7834b 371857 Packages
- 4c2e31510659e82a8e55ef2dece8fe1e 79747 Packages.bz2
- b728c6376ec214cb7e4232b93c1ea94f 97596 Packages.gz
- c0ab9d7863c3f889997b9a3409131303 82587 Packages.zst
+ f54771768f10f2b4ee851cb71fca4a38 373462 Packages
+ 2c190e7d79c30dfc243c39a6be242461 79992 Packages.bz2
+ 0930a44d27cba0bb210dcca501c2034d 98103 Packages.gz
+ 0ccd19951531ab23763369520888871d 83024 Packages.zst
 SHA256:
- 9ae315e46eda96d16fe04c7d49395a05782a20598abd7808b01518bd93ddfa29 371857 Packages
- 09cc2db7bc690341261bf20117d3e662d99939c4b1cd2f53f56d512262b26dbe 79747 Packages.bz2
- 79cfdf4ac0123c6371c550562e16a1a2be6029e73bbfce0fe7cebcde60dfa4b4 97596 Packages.gz
- 5039100510ebce88ac911b9ad3f591ef681bf086e92b3ae3cd8f761799011dd1 82587 Packages.zst
+ 4aa8cd06188ac684843ab66da7fd2f941beeba4a90423a68b9ef6e8beaebdac7 373462 Packages
+ 97c40f25539a3364fabfa06a37f4ccf66d81f9df5565263a99897fc389c1337a 79992 Packages.bz2
+ 15c86c95233ccec5d2b3f01a7824beeb3b210cd4a32412319e6eeb8cf46ea4f5 98103 Packages.gz
+ 8baff70d6c5d10c1592a5b26cc73abe2118ed5321178be9aede24d646fc62560 83024 Packages.zst
