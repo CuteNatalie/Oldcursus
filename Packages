@@ -4289,6 +4289,91 @@ Description: toolkit for RTMP streams (shared library)
  This package contains the shared libraries, header files needed by
  programs that want to use librtmp.
 
+Package: libruby3.0
+Version: 3.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 29424
+Depends: libjemalloc2, libgmp10, libcrypt2, libffi7, libgdbm6, libncursesw6, libreadline8, libssl1.1, libyaml-0-2, libiosexec1
+Filename: debs/libruby3.0_3.0.1-1_iphoneos-arm.deb
+Size: 6049638
+MD5sum: 61168ad49e413394afefee5f89827cf5
+SHA1: c637f8ee8e83a08cc83e5f76b9e251ac08931aab
+SHA256: 0c4ea71d082db323d50d88b9bd4b0f116e67df2e88436736ec4ed161a2c7fe4b
+Section: Libraries
+Priority: optional
+Description: Libraries necessary to run Ruby 3.0
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package includes the 'libruby-3.0' library, necessary to run Ruby 3.0.
+ (API version 3.0.1-1)
+
+Package: libsamplerate0
+Version: 0.1.9
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1512
+Filename: debs/libsamplerate0_0.1.9_iphoneos-arm.deb
+Size: 1353174
+MD5sum: 87ab17cf18f52b18936d20bc798d89cf
+SHA1: 44e554474d2cfd4af5093223d238a404b36db8c9
+SHA256: 17a9dd3a86dd62c77bb1579e7b885b994b33f15080608fd28785f78f9a7d7734
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Description: Audio sample rate conversion library
+ libsamplerate (aka Secret Rabbit Code) is a library for audio rate conversion.
+ .
+ libsamplerate currently provides three different sample rate conversion
+ algorithms; zero order hold, linear interpolation and FIR filter interpolation
+ (using filters derived from the mathematical SINC function). The first two
+ algorithms (zero order hold and linear) are included for completeness and are
+ not recommended for any application where high quality sample rate conversion
+ is required. For the FIR/Sinc algorithm, three converters are provided;
+ SRC_SINC_FASTEST, SRC_SINC_MEDIUM_QUALITY and SRC_SINC_BEST_QUALITY to allow a
+ trade off between conversion speed and conversion quality.
+ .
+ libsamplerate is capable of downsampling to 1/256 of the original sample rate
+ and upsampling to 256 times the original sample rate. It is also capable of
+ time varying conversions for vary speed effects and synchronising of two
+ unlocked sample rates.
+
+Package: libsamplerate0-dev
+Version: 0.1.9
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1812
+Depends: libsamplerate0 (= 0.1.9)
+Filename: debs/libsamplerate0-dev_0.1.9_iphoneos-arm.deb
+Size: 1584360
+MD5sum: 45ff2249794e2dd544aa5095efd7a76c
+SHA1: acb6bcf38afcfeddd1d9a35e14d67057c3af128d
+SHA256: 040115877f9cf3106b4351df627c8eec4d9f5ff1b6961611ac06cdb0f3e04fa2
+Section: Development
+Priority: optional
+Multi-Arch: foreign
+Description: Development files for audio sample rate conversion
+ libsamplerate (aka Secret Rabbit Code) is a library for audio rate conversion.
+ .
+ libsamplerate currently provides three different sample rate conversion
+ algorithms; zero order hold, linear interpolation and FIR filter interpolation
+ (using filters derived from the mathematical SINC function). The first two
+ algorithms (zero order hold and linear) are included for completeness and are
+ not recommended for any application where high quality sample rate conversion
+ is required. For the FIR/Sinc algorithm, three converters are provided;
+ SRC_SINC_FASTEST, SRC_SINC_MEDIUM_QUALITY and SRC_SINC_BEST_QUALITY to allow a
+ trade off between conversion speed and conversion quality.
+ .
+ libsamplerate is capable of downsampling to 1/256 of the original sample rate
+ and upsampling to 256 times the original sample rate. It is also capable of
+ time varying conversions for vary speed effects and synchronising of two
+ unlocked sample rates.
+ .
+ This package contains the library header files and API documentation.
+
 Package: libslang2
 Version: 2.3.2
 Architecture: iphoneos-arm
@@ -4405,6 +4490,49 @@ Description: X11 Session Management library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libSM
+
+Package: libsndfile1
+Version: 1.0.31
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 388
+Depends: libflac8, libvorbis0a, libvorbisenc2, libopus0, libogg0
+Filename: debs/libsndfile1_1.0.31_iphoneos-arm.deb
+Size: 180448
+MD5sum: 981a1a7e14cdbdffe87430805e5fd7fc
+SHA1: be4c418609d20a291d19c259922090a3975efc3b
+SHA256: af1573f1b8b2ade6c2e79e3906785914e773d93a0a5a6ca6b578cd9e07ff18f3
+Section: Libraries
+Priority: standard
+Description: Library for reading/writing audio files
+ libsndfile is a library of C routines for reading and writing files containing
+ sampled audio data.
+ .
+ Various versions of WAV (integer, floating point, GSM, and compressed formats);
+ Microsoft PCM, A-law and u-law formats; AIFF, AIFC and RIFX; various AU/SND
+ formats (Sun/NeXT, Dec AU, G721 and G723 ADPCM); RAW header-less PCM files;
+ Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format
+ (CAF) and others.
+
+Package: libsndfile1-dev
+Version: 1.0.31
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1432
+Depends: libsndfile1 (= 1.0.31), libflac-dev, libvorbis-dev, libopus-dev, libogg-dev
+Filename: debs/libsndfile1-dev_1.0.31_iphoneos-arm.deb
+Size: 538966
+MD5sum: 6833da7b1d31d3e9c65212c171cf777a
+SHA1: 75430b337d56fc9cc42efd50345ba05e763f7b3e
+SHA256: eeccc91351a74fe34027b6533344dc5ca65b8ec3eb6693eb47a3621b748982ed
+Section: Development
+Priority: standard
+Description: Development files for libsndfile; a library for reading/writing audio files
+ libsndfile is a library of C routines for reading and writing files containing
+ sampled audio data.
+ .
+ This is the development version of libsndfile. You will need this only if you
+ intend to compile programs that use this library.
 
 Package: libssh-4
 Version: 0.9.5
@@ -5146,6 +5274,48 @@ Description: Xlib/XCB interface library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx265-199
+Version: 3.5
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 4828
+Filename: debs/libx265-199_3.5_iphoneos-arm.deb
+Size: 1137980
+MD5sum: 31ee4d0b150a6ea1b37eeb1a98263841
+SHA1: b1b86d84edcb1af794e6bab4879f9f1b3ae8da5b
+SHA256: fbb6b3d355860ac7d8add1706eeccf03904db1c274fe58470b42967b8d9db990
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://x265.org
+Description: H.265/HEVC video stream encoder (shared library)
+ libx265 is an encoding library for creating H.265/High Efficiency Video Coding
+ (HEVC) video streams.
+ .
+ This package contains the shared library.
+
+Package: libx265-dev
+Version: 3.5
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 10396
+Depends: libx265-199 (= 3.5)
+Filename: debs/libx265-dev_3.5_iphoneos-arm.deb
+Size: 2483552
+MD5sum: 07b73bcd523b1a67404180da1fd73cef
+SHA1: 623b69b9564d83d070d0732c67df3fcf1821199a
+SHA256: 02293b65fdbd16daa8923757c8fc18e464ee0ba9a7fc4c36e22cb3e260fa5163
+Section: Development
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://x265.org
+Description: H.265/HEVC video stream encoder (development files)
+ libx265 is an encoding library for creating H.265/High Efficiency Video Coding
+ (HEVC) video streams.
+ .
+ This is the development package which contains headers and libraries for
+ libx265.
 
 Package: libxau-dev
 Version: 1.0.9-1
@@ -8346,6 +8516,94 @@ Description: small dumper for media content streamed over the RTMP protocol
  iPlayer high quality streams). Supplying an RTMP URL will result in a dumped
  flv file, which can be played/transcoded with standard tools.
 
+Package: ruby
+Version: 3.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 0
+Depends: ruby3.0
+Filename: debs/ruby_3.0.1-1_iphoneos-arm.deb
+Size: 990
+MD5sum: 030b0586b3efdaf222355408d1528382
+SHA1: e5e0dc1be6f2b1c9ef03909e632c01e6f5ddbd88
+SHA256: fff92b69ff2d43cb992400bb90503f45bf6f349e38c79cc11b9cd7831ab3cc43
+Section: Scripting
+Priority: optional
+Description: Interpreter of object-oriented scripting language Ruby (default version)
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package is a dependency package, which depends on Procursus's default Ruby
+ version (currently v3.0.1-1).
+
+Package: ruby3.0
+Version: 3.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 116
+Depends: libruby3.0 (= 3.0.1-1), libjemalloc2, libgmp10, libcrypt2, libiosexec1
+Filename: debs/ruby3.0_3.0.1-1_iphoneos-arm.deb
+Size: 16138
+MD5sum: 2c88f28c70090a536b6426d3caac5402
+SHA1: 21f378d0b18aa781152a99475bc2dd52d21b822d
+SHA256: 62b881b83f5e0dadee0a1bc75d93083831562d6b8f95b4c3a47bdffaccc7b1d5
+Section: Scripting
+Priority: optional
+Description: Interpreter of object-oriented scripting language Ruby
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ In the name of this package, `3.0' indicates the Ruby library compatibility
+ version. This package currently provides the `3.0.x' branch of Ruby.
+
+Package: ruby3.0-dev
+Version: 3.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 2080
+Depends: libruby3.0 (= 3.0.1-1), libjemalloc-dev, libgmp-dev, libcrypt-dev
+Recommends: ruby3.0-doc
+Filename: debs/ruby3.0-dev_3.0.1-1_iphoneos-arm.deb
+Size: 216586
+MD5sum: 1d2d0a1e8df98dec49e8f2f9c932487d
+SHA1: b037e93e05780793f5cf11a0d07b38b7c87b9711
+SHA256: fa44205aa2b12a2c51c706185266d0bb1626f7412f60a6603906c33d2bb9ad7b
+Section: Development
+Priority: optional
+Description: Header files for compiling extension modules for the Ruby 3.0
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the header files and the mkmf library, necessary
+ to make extension library for Ruby 3.0. It is also required to build
+ many gems.
+
+Package: ruby3.0-doc
+Version: 3.0.1-1
+Architecture: all
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 49832
+Filename: debs/ruby3.0-doc_3.0.1-1_all.deb
+Size: 1869024
+MD5sum: d449f80a11147cb45d7a2a075534b2a2
+SHA1: a5059a2727b2c6d633f4cd76dd8f938a7ea1af69
+SHA256: a642386adeefeb2c204866555cc35b8cca94b14b2e909b921471916192d8b961
+Section: Documentation
+Priority: optional
+Description: Documentation for Ruby 3.0
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the autogenerated documentation for Ruby 3.0.
+
 Package: scdaemon
 Version: 2.3.1-1
 Architecture: iphoneos-arm
@@ -8436,6 +8694,21 @@ Description: Shell script compiler
  original script. Upon execution, the compiled binary will decrypt and
  execute the code with the shells' -c option.
 
+Package: sl
+Version: 5.05
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 52
+Depends: libncursesw6
+Filename: debs/sl_5.05_iphoneos-arm.deb
+Size: 5766
+MD5sum: e750d464ca5d84b0100ecc07e9598dd8
+SHA1: 3d720ebf825d5e11bfcb3b96c08ab7ee4a8f0884
+SHA256: 6f4d9450e08bb7fc34e04c254e1f86d9c1f49ea9b17159853b1f3738ff45f4fb
+Section: Utilities
+Priority: optional
+Description: cure your bad habit of mistyping
+
 Package: slsh
 Version: 2.3.2
 Architecture: iphoneos-arm
@@ -8454,6 +8727,31 @@ Description: Interpreter for S-Lang language
  .
  This package contains a stand-alone interpreter for scripts written
  in the S-Lang language.
+
+Package: sndfile-programs
+Version: 1.0.31
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 560
+Depends: libsndfile1 (>= 1.0.31), libflac8, libvorbis0a, libvorbisenc2, libopus0, libogg0
+Filename: debs/sndfile-programs_1.0.31_iphoneos-arm.deb
+Size: 32488
+MD5sum: b5579012783cf08a09d4941280c5af66
+SHA1: 550864bac56a1a0d7c93324af927d1368c703886
+SHA256: b0788ed0bcaf28e24c60807f8e7f9678ecc31b6b6a081ef7d4fedc8fb0a8e54e
+Section: Utilities
+Priority: standard
+Description: Sample programs that use libsndfile
+ This package contains simple programs which use libsndfile for operating on
+ sound files.
+ .
+ Programs include:
+   - sndfile-cmp : compare the audio data of two files
+   - sndfile-concat : concatenate two or more files
+   - sndfile-convert : convert between sound file formats
+   - sndfile-info : print information about files
+   - sndfile-metadata-get/set : get and set file metadata
+   - sndfile-play : play a sound file
 
 Package: speedtest-cli
 Version: 2.1.3
@@ -8513,6 +8811,23 @@ SHA256: c2314d0f1d1a4159a71298ce2dc44c4684d8d23b8c657eece4a2a4a12953b6cc
 Section: Administration
 Priority: required
 Description: temporarily assume root priviledges
+
+Package: sudoku
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 116
+Depends: libncursesw6
+Filename: debs/sudoku_1.0.5_iphoneos-arm.deb
+Size: 32812
+MD5sum: b50731c5e27541989c311e58b322c7e4
+SHA1: f84342dae7a70ad8d4fcf3a5ebe8afe824bed54d
+SHA256: 41111a2e633e446544c1dad71854504a5e99ffa8cc6b1437505605421d44064e
+Section: Games
+Priority: optional
+Homepage: https://github.com/cinemast/sudoku
+Description: 9x9 grid number-placement puzzle
+ Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9.
 
 Package: system-cmds
 Version: 854.40.2-11
@@ -8606,10 +8921,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 28
 Depends: perl
 Filename: debs/triehash_0.3_all.deb
-Size: 7950
-MD5sum: 3e38b0806a90d4f5777ba7fd6a89c9a5
-SHA1: 7445592ce317aad85720b1658eb394411e157974
-SHA256: ed44916b393583fadf188a64e0a1cd8d73b991ccd2493a7c3c1186f9ea4e2196
+Size: 7940
+MD5sum: 508b5d1f488475652700d91932dfc24c
+SHA1: 4f6dadc79c3decc0ea358ce6fbdfdaae54a24d64
+SHA256: 7cf6183b522488eb9db80b2d892b9a57a507445df9bf52ed9daeb6b170efaa7d
 Section: Development
 Homepage: https://github.com/julian-klode/triehash
 Description: Generates perfect hash functions as native machine code
@@ -8626,6 +8941,45 @@ Description: Generates perfect hash functions as native machine code
  gperf, but is larger.
  .
  TrieHash was written for use in APT.
+
+Package: ttyrec
+Version: 1.0.8
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 168
+Filename: debs/ttyrec_1.0.8_iphoneos-arm.deb
+Size: 9946
+MD5sum: cb82bc3f9b338104eb622c938b2c1a6a
+SHA1: 260c44ce8cda880dc065d51b1549666f3df97ef0
+SHA256: 8c3609b5b16a5c02f2869b7ef4104dc77ff33535cd6ff2b9dff557bcabd8b37c
+Section: Utilities
+Description: Terminal interaction recorder and player (for tty)
+ This package includes "ttyrec", a tty recorder which records terminal
+ interaction, and "ttyplay", the player to see that intereaction.
+ .
+ Ttyrec records your terminal input and output, like the "script" command,
+ but additionally records timing information to allow playback at the original
+ speed.  It can record any console program, including screen-oriented programs
+ such as those using curses.
+
+Package: txt2man
+Version: 1.7.1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 40
+Depends: gawk (>= 5.1.0-1)
+Filename: debs/txt2man_1.7.1_iphoneos-arm.deb
+Size: 13194
+MD5sum: f6b801b9b28b8b67da76b2d4c18e004f
+SHA1: 26a83039f37bd7029ec7173b1c407451f5b33bbb
+SHA256: 3d9854179fb8ca8b2618108b38c604888e2f4342f18bd790e0eb168bf2f9f4a0
+Section: Utilities
+Priority: optional
+Homepage: https://www.github.com/mvertes/txt2man
+Description: Text to man page CLI converter.
+ txt2man is a command-line tool that utilizes GNU awk to convert flat
+ ASCII text to man page format, and works on every Unix-like system.
+Author: Marc Vertes (mvertes)
 
 Package: unrar
 Version: 6.0.4-1
@@ -8813,6 +9167,37 @@ Description:
   which queries online servers for information such as contact details for domains and IP address assignments.
   It can intelligently select the appropriate WHOIS server for most queries.
 Tag: purpose::console, role::hacker
+
+Package: x265
+Version: 3.5
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 132
+Depends: libx265-199 (>= 3.5)
+Filename: debs/x265_3.5_iphoneos-arm.deb
+Size: 44578
+MD5sum: 961c346f4a97ed0f90e365da5b44f73b
+SHA1: 8a17a6187b47fbcf738a26a72d8aeeef2b2f9daf
+SHA256: d1972f2d3b8a27b7ca74850974d03e34bc92b0e3e60d302ff24a5529b3cf11fd
+Section: Multimedia
+Priority: optional
+Homepage: http://x265.org
+Description: H.265/HEVC video stream encoder
+ x265 is a commandline encoder for creating H.265/High Efficiency Video Coding
+ (HEVC) video streams.
+ .
+ x265 supports the following features:
+  * full prediction and transform quad-tree recursion supported
+  * adaptive B-frame placement
+  * B-frames as references / arbitrary frame order
+  * CABAC (context-based adaptive binary arithmetic coding) entropy coding
+  * supports all Intra block types
+  * supports all Inter P partitions
+  * supports all Inter B partitions from 64x64 down to 8x4
+  * weighted prediction for P slices
+  * multiple reference frames
+  * scenecut detection
+  * parallel encoding on multiple CPUs
 
 Package: xauth
 Version: 1.1
@@ -10478,6 +10863,53 @@ Section: Terminal_Support
 Priority: required
 Description: a shell with interactive features
 Name: Z Shell
+
+Package: zsh-autosuggestions
+Version: 0.6.4
+Architecture: all
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 28
+Depends: zsh
+Enhances: zsh
+Filename: debs/zsh-autosuggestions_0.6.4_all.deb
+Size: 8726
+MD5sum: efaaa6a8dcbaf06f8ffacc5ea222c93c
+SHA1: 93a243ab9369332f4f1c5a8e7d4ed1859aed12da
+SHA256: c85be0c5c42403f3ea7b00a70601449eba836138d6004274bc0e41db6e9c29e5
+Section: Terminal_Support
+Priority: optional
+Description: Fish-like fast/unobtrusive autosuggestions for zsh
+ As you type commands, you will see a completion offered after the cursor
+ in a muted gray color. If you press the right-arrow key or End with the
+ cursor at the end of the buffer, it will accept the suggestion, replacing
+ the contents of the command line buffer with the suggestion. If you invoke
+ the forward-word widget, it will partially accept the suggestion up to the
+ point that the cursor moves to.
+
+Package: zsh-syntax-highlighting
+Version: 0.7.1
+Architecture: all
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 112
+Depends: zsh
+Enhances: zsh
+Filename: debs/zsh-syntax-highlighting_0.7.1_all.deb
+Size: 21396
+MD5sum: 653612705e92950060ec5e572e6d44ea
+SHA1: 949a198f81386f9caee8e29f7816980c1aeea418
+SHA256: f1682c77566cab61858716a07b8cd4e9fe45aae925aac9f33e672c9a56074feb
+Section: Terminal_Support
+Priority: optional
+Description: Fish shell like syntax highlighting for zsh
+ This package provides syntax highlighting for the shell zsh.  It enables
+ highlighting of commands whilst they are typed at a zsh prompt into an
+ interactive terminal.  This helps in reviewing commands before running
+ them, particularly in catching syntax errors.
+ .
+ This feature is inspired by the Fish shell, which provides it by default.
+ .
+ There are numerous ways to configure the colors used for highlighting,
+ and to configure what is highlighted.
 
 Package: zsign
 Version: 0~20210202.b5733ea-1
