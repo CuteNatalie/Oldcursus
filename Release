@@ -5,7 +5,7 @@ Version: 1.0
 Codename: triangle
 Architectures: iphoneos-arm
 Components: main
-Description: Procursus but for ios 10 and lower
+Description: 32 Bit Procursus but for ios 10 and lower
 MD5Sum:
  f54771768f10f2b4ee851cb71fca4a38 373462 Packages
  2c190e7d79c30dfc243c39a6be242461 79992 Packages.bz2
