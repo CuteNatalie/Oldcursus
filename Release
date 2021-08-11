@@ -2,6 +2,7 @@ Origin: Oldcursus
 Label: Oldcursus
 Suite: stable
 Version: 1.0
+Date: Wed, 11 Aug 2021 13:15:15 +0000
 Codename: triangle
 Architectures: iphoneos-arm
 Components: main
@@ -9,10 +10,10 @@ Description: 32 Bit Procursus but for ios 10 and lower
 MD5Sum:
  da7222d2e74df1affe2ba3d6f338a712 397376 Packages
  d1fe288d44325766326ca3d0698f879b 86041 Packages.bz2
- 4c6cdab8df4530c655b42397849bee78 105686 Packages.gz
+ dca30ea77102ed6b0588733ac905e44c 105686 Packages.gz
  8e2237f6b8879a0d4a1953f500b65b32 89103 Packages.zst
 SHA256:
  17157152dfd9949c7bc3bb77366eda7f5da0ad1abd069b321ace304ce48d848a 397376 Packages
  40591e00624ac7cc3a26668c3fe87ca47b91533bc44b0cae6e4d6caa15ba82b5 86041 Packages.bz2
- 96005b188a62d8ba4af723a529ca7f2c9d04d209bf4c116c3d69009099f66352 105686 Packages.gz
+ f08c59498fbf5bfac996e03dc649374cd6278f2bb94041e7819992a1fa17585f 105686 Packages.gz
  ca4fec03fbbe8bdd7480c815b1d1b34bd9adc94b7e0f93a1f6d51ecfabbd9bf6 89103 Packages.zst
