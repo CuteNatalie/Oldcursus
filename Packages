@@ -2984,6 +2984,56 @@ Priority: optional
 Homepage: http://www.lysator.liu.se/~nisse/nettle/
 Description: low level cryptographic library (public-key cryptos)
 
+Package: libice-dev
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 300
+Depends: libice6 (= 1.0.10), x11proto-dev
+Filename: debs/libice-dev_1.0.10_iphoneos-arm.deb
+Size: 100674
+MD5sum: c6145909b114b233ee5497b73218ae6d
+SHA1: 6f55508302c6d0828dac25c9d25b81605871b455
+SHA256: 81d1c839426395546a4aecbbd2ba0685f3ca0b70dd9e0f71186a2b8ef46ae7c5
+Section: Development
+Priority: optional
+Multi-Arch: foreign
+Description: X11 Inter-Client Exchange library (development headers)
+ This package provides the main interface to the X11 Inter-Client Exchange
+ library, which allows for communication of data between X clients.
+ .
+ This package contains the development headers for the library found in libice6.
+ Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libICE
+
+Package: libice6
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 96
+Filename: debs/libice6_1.0.10_iphoneos-arm.deb
+Size: 31092
+MD5sum: d524253c727845ff460c0c5ccc72217f
+SHA1: 724da59178f74eed8d6a994f45149d8d85a799df
+SHA256: 5fd401c02588eef09b4a6429ebf98bcdfb301bb08994f40a0825c5fa6dd1ef09
+Section: Libraries
+Priority: optional
+Multi-Arch: foreign
+Description: X11 Inter-Client Exchange library
+ This package provides the main interface to the X11 Inter-Client Exchange
+ library, which allows for communication of data between X clients.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libICE
+
 Package: libidn2-0
 Version: 2.3.0-3
 Architecture: iphoneos-arm
@@ -4451,10 +4501,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 104
 Depends: libsm6 (= 1.2.3), libice-dev, x11proto-dev, libuuid-dev
 Filename: debs/libsm-dev_1.2.3_iphoneos-arm.deb
-Size: 37890
-MD5sum: 37a228b13aed8d54448bc8c4cba9de96
-SHA1: 8461eecea5535fa6f74da0b7e4393597fcbf87ed
-SHA256: e733f610c77fdc4d271e6c52537f13e1c6af348ecd7c5f0b8721be2968d253e0
+Size: 37892
+MD5sum: 8c7f6220d9fde40d7a4a74b66812c951
+SHA1: 53d333bd096e90aa19c61b7cfb85fbc3faffb890
+SHA256: 4feb20500953784becf32c88c44fd20dac610026ba2319a749263deb40a2bac0
 Section: Development
 Priority: optional
 Multi-Arch: foreign
@@ -4476,10 +4526,10 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 56
 Depends: libice6, libuuid16
 Filename: debs/libsm6_1.2.3_iphoneos-arm.deb
-Size: 10888
-MD5sum: fc1177bc152946e744c107b4754734be
-SHA1: b743011b0e6129f5616d967a1fdb878c80753faa
-SHA256: 1c692e4d363aa1ccb2ac1525964624996e6c6836a9f111b57bc94b76b13a5c45
+Size: 10890
+MD5sum: ced429fb411295c8539d8cab7388df8b
+SHA1: cc1fcafc9f12aab37f0e7c01a70cd771d10c4e94
+SHA256: 64f48ef5de3a51a4ef98df1bdb37875cb6cdd5053281df4307226c2961e785bc
 Section: Libraries
 Priority: optional
 Multi-Arch: foreign
@@ -9408,6 +9458,41 @@ Description: Xorg X server - development files
  <URL:https://www.x.org>
  .
  This package is built from the X.org xserver module.
+
+Package: xterm
+Version: 367
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 732
+Depends: libsixel1, libncursesw6, libpcre2-posix2, libfontconfig1, libfreetype6, libice6, libxaw7, libxext6, libxft2, libxmu6, libxpm4, libxt6, libxinerama1, xbitmaps
+Filename: debs/xterm_367_iphoneos-arm.deb
+Size: 329218
+MD5sum: 70d5efa7dd538328e4609938b6033f5c
+SHA1: 091d94665b1ecfcc3805a3fe039dad6d924222a5
+SHA256: 70dcf8637caa17d82c8e799ca9eaff37017d590a43f389498088a4c40fdc8199
+Section: X11
+Priority: optional
+Description: X terminal emulator
+ xterm is a terminal emulator for the X Window System.  It provides DEC VT102
+ and Tektronix 4014 compatible terminals for programs that cannot use the
+ window system directly.  This version implements ISO/ANSI colors and most of
+ the control sequences used by DEC VT220 terminals.
+ .
+ This package provides four commands: xterm, which is the traditional
+ terminal emulator; uxterm, which is a wrapper around xterm that is
+ intelligent about locale settings (especially those which use the UTF-8
+ character encoding), but which requires the luit program from the x11-utils
+ package; koi8rxterm, a wrapper similar to uxterm for locales that use the
+ KOI8-R character set; and lxterm, a simple wrapper that chooses which of the
+ previous commands to execute based on the user's locale settings.
+ .
+ A complete list of control sequences supported by the X terminal emulator
+ is provided in /usr/share/doc/xterm.
+ .
+ The xterm program uses bitmap images provided by the xbitmaps package.
+ .
+ Those interested in using koi8rxterm will likely want to install the
+ xfonts-cyrillic package as well.
 
 Package: xtrace
 Version: 1.4.0
