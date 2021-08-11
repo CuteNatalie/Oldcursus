@@ -8051,6 +8051,29 @@ Section: System
 Priority: required
 Description: This package contains terminfo data files to support most types of terminals.
 
+Package: neofetch
+Version: 7.1.0-3
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 344
+Depends: bash (>= 5.0), awk
+Conflicts: com.matdev.neofetch-ios
+Replaces: com.matdev.neofetch-ios
+Filename: debs/neofetch_7.1.0-3_iphoneos-arm.deb
+Size: 82434
+MD5sum: afae51e84881d9e5d8b5cb3b541f1360
+SHA1: 8ba629268acdebc5d559e3d266493dc3559551cc
+SHA256: 218d4cad0f096a43481e4fa00e80ece5427df3d1e3b367e7673b9c8ce1d6aff2
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows System Information with Distribution Logo
+ Neoftech is a cross-platform and easy-to-use system information
+ command line script that collects your system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+Author: Dylan Araps <dylan.araps@gmail.com>
+
 Package: netcat
 Version: 0.7.1-2
 Architecture: iphoneos-arm
