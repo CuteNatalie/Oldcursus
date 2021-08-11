@@ -8886,6 +8886,103 @@ Description: TENEX C Shell, an enhanced version of Berkeley csh
  It includes all features of 4.4BSD C shell, plus a command-line editor,
  programmable word completion, spelling correction and more.
 
+Package: tigervnc-common
+Version: 1.11.0
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 176
+Filename: debs/tigervnc-common_1.11.0_iphoneos-arm.deb
+Size: 41542
+MD5sum: f24055e8af4a63ab58f834c6c3084b9a
+SHA1: 9c7e641c46217f219d4b9e860eaef51899869491
+SHA256: 5e27d67a26d53f765ee6f67a9a61d9404f7a1cbdfdb5e54ae5aa762332ae2447
+Section: X11
+Description: Virtual network computing; Common software needed by servers
+ VNC stands for Virtual Network Computing. It is, in essence, a remote
+ display system which allows you to view a computing `desktop' environment
+ not only on the machine where it is running, but from anywhere on the
+ Internet and from a wide variety of machine architectures.
+ .
+ It is implemented in a client/server model. This package provides the
+ vncpasswd and vncconfig tools as well as the common infrastructure for
+ tigervnc-scraping-server and tigervnc-standalone-server packages.
+
+Package: tigervnc-scraping-server
+Version: 1.11.0
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 448
+Depends: xauth, libgl1, libgeneral0, libmd0, libgnutls30, libjpeg62-turbo, libpam2, libpixman-1-0, libx11-6, libxau6, libxdmcp6, libxdamage1, libxfont2, perl, xkbcomp, xkeyboard-config, tigervnc-common
+Provides: vnc-server
+Filename: debs/tigervnc-scraping-server_1.11.0_iphoneos-arm.deb
+Size: 197088
+MD5sum: e0d4a336fe54a6a3904b0fb37fc64135
+SHA1: 07a3097892c4628436209a441db477ba350c1037
+SHA256: a3790cc8ad4c8c4e3749c7d05e45ea3c51a97d0a8c7aaab7bfb7ce67a5ece6d4
+Section: X11
+Description: Virtual network computing server performing X screen scraping
+ VNC stands for Virtual Network Computing. It is, in essence, a remote
+ display system which allows you to view a computing `desktop' environment
+ not only on the machine where it is running, but from anywhere on the
+ Internet and from a wide variety of machine architectures.
+ .
+ This package provides a VNC server that perform screen scraping of an already
+ running X server to provide its VNC desktop. The VNC desktop can be viewed
+ by any VNC viewer even on other operating systems.
+ .
+ Note: If you only want to scrape your local X11 server, you should consider
+ the tigervnc-xorg-extension package. This package provides the vnc extension
+ for your local X11 server. The usage of this extension is more efficient
+ than a scraping vnc server.
+
+Package: tigervnc-standalone-server
+Version: 1.11.0
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 1356
+Depends: xauth, libgl1, libgeneral0, libmd0, libgnutls30, libjpeg62-turbo, libpam2, libpixman-1-0, libx11-6, libxau6, libxdmcp6, libxdamage1, libxfont2, xkbcomp, xkeyboard-config, tigervnc-common, tigervnc-xorg-extension
+Provides: vnc-server, xserver
+Filename: debs/tigervnc-standalone-server_1.11.0_iphoneos-arm.deb
+Size: 737958
+MD5sum: 3ac255972293be58f2bc31e726d37d11
+SHA1: c82ac044ad6385e1bd645cc1dbde6668fce90500
+SHA256: e4094a53d0e502fb1fac8df0795239d7f7dd8883e2120fa573f77a7eec1112ef
+Section: X11
+Description: Standalone virtual network computing server
+ VNC stands for Virtual Network Computing. It is, in essence, a remote
+ display system which allows you to view a computing `desktop' environment
+ not only on the machine where it is running, but from anywhere on the
+ Internet and from a wide variety of machine architectures.
+ .
+ This package provides a standalone VNC server to which clients can connect.
+ The server generates a display that can be viewed with a vncviewer.
+ .
+ Note: This server does not need a display. You need a VNC viewer to see
+ something. This viewer may also be on a computer running other operating
+ systems.
+
+Package: tigervnc-xorg-extension
+Version: 1.11.0
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 508
+Depends: xserver-xorg-core
+Provides: vnc-server, vnc-xorg-extension
+Filename: debs/tigervnc-xorg-extension_1.11.0_iphoneos-arm.deb
+Size: 217924
+MD5sum: 9bfe2b15add6f0496ba640b9ef760267
+SHA1: c53d6d160d84e091d4e7c7ac94cae9402ddca88a
+SHA256: 972c2530cd90fd588c61462d7e16ad73d59cbaba35ef2771ed980f538f686a4f
+Section: X11
+Description: Virtual network computing X server extension
+ VNC stands for Virtual Network Computing. It is, in essence, a remote
+ display system which allows you to view a computing `desktop' environment
+ not only on the machine where it is running, but from anywhere on the
+ Internet and from a wide variety of machine architectures.
+ .
+ This package contains an X server connector so VNC clients can connect to your
+ local X desktop directly.
+
 Package: tmux
 Version: 3.2
 Architecture: iphoneos-arm
