@@ -8112,70 +8112,22 @@ Description: server implementing HTTP/2 protocol
  to serve files from a local directory.
 
 Package: openssh
-Version: 1:0
+Version: 6.7p1-13
 Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 0
-Depends: openssh-client, openssh-server, openssh-sftp-server
-Filename: debs/openssh_8.6p1_iphoneos-arm.deb
-Size: 586
-MD5sum: 3aa9ce9fb4e8a56fe8364fdab19a7ed7
-SHA1: a34ebf091bdb2d8f57798bae11d6b3f767ba10f2
-SHA256: 4df148019a410948672668ef37787a06d46e2286a1ac432e53f9fc1aab7243cf
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: debs/openssh_6.7p1-13_iphoneos-arm.deb
+Size: 587678
+MD5sum: 51b3398d67bc3b861642c1eff23f9e42
+SHA1: 0312d429110829359f7443adbfbb27cb1f9419d5
+SHA256: ff4eb2a1e4453051e52ba56a71c3d4f56d00c1e83095653647a7a4f49b4c3b1f
 Section: Networking
 Priority: important
-Description: secure shell client and server (metapackage)
-
-Package: openssh-client
-Version: 8.6p1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 2944
-Depends: libssl1.1, libcrypt2, libmd0
-Conflicts: openssh (<< 1:0)
-Replaces: openssh (<< 1:0)
-Filename: debs/openssh-client_8.6p1_iphoneos-arm.deb
-Size: 624732
-MD5sum: ca91467d9fb4c660f14a197660201e69
-SHA1: 81ad23e5bdb4dcd82dba9406c3293672df3cd324
-SHA256: 5a9d16d32e2a24596e4e84c8cdad5c4b316d7eea28aba8aacf7aeea98cade037
-Section: Networking
-Priority: important
-Description: secure shell (SSH) client, for secure access to remote machines
-
-Package: openssh-server
-Version: 8.6p1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1252
-Depends: libssl1.1, openssh-client (= 8.6p1), openssh-sftp-server, libcrypt2, libpam2, libmd0
-Conflicts: com.midnightchips.localhostssh, openssh (<< 1:0)
-Replaces: openssh (<< 1:0)
-Filename: debs/openssh-server_8.6p1_iphoneos-arm.deb
-Size: 337034
-MD5sum: e96a3278f83740c21b37154a32ead5a7
-SHA1: 4a632c8c08ce597ff6ab4e6019bec9795b1699c9
-SHA256: 159a7bbbb451b1e59be1b6745fa1cdfa8ca72b2f227ffbe170a3a4b0dc2ddb6b
-Section: Networking
-Priority: important
-Description: secure shell (SSH) server, for secure access from remote machines
-
-Package: openssh-sftp-server
-Version: 8.6p1
-Architecture: iphoneos-arm
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 96
-Depends: libssl1.1, openssh-client (= 8.6p1), libcrypt2, libmd0
-Conflicts: openssh (<< 1:0)
-Replaces: openssh (<< 1:0)
-Filename: debs/openssh-sftp-server_8.6p1_iphoneos-arm.deb
-Size: 32142
-MD5sum: f0d60cffa706fb0016a3e348a858f44e
-SHA1: c996474ef2b6750b5bb6e12061330438c7be9702
-SHA256: 7915829827088d60f9cd80e7bc00b0d6220c606e3c3cba6f4a271901514c1f93
-Section: Networking
-Priority: important
-Description: secure shell (SSH) sftp server module, for SFTP access from remote machines
+Description: secure remote access between machines
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
 
 Package: openssl
 Version: 1.1.1k-1
