@@ -1,4 +1,4 @@
-Origin: Oldcursus
+Origin: Oldcursus	
 Label: Oldcursus
 Suite: stable
 Version: 1.0
@@ -7,12 +7,12 @@ Architectures: iphoneos-arm
 Components: main
 Description: 32 Bit Procursus but for ios 10 and lower
 MD5Sum:
- f54771768f10f2b4ee851cb71fca4a38 373462 Packages
- 2c190e7d79c30dfc243c39a6be242461 79992 Packages.bz2
- 0930a44d27cba0bb210dcca501c2034d 98103 Packages.gz
- 0ccd19951531ab23763369520888871d 83024 Packages.zst
+ 211e091227682fc0efac63cd5632f119 390347 Packages
+ dba3923ea7993565196c89d02211e591 84290 Packages.bz2
+ 60c00fcd739749f050be83722042d9c5 103626 Packages.gz
+ c8cfc818cf2d3ec8cf6c5f2425a0a182 87554 Packages.zst
 SHA256:
  0bea98a6cf704ef45b3704723c9cbdbb0f3784b4419ef28d1e4aac1775331e22 390347 Packages
  59704f7d2a74a399b81d25f9ac69798e59f56cbe15370abae951518c41a57309 84290 Packages.bz2
- 1d5916b40f35c3aa7ee9602d2ed396b9412ba4c2b0469b6e2083c8cd28086683 103626 Packages.gz
+ dd32a6cf65fd9cee7ea24b9af47561f1e73c757bc82e800f42f23403e381d3ea 103626 Packages.gz
  ac3894dcb0c47cde14114c48889adbe2f393ecef80d4897ada94dcad190e7976 87554 Packages.zst
