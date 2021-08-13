@@ -1,8 +1,8 @@
 Origin: Oldcursus	
 Label: Oldcursus
-Suite: stable
+Suite: iphoneos-arm
 Version: 1.0
-Codename: triangle
-Architectures: iphoneos-arm
+Codename:main
+Architectures: stable
 Components: main
 Description: 32 Bit Procursus but for ios 10 and lower

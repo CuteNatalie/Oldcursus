@@ -4,11 +4,11 @@ Hash: SHA256
 Architectures: iphoneos-arm
 Codename: stable
 Components: main
-Date: Fri, 13 Aug 2021 12:18:17 +0000
+Date: Fri, 13 Aug 2021 12:20:20 +0000
 Description: Distribution of tools for 32 Bit iOS
 Label: Oldcursus
 Origin: Oldcursus
-Suite: ./
+Suite: iphoneos-arm
 Version: 1.0
 MD5Sum:
  cf444be8157a3f9ad006ac38131b2eac          2880250 Contents-iphoneos-arm
@@ -48,17 +48,17 @@ SHA512:
  fa44024fc8267e078b2f84cdd4c11794ce0fae9b007a8742ab177c1b01358a7c5e22cd148bf028d462cd7246d3f3a03a31bfdbe7509603b55afe57d1c5f94004           128303 Packages.zst
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEPi8XbL76pBKqEBDP3alN0ni1wnAFAmEWYwoACgkQ3alN0ni1
-wnBMcxAAuX4nHqIFNziqW2nwkuTh4J4eKcsy4D+zDCdz76em7+lcFX1Jese8KxY8
-P3ClA7eDV6oFITRTmGjwAszmfySYpfy2KNLH90ypF5pwHybTKtKJStvKWfIDY+Uy
-hHpuBxhrqs7moL4ACvaZg4pu7z/yT0TIcqMU8mvAMgT6s6Y/5pdzNMnH7sE+gDHv
-rm5ljLEGNsXyz5XYhuZwVEmVQV/Kk6ny9UxS+KIANGQpoGPYAs3bB9uAfmlc6rcc
-jCMSOTvoIMMO2BJBYh4fsGthXDtEwlM+D9GhCr2ggcXWSQgTiTWNBc9SdztO6EYr
-UQ/DgxfA6pSaJotiuG7ttF+Z/cwafxIEMCz/puj/vwwLkPqRFX/ZVVBIG25Pi7A7
-CZqKHE5eviDhIU7JOyY+i2+sDavZvO6VAzLi34cf0bd/H/f6nQrmZThm0wkHtaEq
-0cOygfVRRXdASNo5mrM8ME4DkLIGXrX6fBdn9RjBoVPdnA9f/2kOxgCjPZAS+yzH
-JPhEJDAJ2saSBFXf/QXjpiuGPT4cLPs9LYSTFN42hpjiMQj1GMWauZsBEpscgjGq
-7PYCgQhxeYcvMJ2RaM3A2Uo0Paygxywv3yMy4PSnHpERffw70cjR/cw6byeOiph1
-8NgrjbH078gYSdxEctzEaWz3BGgy9ukiL6F86Q4EUPPKLWBA+0E=
-=C9Nz
+iQIzBAEBCAAdFiEEPi8XbL76pBKqEBDP3alN0ni1wnAFAmEWY4QACgkQ3alN0ni1
+wnCpFw//b2X3dRqy08Z3QTrnnS64a91+Y3S6h2CB06ljQoLhAcMHbnsXocYRVkYx
+xUfQDth6XImmcT6AZYjJoF9D6EDMPfKRNiUXCLWMT8UDgH7ZE727wgcbdH+UG2pC
+psosn1SrrI2Vhn48Lz/0mCM4qZ7itttSEBGJ2WxzHfPjDVwYLLNBlMhxoImMno6D
+WJmJ9nrf6Lu+xxCJRKd3p8gQHmtrVtjEeEteV+fsy5PHe/5iZskrfToztpp9LGwc
+n8O0IGCLK2NnuZ/8C7BErbjNOZfHinqhP23WzYfPOz7Qg6PrHz0HR5MxMUEOGIoU
+7SgtoSvm2A1RjKnUxigfv9Nejw8WqrvVqs24ZOXSSH95rr/veR7N207xIjjRx12v
+3sRlnL6awDWkJLViQRXgUoM0cSBSdsV7PIE5R78E3jXjIgyVq6umexJdy9kDRFey
+fxsEWpkIU9UXUOss3usnFm6QpwEP18kQnOSdH9ZixgLA4UColcDMUXivrksufmQJ
+PM6Y5hGbhqhWNfreFdP6IyzVht9AuXWeCJkZfRJeiHGyAme2OKA0NAslHR4C1Yc/
+a3JgIP46EwJl6FbZSCaHHA+HkIHhaTNHknwat9sxo3BW4e/Q+FyopWmQCQ9N1CX4
+VFB1+gVWIhCP4z8DQ3YwSfzG1yHjBTijgsGVpJbQ6wITVsjxyNU=
+=9tMd
 -----END PGP SIGNATURE-----
