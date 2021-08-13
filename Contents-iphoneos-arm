@@ -343,6 +343,9 @@ usr/bin/ipcrm						    file-cmds
 usr/bin/ipcs						    file-cmds
 usr/bin/irb						    ruby
 usr/bin/irb3.0						    ruby3.0
+usr/bin/jemalloc-config					    libjemalloc-dev
+usr/bin/jemalloc.sh					    libjemalloc-dev
+usr/bin/jeprof						    libjemalloc-dev
 usr/bin/jmacs						    joe
 usr/bin/joe						    joe
 usr/bin/join						    coreutils
@@ -15887,6 +15890,7 @@ usr/include/isnt.hpp					    libunrar-dev
 usr/include/jansson.h					    libjansson-dev
 usr/include/jansson_config.h				    libjansson-dev
 usr/include/jconfig.h					    libjpeg62-turbo-dev
+usr/include/jemalloc/jemalloc.h				    libjemalloc-dev
 usr/include/jerror.h					    libjpeg62-turbo-dev
 usr/include/jmorecfg.h					    libjpeg62-turbo-dev
 usr/include/jpeglib.h					    libjpeg62-turbo-dev
@@ -16842,6 +16846,7 @@ usr/include/xorg/xvdix.h				    xserver-xorg-dev
 usr/include/xorg/xvmcext.h				    xserver-xorg-dev
 usr/include/xxh3.h					    libxxhash-dev
 usr/include/xxhash.h					    libxxhash-dev
+usr/include/yaml.h					    libyaml-dev
 usr/include/zconf.h					    zlib
 usr/include/zdict.h					    libzstd-dev
 usr/include/zlib.h					    zlib
@@ -17287,6 +17292,10 @@ usr/lib/libiosexec.dylib				    libiosexec-dev
 usr/lib/libjansson.4.dylib				    libjansson4
 usr/lib/libjansson.a					    libjansson-dev
 usr/lib/libjansson.dylib				    libjansson-dev
+usr/lib/libjemalloc.2.dylib				    libjemalloc2
+usr/lib/libjemalloc.a					    libjemalloc-dev
+usr/lib/libjemalloc.dylib				    libjemalloc-dev
+usr/lib/libjemalloc_pic.a				    libjemalloc-dev
 usr/lib/libjpeg.62.3.0.dylib				    libjpeg62-turbo
 usr/lib/libjpeg.62.dylib				    libjpeg62-turbo
 usr/lib/libjpeg.a					    libjpeg62-turbo-dev
@@ -17566,6 +17575,9 @@ usr/lib/libxxhash.0.8.0.dylib				    libxxhash0
 usr/lib/libxxhash.0.dylib				    libxxhash0
 usr/lib/libxxhash.a					    libxxhash-dev
 usr/lib/libxxhash.dylib					    libxxhash-dev
+usr/lib/libyaml-0.2.dylib				    libyaml-0-2
+usr/lib/libyaml.a					    libyaml-dev
+usr/lib/libyaml.dylib					    libyaml-dev
 usr/lib/libz.1.2.11.dylib				    zlib
 usr/lib/libz.1.dylib					    zlib
 usr/lib/libz.a						    zlib
@@ -17610,6 +17622,7 @@ usr/lib/pkgconfig/gpg-error.pc				    libgpg-error-dev
 usr/lib/pkgconfig/hogweed.pc				    nettle-dev
 usr/lib/pkgconfig/ice.pc				    libice-dev
 usr/lib/pkgconfig/jansson.pc				    libjansson-dev
+usr/lib/pkgconfig/jemalloc.pc				    libjemalloc-dev
 usr/lib/pkgconfig/ksba.pc				    libksba-dev
 usr/lib/pkgconfig/libFLAC++.m4				    libflac++-dev
 usr/lib/pkgconfig/libFLAC.m4				    libflac-dev
@@ -17725,6 +17738,7 @@ usr/lib/pkgconfig/xorg-server.pc			    xserver-xorg-dev
 usr/lib/pkgconfig/xpm.pc				    libxpm-dev
 usr/lib/pkgconfig/xrender.pc				    libxrender-dev
 usr/lib/pkgconfig/xt.pc					    libxt-dev
+usr/lib/pkgconfig/yaml-0.1.pc				    libyaml-dev
 usr/lib/python3.9/LICENSE.txt				    libpython3.9
 usr/lib/python3.9/__future__.py				    libpython3.9
 usr/lib/python3.9/__phello__.foo.py			    libpython3.9
@@ -26523,6 +26537,7 @@ usr/share/man/man3/item_term.3x				    ncurses-doc
 usr/share/man/man3/item_userptr.3x			    ncurses-doc
 usr/share/man/man3/item_value.3x			    ncurses-doc
 usr/share/man/man3/item_visible.3x			    ncurses-doc
+usr/share/man/man3/jemalloc.3.zst			    libjemalloc-dev
 usr/share/man/man3/key_defined.3x.zst			    ncurses-doc
 usr/share/man/man3/key_defined_sp.3x			    ncurses-doc
 usr/share/man/man3/key_name.3x				    ncurses-doc

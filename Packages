@@ -3314,6 +3314,45 @@ SHA512: 3e5826806ce90382e93b7b032084e9aafc8fe08d9fa4a0b3705a49900695fa460d76cf04
 Description: A C library for encoding, decoding and manipulating JSON (runtime libraries)
 Tag: purpose::console, role::developer
 
+Package: libjemalloc-dev
+Architecture: iphoneos-arm
+Version: 5.2.1-2
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 7764
+Depends: libjemalloc2 (= 5.2.1-2)
+Filename: debs/libjemalloc-dev_5.2.1-2_iphoneos-arm.deb
+Size: 1510182
+MD5sum: 9670cd3e00eb330137f301bd83ecae04
+SHA1: 82b0ba3e70a7e06040554e58bda7bb650c417ec2
+SHA256: 2c0a686adb2b8b2cdc9e159fb2ce6cd6ab378af49066b4045fe979e2465a2d1b
+SHA512: 8354719e664620e611dd4119b5b5f24d186cdc75b31c3cf5dc5a4a39adb05217e2ae8f4a9fb9b83a26e1a748b5c817e84103933565ea0a958fa9f3d47363f097
+Description: development files and documentation for jemalloc
+ Files used for development with jemalloc. This package contains
+ headers and documentation.
+ .
+ jemalloc is a library providing a malloc(3) implementation for
+ multi-threaded processes on multi-processor systems.
+
+Package: libjemalloc2
+Architecture: iphoneos-arm
+Version: 5.2.1-2
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 348
+Filename: debs/libjemalloc2_5.2.1-2_iphoneos-arm.deb
+Size: 143648
+MD5sum: 03ea69ecd07322d8ba9514b4d02a2464
+SHA1: e66764ebe6f99abcc12ec72275e19ebfc8af1b59
+SHA256: 2bd8510fb12cc694e7d00d5af73ed2939ed4bc37d3339df2262e62dd93042ef6
+SHA512: ead07b14d19b7e2b718ab394da98c0a45a5078b418557dd096b9a7248c9c4f54a0b21289e6ba535dc948766ce47ada82d1651f3a9441ed1b0dca9be922b89da1
+Description: general-purpose scalable concurrent malloc(3) implementation
+ A library providing a malloc(3) implementation for multi-threaded processes on
+ multi-processor systems.
+ .
+ Notable features are reduced lock contention, predictable low fragmentation,
+ and introspection with heap profiling.
+
 Package: libjpeg-turbo-progs
 Architecture: iphoneos-arm
 Version: 2.0.6
@@ -4548,11 +4587,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 29424
 Depends: libjemalloc2, libgmp10, libcrypt2, libffi7, libgdbm6, libncursesw6, libreadline8, libssl1.1, libyaml-0-2, libiosexec1
 Filename: debs/libruby3.0_3.0.1-1_iphoneos-arm.deb
-Size: 6049638
-MD5sum: 61168ad49e413394afefee5f89827cf5
-SHA1: c637f8ee8e83a08cc83e5f76b9e251ac08931aab
-SHA256: 0c4ea71d082db323d50d88b9bd4b0f116e67df2e88436736ec4ed161a2c7fe4b
-SHA512: 09bf0e86c854857f7b2413740e9500473d902c92a43399ad2ccf46bf5049ec61ecdc98958908acebb47cc4a1f6e865f64795d0a2e300d1585256d497c9fa4309
+Size: 6050404
+MD5sum: c6f1344a51604425c9196842dd6df850
+SHA1: 24d3608926ac206eefd7aad3a8a6867e27dc3c44
+SHA256: fffac00fa9601d6f848f458f3b3d6b5e0969fea91c16394e1598c3a7e3d2aad2
+SHA512: d1e68749ea3eec55998849bc1a59a561464792c4820c39a766c0a7d0d0e8a24de69c110509904cd66d5daacf5374956d9c6dd6f9261a23d96ccb180f698cfd66
 Description: Libraries necessary to run Ruby 3.0
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8219,6 +8258,43 @@ Description: shared library for xxhash
  .
  This package contains the shared library.
 
+Package: libyaml-0-2
+Architecture: iphoneos-arm
+Version: 0.2.5
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 120
+Filename: debs/libyaml-0-2_0.2.5_iphoneos-arm.deb
+Size: 39276
+MD5sum: 67c16f2ad489ca4b2c9607d09e690013
+SHA1: 7808a090234646fa424d593d66273f4dc7979660
+SHA256: e94ca3c8aba3cfa84c03c235bf640027aced528256f40021426fd15af629a317
+SHA512: 668fcd059d462c03fec9103189c5742e8af2659ce2d8b97aa10724ed17ebc6714827251a5ff1faa4d4aa103d786ce9679c950ff95ae30ce23085a174676c14e1
+Description: Fast YAML 1.1 parser and emitter library
+ LibYAML is a C library for parsing and emitting data in YAML 1.1, a
+ human-readable data serialization format.
+
+Package: libyaml-dev
+Architecture: iphoneos-arm
+Version: 0.2.5
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 344
+Depends: libyaml-0-2
+Filename: debs/libyaml-dev_0.2.5_iphoneos-arm.deb
+Size: 164190
+MD5sum: d2b0691fd105ec9c05ef60b283adf6f8
+SHA1: 97d5fc51ac88b530dc9bfb445b6430ae06164a6c
+SHA256: c2ac26b6887c1b4f7aeabd3f19571d9a26534e26b12f9ad1f57aea725ccf09ad
+SHA512: e8b4cb5ceb626cca0fa4ff5257013684eaf2dfb6ca3afb5965d425e0b4dfc380a2d45ad18a3453974847e0b312c9ed5d47c2857d6e74a851815c915b94144c52
+Description: Fast YAML 1.1 parser and emitter library (development)
+ LibYAML is a C library for parsing and emitting data in YAML 1.1, a
+ human-readable data serialization format.
+ .
+ This package contains development headers and static libraries.
+
 Package: libzstd-dev
 Architecture: iphoneos-arm
 Version: 1.5.0
@@ -8916,11 +8992,11 @@ Installed-Size: 2080
 Depends: libruby3.0 (= 3.0.1-1), libjemalloc-dev, libgmp-dev, libcrypt-dev
 Recommends: ruby3.0-doc
 Filename: debs/ruby3.0-dev_3.0.1-1_iphoneos-arm.deb
-Size: 216586
-MD5sum: 1d2d0a1e8df98dec49e8f2f9c932487d
-SHA1: b037e93e05780793f5cf11a0d07b38b7c87b9711
-SHA256: fa44205aa2b12a2c51c706185266d0bb1626f7412f60a6603906c33d2bb9ad7b
-SHA512: 6e646906e18ef1b51301727f0d00e7ab1b0a7fcada409059f8726682427f9bce439ab103d211497fd7b35ab43557b3964279f710df9f19d19a234b67cfbb41b3
+Size: 216638
+MD5sum: 47d0b54e9f7d13a9f8c9ea573e306258
+SHA1: e99cc9a5d2a3197c4b4bff1e121739041748dbb8
+SHA256: c82c558869a3c6bb159f73cf1902e5ea771ef25a36df43dba4f4f422e1678894
+SHA512: 22ee2be12b6659a1e1e6418694b69b4c560fd9bb88ff4011a98849055addc31967a28ca0e7e4caf35d44e0093915d40ff578f047e727c1951c07cb58d5f418d4
 Description: Header files for compiling extension modules for the Ruby 3.0
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8939,11 +9015,11 @@ Section: Documentation
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 49832
 Filename: debs/ruby3.0-doc_3.0.1-1_all.deb
-Size: 1869024
-MD5sum: d449f80a11147cb45d7a2a075534b2a2
-SHA1: a5059a2727b2c6d633f4cd76dd8f938a7ea1af69
-SHA256: a642386adeefeb2c204866555cc35b8cca94b14b2e909b921471916192d8b961
-SHA512: 96a69b5266c7ea7c65623107dfd00c352549b0dcb7e7724934f8b3430294cf8828fa1cb969e440dba45b185ed3ab27a32c842f1de6398d46a265ff8333a45036
+Size: 1856532
+MD5sum: 67a820b7dd483e1120926701a96a388d
+SHA1: 043d0e1549734c6a5d60b36d94792e6dbad88ce5
+SHA256: f506a7321c3658789313e9575e4967387f1d1bf91531459edbab5b96422720df
+SHA512: 9ee45d27aadd158cddc3739e7f9eca1d6c62b2391fb49a272352ac708dc74f45d6eb1f42fcb42020d5a9efcbe8a92624b47fd406e606bcbf2300f5c746842584
 Description: Documentation for Ruby 3.0
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8961,11 +9037,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 116
 Depends: libruby3.0 (= 3.0.1-1), libjemalloc2, libgmp10, libcrypt2, libiosexec1
 Filename: debs/ruby3.0_3.0.1-1_iphoneos-arm.deb
-Size: 16138
-MD5sum: 2c88f28c70090a536b6426d3caac5402
-SHA1: 21f378d0b18aa781152a99475bc2dd52d21b822d
-SHA256: 62b881b83f5e0dadee0a1bc75d93083831562d6b8f95b4c3a47bdffaccc7b1d5
-SHA512: ed21c8433820a713278c8a4cb9f948c448d32811a86b244852e5f7bf22b2ff1ec6824c8fac66a5b380f032d6d9d2db31acd2c6306f1ce569e273f8b6114f3886
+Size: 16140
+MD5sum: dc63ab7a1ab69461d92d2b58db0847e7
+SHA1: ed4192603d8eb9c32e971bf04c67759713eed09a
+SHA256: 5e6d7073eb7e5f7bf60cd5b66662f45a1506c28ad12d022461bfa626a0bba88f
+SHA512: c0f8241db75a00347180199bb9adcc4d92a320ec77bbda5e00632c68370a33d35698fe458a167ea339299a43bbd40ced4f44aae228be000589c5ce981a702657
 Description: Interpreter of object-oriented scripting language Ruby
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8984,11 +9060,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 0
 Depends: ruby3.0
 Filename: debs/ruby_3.0.1-1_iphoneos-arm.deb
-Size: 990
-MD5sum: 030b0586b3efdaf222355408d1528382
-SHA1: e5e0dc1be6f2b1c9ef03909e632c01e6f5ddbd88
-SHA256: fff92b69ff2d43cb992400bb90503f45bf6f349e38c79cc11b9cd7831ab3cc43
-SHA512: 0722a7da72f60e3b29707806fa0f8d8cc39b147f1b240ed1f834980de525339ae743f70d9efe4335236d5d6c18b678acf7c6f02419fda9cadeded880106c477c
+Size: 986
+MD5sum: dd904a87d2a057f74940134a067179bd
+SHA1: 9e016514d8bff92fb4d3efe8c7f4c92bc21812f0
+SHA256: 3edfcc6dff59eb7a9b11f25d78b807097f55e215f14ee32ef60c9f75b0afaac0
+SHA512: 0b783af1e7f41409bd1b2a2d778dc4b7b597fd8d0f784045967d3d2563789b1aaa3a7ce2ef53d2b56d47caa8767d0823336779234994f44ac927108bb002c500
 Description: Interpreter of object-oriented scripting language Ruby (default version)
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
