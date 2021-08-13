@@ -35,11 +35,11 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt (=2.3.6), libdb18.1
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
 Filename: debs/apt-utils_2.3.6_iphoneos-arm.deb
-Size: 222494
-MD5sum: 5b30a1419df384b442f3c1680d98b2b7
-SHA1: 59344c5970853d6a8ff6f2662796ee49e66fa554
-SHA256: 014d8c48dbfc3bd923036e1abf97fc6d919b1974d783c527f48016719c2eeb68
-SHA512: 1f6c1e8179ae39b01cc4327f923fa44beb9009e021f9a7b0c6d795ac5cc1c02efb6460431ae281448999659876ebdf34055c7b9e6c3c5f42f9a6af2d923cd120
+Size: 222514
+MD5sum: 943c920242d59866f3161b21cddefa49
+SHA1: f42955d35bd590e1a025550d7fa52632b7c605ce
+SHA256: 4c384debaf87683e4465f2b5ea9c4e8190f586e317bdbc40bf782872851b7bd8
+SHA512: d2f2cfe8f327670f4456116de4e30c4ffdab91f4238f59641342cefb487b379a9d6f6afdf37aeff5f0ff3ec862922198b798a3f85d10dd9cacd4fb7e8be08aa6
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -61,11 +61,11 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt (=2.3.7), libdb18.1
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
 Filename: debs/apt-utils_2.3.7_iphoneos-arm.deb
-Size: 222462
-MD5sum: a62758d1affaa00eb56e4d5a1750ebe2
-SHA1: 6bda10a97deb3aa172b1b1a708bf6c20555b60dd
-SHA256: be52358bd5b6d4d23051475b2fce2269e6ea68e3285e0d3213d062eafa307d2d
-SHA512: d0c05f287061ffa4053f76036dda9ec2924bf2f373fff11cbaff40bad2371acb5b74a9e62f709ca47ce52a931fed9e126d31080671f70eb4b72c52bd14632bf6
+Size: 222498
+MD5sum: 509e630fb444913bd583d39817023615
+SHA1: 917c91cc04f55e9096b8d4d771978d0321bd74ce
+SHA256: 6894efd9802ceeac997e6d08084bd4509e57160d953d29b8fc0228891a324f9a
+SHA512: 99ebbc4f93b0b64636be10263cb43432789ff4815797d2fc2c16dfb726d8c7afd636250ae826f81331bbc99ed0684246a519e835ac9f6250036c0203fc7a70fd
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -112,11 +112,11 @@ Depends: libapt-pkg6.0 (= 2.3.6), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
 Filename: debs/apt_2.3.6_iphoneos-arm.deb
-Size: 1020450
-MD5sum: 57a81627054e953bfc5c5b4e81ad0264
-SHA1: c9157a551a11791e9e82e503360bfdfb8d99c57b
-SHA256: 2e2e6c72ae9347894416195ea4c3a541eeb66a930c078948805ee6ed566ea20e
-SHA512: 2b8dbbde13dba058354827b27477fc0c334c2fb461a5028f369a8e5378e764fcf88e609bdbd7d126da86861d4620ec952976ac81d2b2c27693453dba76e7917e
+Size: 1020474
+MD5sum: c412c17d83f7237471e629a17f004d23
+SHA1: edc330c298981e84d5a4e92e4289c30e09a8d762
+SHA256: 2a4e9d3762db99dbe5d2242ef0f1ca9cb8cf4dafd4f47dae14c1414e24bf7855
+SHA512: 43b3757f3d930088d323c85997271ca3fe8e4d46313b6609c81d83daacaa815eb3ed57f2e94af68a35aaad2e7cda7ac3f2b8e4c1a5fa9728171906064497a8dc
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -135,11 +135,11 @@ Depends: libapt-pkg6.0 (= 2.3.7), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
 Filename: debs/apt_2.3.7_iphoneos-arm.deb
-Size: 1021128
-MD5sum: 3f3772d5272eca069ed617884acb8c0f
-SHA1: e2d76d194d5f5b77cbc91388e4db9a4e6f07135c
-SHA256: 88cf0b8b8fab3ed37d5477b392d8ca88c55e9d61b01939fe05037a0bab76b34c
-SHA512: 726fb6f1aeed098c9c29955fe14e2591c132cc30471c60309a3168368a89f54eeddd337d79ef2c4b6d68e00db4832c8396cd76acd9709eca9217f87e0ded7bde
+Size: 1021164
+MD5sum: 8622349d17374d5bc9b05aa5fdff7972
+SHA1: 0c8298eb0f327e85403a1432ec51a9333a911c96
+SHA256: fe9fb3b464e4c642d4b3c557096e2e1521b0f03e3e2937969a64023a957f671e
+SHA512: 9e5dccc924b8f6dc577b934511fae9887a57cd1f078c1e63e27fc954799cf4faca0e28b961802366e2077f17d06c6c584a399e3c1ff53a3bcb0404d86b651d33
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -1331,16 +1331,16 @@ Version: 2.3.6
 Priority: standard
 Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 596
+Installed-Size: 588
 Depends: libapt-pkg6.0 (=2.3.6), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), apt-dev (<< 1:0)
 Replaces: apt-dev (<< 1:0)
 Filename: debs/libapt-pkg-dev_2.3.6_iphoneos-arm.deb
-Size: 97246
-MD5sum: cedd3445901d43e5b00657ddf7d34cc4
-SHA1: 52e878a65ea021a8676fa9b137e0a303650e1549
-SHA256: 50b63f86b697259982308268b45731048a47625d868d407461c880ea004a291b
-SHA512: c96474f8b261b75565d2eb8c84cea5864a6e4a2680478ec5e9465f37af453ff64508585cb53dcd21e04da52c0663f86e1809a9825878b80280fdac57eee9d220
+Size: 96042
+MD5sum: 69b684bf637c6e3ceba21e0a3bbbb398
+SHA1: d1b71032873c339b968f35e5f2dde50843c50b29
+SHA256: 880b88c39ec9d0311ebb4bb86fb9d5425ee4f9b0d0dcd33559fc8ec59082d78d
+SHA512: 57bc87f86702cf76b6d24471749a44ed33af077816d6a9d053996324107a6dbde2a9e952484e786e5f6f95993c6bf6e399d46142014aa9a98a1fb196857795d3
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
@@ -1352,16 +1352,16 @@ Version: 2.3.7
 Priority: standard
 Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 604
+Installed-Size: 608
 Depends: libapt-pkg6.0 (=2.3.7), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), apt-dev (<< 1:0)
 Replaces: apt-dev (<< 1:0)
 Filename: debs/libapt-pkg-dev_2.3.7_iphoneos-arm.deb
-Size: 97536
-MD5sum: 01933d33604575063f5233e4c62c16f9
-SHA1: 775f211a81a6ac0f2c7db19428b23a87ef85da3e
-SHA256: f591068ccc9e0cee641a6877c8158783c44cc995cf83a2247e6fd06b9ed73cb1
-SHA512: 1d2e459b0a69130336fc781b038a2008f12b0562a62b0a019cf8d8ca6b2c281ca0dfb6ff38203dfe21163ca58defa4ad7ab50d3c503b9302d11d35c79920bfa4
+Size: 97714
+MD5sum: d63e97725ee7723f2858b17f61839b2f
+SHA1: eaf20dd31d345eddebb191a6cef873340f419332
+SHA256: e54192ec1a85341a2f007d1dac4e1aa5faa3fb5e72b40290180f07557e2a2406
+SHA512: 9eeb4c9beb8a9eced2b520aa035aba1c3e8d7e40b9c4c8048baf370a1c1b25e6831c4410336159e108c30d80972b9f49518214957fe2a6685f81d875958df592
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
@@ -1401,11 +1401,11 @@ Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, li
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
 Filename: debs/libapt-pkg6.0_2.3.6_iphoneos-arm.deb
-Size: 760960
-MD5sum: ebeff92fe007df34f7607d0f8c94c959
-SHA1: ded405b2f95e413fd68d48160bb897ffc84aaf55
-SHA256: 6bbb7023c05a06356b3e195f725bf4c36da93efbcfc16ea7b19e84db102dc000
-SHA512: 99aca2942103200f5d6ed147d7bb1ead284d1e430c2016cc8e045bb77a4c22ce36fcb743a66d0d979d8771c686503c38b7e733e4f633e191d7b2796e8eaacda0
+Size: 762872
+MD5sum: b5c6a030c2f0edb17d77f2666504c8ca
+SHA1: 30995422bf68167d30ad27a2fe361ea5fac52841
+SHA256: ffae5bbe525934ab6895ca680cfcc0e9e48736bc0e9a2bd9eadf878b64b6e939
+SHA512: b5248e2e67b203e4987de2774c2f89f346ca05f4262a8e20e45d100fe2c8068e1582f7e91c817ea64e06409cef5d015dd3335858adce7f94faaee100df1f0dad
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -1423,11 +1423,11 @@ Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, li
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
 Filename: debs/libapt-pkg6.0_2.3.7_iphoneos-arm.deb
-Size: 761742
-MD5sum: 382244345a7905892cb3adc5a04571cd
-SHA1: d8613b7fb4863f73dd842d671a16dab2ff493e47
-SHA256: c1b12bbdee07e6b3faafc8849e1cdaa0719d0edd471a796df8fec38be0005cc9
-SHA512: ba2e5c6e8cc3de2c9f86514c5f8a32fc4a1e700b27f7f7c77eb92833e21f8524f265fd09f4a56ef40511f7059c61cf3357d697ff917255276c1d388102bf77c0
+Size: 761762
+MD5sum: 345ee0568f173ef8bcfd8e667c4d24cd
+SHA1: 82d153145425ba85f56070cf66b1c7dea6aa13c7
+SHA256: fcefd61fb7126697de62d8e3c54edb1a0aa2b4993dc8cae1e6fe686960e1ebdd
+SHA512: 16d39ae26ba1085fb9c291b92fff78ac5f2bb0cf8fdf24b0de45f748d2c52c43d9e96d6ccab88efd57b5ee938848ed5811e0c884a6f9b3f6a2c4a5a8055c2591
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages

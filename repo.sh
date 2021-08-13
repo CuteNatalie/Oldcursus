@@ -1,4 +1,4 @@
-#!/bin/sh
+ #!/bin/sh
 
 rm -f Packages Packages.xz Packages.zst
 rm -f Contents-iphoneos-arm Contents-iphoneos-arm.xz Contents-iphoneos-arm.zst
