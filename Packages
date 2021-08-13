@@ -4579,13 +4579,12 @@ Section: Libraries
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 312
 Depends: libncursesw6
-Conflicts: readline (<< 8.1)
 Filename: debs/libreadline8_8.1_iphoneos-arm.deb
-Size: 121922
-MD5sum: 4130e4f52991ea6936b268c42f678d6a
-SHA1: bc0608ae00c5d9cc1e6750a64effffbe2822873d
-SHA256: 6eb813de7ea75b199a2661810adc5845af1d1da172cdc966aa027438cd52a8e0
-SHA512: 59b14dbe5802d063fdc43bda8ed6022aa67d3e40715c36d6d7084ff93991fe207a888afdde0b49dbf97ef6b540a1af62846c2e2987fc8d62e8ad909942bc1b89
+Size: 121974
+MD5sum: d5d4eb388e8554821f004402fd631b96
+SHA1: af7ae043170f5820347ae403f45bb84cf907e887
+SHA256: 69702ce60d155d1cb951f11d179b5609220a897178dfe54da45b6922c60016cc
+SHA512: a574557a4039bd97c6086e4d85e887c641bc30de9098a8e500b6a4168af6eb1394fda3f83179236db87eb9f5d9cbf113a15ee96eb7ab2043349bae1bc398c433
 Description: GNU readline and history libraries, run-time libraries
 
 Package: librtmp-dev
