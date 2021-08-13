@@ -43401,5 +43401,4 @@ usr/share/zsh/help/zstyle				    zsh
 usr/share/zsh/help/ztcp					    zsh
 usr/share/zsh/scripts/newuser				    zsh
 usr/share/zsh/site-functions/_youtube-dl		    youtube-dl
-var/lib/dpkg						    dpkg
 var/run/utmp						    base
