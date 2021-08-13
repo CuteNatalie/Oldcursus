@@ -4,11 +4,11 @@ Hash: SHA256
 Architectures: iphoneos-arm
 Codename: stable
 Components: main
-Date: Fri, 13 Aug 2021 12:02:11 +0000
+Date: Fri, 13 Aug 2021 12:04:12 +0000
 Description: Distribution of tools for 32 Bit iOS
 Label: Oldcursus
 Origin: Oldcursus
-Suite: main
+Suite: iphoneos-arm
 Version: 1.0
 MD5Sum:
  cf444be8157a3f9ad006ac38131b2eac          2880250 Contents-iphoneos-arm
@@ -72,17 +72,17 @@ SHA512:
  0bf1b9ece3759cb227b0ce86f9782eccc2b914baca5168184630d6b59cc8d8e463afbd70d08b8a26cdf4a03f83576844cf1b908c916ea706ad4408e65e27818c              740 dists/stable/main/binary-iphoneos-arm/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEPi8XbL76pBKqEBDP3alN0ni1wnAFAmEWX0cACgkQ3alN0ni1
-wnArGA//bK078rWTaNhUDAbSW5gtNdT+kfcbqM7s8xkOZQwM0VWKxzTau7eY76RV
-8PhNA6NarANtOidRsCYdCYDo5iBwR6m6KHLihAJ2gXDLYgizrrTmfT35DhsDGymm
-uHy7COEn9ePwx6U62ehotsEz6XZqgsenlPY2fbUvftfWk+8DrtyT5vrY8+YTqP/R
-FfdXL3DoJUVmC8uNS+3u+YxZY9i3RMfTtq7+b4xSHytj5YxwX2YLusc33vD8z/Dl
-9ohKM2IovZdLyGv2Z3jz7j5kZf4hWuWXaa+/k3NkYCypEG2E3fuCVhYn0giqrs9K
-eN21/CamqH2IVrF1YmeYKyr72VxAz/bdFPCLYFbc1nMt6YXDsgXa3j+kVwY9XaFa
-W8EssMLYkApHOPUsIK8LKVPMYZMs0b13v9dWbMq5pUnwgQWVH0wEgLvTjScVQoCO
-DxNGvarBj2+VXf5b9fbSgi+ES42KffJ4Shzv5yPcw55BVtBgnTaMjz7qvdWeC30S
-SaiIo6p7jgBI4Nl/4lEA/1G1dazhc5TmU6vSfaDnK9dNacF2KGnSKKewJpRfnwi+
-iJNL90e6ozehluMU02zU3qRzH0zoYNOv0CktQAOgxsiON+Hhd2B4NIpvjRyAR6ne
-gRdG5kt5LNB0QfOq7vGGt5H0PGLeuR7OTc7vEGS+V4ymw8OlxfE=
-=6AvR
+iQIzBAEBCAAdFiEEPi8XbL76pBKqEBDP3alN0ni1wnAFAmEWX70ACgkQ3alN0ni1
+wnA6Kg//fbKwFGoJsb9u0Y30mQW6N3x67WRJQwCtHm+50RwDlu21gLH0d8nVAV/9
+HPewtfQs8ByM78DG04Yb9+ftu8tRFALkoUMiaLvF2CaGyiuCft3cSftG+DP4fd7h
+oyA1pIB8mitnwJy4lfpjlpoxEPNs5AUJ6bYb02glKQCLo+8VcbOGzR3s2Ek6Dp7w
+fVpLkAvCf1SjsdAhJhGKVU9H2rRfBEi/Z2Ak/cienCnDOWPdqWTvisvIyiVsfntn
+0nDBiPFqjXVjzbBvnGedHssENx7eoCeUEP0UKi7sZZwB/+gLJlMKTJARO1KrPtj7
+aGYVO/Io+sqYV8rsYudK4FyXOUloseY7TPYDa8v70dWLY5pJlh6bKsPMYVRjo7ij
+iFfPUgoZX4gFzNK9LqSt9xcx/tDLsd1bZEtNJD0Xd/XJfCHG8TMK4gw2RSRuMRzw
+JwL3ELAUIudy4hzRNRiCpdKVURFAKZMdHIbNflvCB8ijk8AWwI7F35zkDSLcw9Fv
+O0cr5FSYcey/he8rYc60ylfdKuPglRUhMaNOj69L2l5QDmxEqHknQWXYc+O2SbOk
+qewMY6HJK+61d1n0c4QNF7ZZTJ5UWEaZGo6uEssECJ4Xz32oO6Ts2wRpdF1gzAU/
+m0UCp6FX2ZMm0guyUMlkEyI57UhyNeJHVLy8s+lkH8THsveAGlA=
+=OUZW
 -----END PGP SIGNATURE-----

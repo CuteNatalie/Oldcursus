@@ -1,11 +1,11 @@
 Architectures: iphoneos-arm
 Codename: stable
 Components: main
-Date: Fri, 13 Aug 2021 12:02:11 +0000
+Date: Fri, 13 Aug 2021 12:04:12 +0000
 Description: Distribution of tools for 32 Bit iOS
 Label: Oldcursus
 Origin: Oldcursus
-Suite: main
+Suite: iphoneos-arm
 Version: 1.0
 MD5Sum:
  cf444be8157a3f9ad006ac38131b2eac          2880250 Contents-iphoneos-arm
