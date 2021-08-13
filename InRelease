@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Architectures: iphoneos-arm
 Date: Fri, 13 Aug 2021 00:49:38 +0000
 Label: Oldcursus
@@ -62,3 +65,19 @@ SHA512:
  ef895000f3a85c471d65c67cf8ac9662a818307042645f56355558d7ff383a3f3ce9255ba277de439720256013d67811c678f422e871f9ddcc5e585f309c8482            50292 dists/stable/main/binary-iphoneos-arm/Packages.gz
  0a572e2ee037377957cb4a12c05d2d4a96c141279738d64fd97416d94efb953e05b0680b625911721231caee39aef714faf6924f57779e0dd11851181ca0d70a            44996 dists/stable/main/binary-iphoneos-arm/Packages.zst
  0bf1b9ece3759cb227b0ce86f9782eccc2b914baca5168184630d6b59cc8d8e463afbd70d08b8a26cdf4a03f83576844cf1b908c916ea706ad4408e65e27818c              740 dists/stable/main/binary-iphoneos-arm/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEPi8XbL76pBKqEBDP3alN0ni1wnAFAmEVwaMACgkQ3alN0ni1
+wnBruw/+LmOox1iJgdrNKObq1TkYnymXy6xmjh3ZNJYUHHG+sRyCRbDBRVhRBcv3
+/3YGr/eyauzWGhifn2s0M11wxAkhj/8MsCut8X2E9BrooxFXQIXIEs4Yvd6cS88H
+PDIE+Ohftu5wkWi61HZQIUyp7iF6GGX4lhvtNJrF+T1uzn9peX/ldeOhb7FHiUDe
+bEljfn804XxUYe2MeKpVbaxU+TQOkBb3ehpBO8SoniUelTROHtxi8wHQTOQoIduG
+hzWSfNQ9kzGyMc8FPyjf52lEiUakmqRaT0EymhtF9DFJqe1Sp+3FitahVuwQbiyb
+7SKuSs2Xa/syrk3EDjyc69jAG3h10wsNNmNuIet4ieXF1mEniX0J1M7kGVajDdxU
+oW96ZzxGXqniSd7E58pwOT9wyBQdfkQ94keJD7WkQtGsFwyzbpvV34ZohIpsMHRC
+BsiXclmFIXjCxPWOB7CzB/JfMUkug6zqbLIoAlHji3GAJty6v2LiBIHdiXzPQaai
+3cSU2h/RSrLRw7h1qT1zAXxSHMNfxiJR7vGO6qSd0+3xsbreG6k9Y0AkgOt8z3qf
+w4s+lNTkoHlYLtmw3F9DtPrJc4BmVhirkBRgrbaVMjKrjtNWuGWfeHA9i2Izz9Pz
+yEixhAYayy1UpPqMjftXJNYkC1jrGsFpxYPtdMsNJtGkqh1kBXA=
+=spQB
+-----END PGP SIGNATURE-----
