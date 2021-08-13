@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: stable
 Components: main
-Date: Fri, 13 Aug 2021 13:32:35 +0000
+Date: Fri, 13 Aug 2021 14:43:54 +0000
 Description: Distribution of tools for 32 Bit iOS
 Label: Oldcursus
 Origin: Oldcursus
@@ -11,35 +11,35 @@ MD5Sum:
  f48adf51564f9444a830109def2e55ab          2880306 Contents-iphoneos-arm
  d388873b2dbc7b5bfa708afc173324f8           219676 Contents-iphoneos-arm.xz
  73e9df40eea6257a3359e0cf411a208f           247940 Contents-iphoneos-arm.zst
- c7ef894c6ec9efe3816c1c5219e77866           461567 Packages
+ fb0a72e97246de49634eeedd0e9cef65           461160 Packages
  d1fe288d44325766326ca3d0698f879b            86041 Packages.bz2
  dca30ea77102ed6b0588733ac905e44c           105686 Packages.gz
- d360d08a040790616e45062db633c137           117276 Packages.xz
- f8080a2f87b5de191b170db4670b1d59           129033 Packages.zst
+ 60fb27071c57712b03946ebc0f4a7c42           117160 Packages.xz
+ 4e45d69e86ff684e13ea4e74a9b02609           129002 Packages.zst
 SHA1:
  96ef70c0e0134b93b7288b1a98a3dcd60335a113          2880306 Contents-iphoneos-arm
  57b6a2fba42ccbff00288fb82603e82be62033e5           219676 Contents-iphoneos-arm.xz
  256c3288a700e5f76ebbb94719abdeed103bf59a           247940 Contents-iphoneos-arm.zst
- 74f2a96df42510559d49123a6400dffeed940ab8           461567 Packages
+ 3b41e2170d3b81188d2fa4dbc026207793c443a7           461160 Packages
  cc085c6d64ee3b01b47184b1ed381d1550de72e1            86041 Packages.bz2
  5efb31dee2c2b12193c4b9a5c26e79da166f3920           105686 Packages.gz
- 896b8df6deb7a4f5e86b4a06889db74f4a054881           117276 Packages.xz
- 8de61b7bb130b9da22daf5194e41d2a08985a8cc           129033 Packages.zst
+ 89ad4ca867f9ac14034380f672c3754f7e6c3a7f           117160 Packages.xz
+ 11dae5b75f2fbd53a3a768af2bc4f04fdc9f3b59           129002 Packages.zst
 SHA256:
  68c02d446e7d45ec04335f95e7da2de930f12c9ab5b04f2fa0b2a45bfc38a431          2880306 Contents-iphoneos-arm
  9802e927127782bfc38a43d4fd53b76bc3368d7cf6df3a1cf30c652234a90096           219676 Contents-iphoneos-arm.xz
  e4394c6661795169f5537a5e36cf7959638e53d4da02e7ac618612737f1c5663           247940 Contents-iphoneos-arm.zst
- 4769629cf0dd5016ccd714be12d428626af793779a4cd2770a588cc73df23996           461567 Packages
+ 8348942f11aa7073eb5df49da9e623c8f3cd98841aa503cf78a8a0757553998f           461160 Packages
  40591e00624ac7cc3a26668c3fe87ca47b91533bc44b0cae6e4d6caa15ba82b5            86041 Packages.bz2
  f08c59498fbf5bfac996e03dc649374cd6278f2bb94041e7819992a1fa17585f           105686 Packages.gz
- ebec5793e9125a2d08cc0772af2bbd0afb751574f125ce85cd9c11391db9766f           117276 Packages.xz
- 1432f814a311853704f1482efe0e32fab8999bbc34fbff4cd1bc647a66e5dfa2           129033 Packages.zst
+ 850216ff82486ede35396136166f32ff61195f998b883ebe9c79e8a1712fcd93           117160 Packages.xz
+ ff0c7973b42b36be2d2e052f147e0bd3732b3b92c396f1820a2d8c7b36e0af28           129002 Packages.zst
 SHA512:
  b8c144a1cb941d40b907916814f2ee0e9b5b39327dc21b986abb4d36fdc77981ef71c9d67e28c0e7a2054b524a2be102af64506ca7bb8a8f99974c68a744646c          2880306 Contents-iphoneos-arm
  5dffb07ea9c8bd1bf0caac7bdd3332202be08e0437b2d8befd760a51a2f7732bd0cadcb77dd27018f4183b4f8bd8df5bfe8fb809e1d2e97a7dbd612307dbbfc8           219676 Contents-iphoneos-arm.xz
  63fff9f2bcd07438bc1f09b3f1a14bd150dd5d4aac80b9c797b42864e3e788804ef4350caea0cd2c9a2c8e62b09d1b69cc6474beb6c8b7928516997362dd36b3           247940 Contents-iphoneos-arm.zst
- 89eaaa31ba29987965bd29cf03a00d0cac983bfbc0e2a78ddedfcc79ce869a8e7d54a5947172660915d16797589b4c57520d0dc060990624143e8c1ab0cbf890           461567 Packages
+ f34794a36dde48f99b2d37ffcab0f74de6e0cb3b9c68496de5f8ad0c5324a634b3431436bdca661753106dd5178c1ac11a7f4dbfbb75be16ea3128eb7f8b7657           461160 Packages
  4b5f03f90bf2f9855fd3d3cc6dfc6d3f2441389bf00b18c65b76a07cc648dce6f5f42c4e5762f52b71b5917bf2a7113ed7ebbbed20fb13ac236f838b804772d2            86041 Packages.bz2
  d479e319ec97990dcd614e19ac9e1bed2b2fd5ed67effc0b8e17108769b3b3a5f25682df0216b492114a083eeb3c225f5de1eb8f7811ac9868fd7d610cadd904           105686 Packages.gz
- ba30d01dad295afcaa69ded3b9fbe7c8101b3afe51978eaa8476287be304ebf5aaf48731b31908c758a16c953152402ebff3e2a59b2c76351d8c24db66a942aa           117276 Packages.xz
- b9adb42cd5deefb7b310b47e0f389ad0097be6798a4ab002847ed6b9952e98ec70c78b1ec3c7e0b5fe1e47a12113c727ff5658e0329a8454a73c1fb487094642           129033 Packages.zst
+ 14483a5928ea28306efb065aecae7f8e468a4f2e127a83ffde40de360c40f1461e33b5504a831852fbdfa79a19071fc8e28355cf12ca1275639050c0d309a045           117160 Packages.xz
+ 200de8adf74173f02ee7d22a56cd215658e12c9129ec5081e38aecc3928304b746fae4aec2d25b7ee40339927bab41d4a51d1ea75e4c2d855d2965742257842d           129002 Packages.zst

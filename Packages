@@ -3857,14 +3857,12 @@ Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 2440
 Depends: libncursesw6 (= 6.2-1)
-Conflicts: ncurses (<< 6.2-1)
-Replaces: ncurses (<< 6.2-1)
 Filename: debs/libncurses-dev_6.2-1_iphoneos-arm.deb
-Size: 694002
-MD5sum: 62996e85504f6d2eec9c71fba10690db
-SHA1: 3d2b7f3d5e8d1fae10459d714c470add211fc279
-SHA256: c06fd1640fd3826819a8e41c315e213c51d69ead8ad2ee1f087afd3d3ebb1a4f
-SHA512: 0333f295478582232c2c99be338d3a6b4c47c5e2ff0a3a59503d5e1dc9cfc05ab2ba944f8f57cd95ee292ac23566e2d6bf36758928f758c539009306f8f37f1a
+Size: 693992
+MD5sum: f68cd236ab9bf35b02119a3d02a7985f
+SHA1: 94a7a5e4f53660a14872e4bb1ffdc3a9e668849b
+SHA256: c3e16c0e473404af203beb505b19cf1da6beac7fcd795c7b48dd2eb4d567455e
+SHA512: 455bee115882557afecd99fe54caaf607017ca8aae6d9a6e49f38e5334df2d9c3f41062387e4cad8b9d39f4d50a5bf5f55cb91a0085538444da07777da7e649e
 Description: developer's libraries for ncurses
 
 Package: libncursesw6
@@ -3876,14 +3874,12 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 472
 Provides: ncurses (= 6.2-1)
 Depends:
-Conflicts: ncurses (<< 6.2-1)
-Replaces: ncurses (<< 6.2-1)
 Filename: debs/libncursesw6_6.2-1_iphoneos-arm.deb
-Size: 167698
-MD5sum: 7f366af5d012b32e599bd0c652b9f5e7
-SHA1: 77d5fa2b620268f0a0a3c21502ad41e64236620d
-SHA256: 211f8c0625e985eee176bbefb273749c28d773b0212916b4db01edb29e1e1414
-SHA512: cc612e39c7d1f8124c676fc129a63bf104d2229a32fec439a0fb869f9a43b8cb2ed531f8064ca8b4109a80a7aa253558354b683be76022cf7aaaba98f0a7e979
+Size: 167704
+MD5sum: eb162e228df6422490ea40eed8ffa260
+SHA1: 56abd8fee6238ee3d24d1d58b6ceb323222f2f2b
+SHA256: 8a787b8ef37fc2cad1047c06bf514a745c723587470b3efe74dd0069d3f7fd72
+SHA512: 8ece3420bae97b48d6b3ce3bd74d864abdfa68c3b7e8bb3a5867f2c45ae6b9a0e360c2e8f9134e00e92af1f868f9e256110d906da85c688346b6b9c34ddfc5a5
 Description: shared libraries for terminal handling (wide character support)
 
 Package: libnettle8
@@ -4567,14 +4563,12 @@ Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 836
 Depends: libreadline8 (= 8.1), libncursesw6
-Conflicts: readline (<< 8.1)
-Replaces: readline (<< 8.1)
 Filename: debs/libreadline-dev_8.1_iphoneos-arm.deb
-Size: 296906
-MD5sum: 14023119dfcc5000eaa9143562d23da0
-SHA1: 759f2a7ae77828103c2462b159b48890dacd8f21
-SHA256: 3eb2ec4cf4efb15c87064b5c8b336acba393958ca77aa5a251c84495fdb09cc6
-SHA512: cf74ac898675b852ecbf7afb5c9f4028c82e5471157ffa9769f31c9d7bdfcef9bfffc5fce41ac0eecfdd0250ffc63b713e4be1965508c7774141cc9eb6a94f72
+Size: 296888
+MD5sum: c2a4e1d249998c5546cc5d6ee494f926
+SHA1: 10af1b0b6e747cd63ef9ddeb1196dd4e2fa0a02a
+SHA256: 2481d4a5d47cef4dacaa67c60ba293a487f6ad1f5c6e88a904bbae2d49dd99dd
+SHA512: 313dc549dc4ebca0aad9085c285ebeb8c8e0103715b8ec157184d19751e0330e750ad57530a1efb6df34846cc54f82edaf4af3ef37ad94ee8e774410d33b2572
 Description: GNU readline and history libraries, development files
 
 Package: libreadline8
@@ -4584,16 +4578,14 @@ Priority: required
 Section: Libraries
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 312
-Provides: readline (= 8.1)
 Depends: libncursesw6
 Conflicts: readline (<< 8.1)
-Replaces: readline (<< 8.1)
 Filename: debs/libreadline8_8.1_iphoneos-arm.deb
-Size: 122004
-MD5sum: b60ae433c624955fa1ee43b8d212502b
-SHA1: c67c362ff2d51994b22c1b4d84fbf0378ea4a515
-SHA256: 8828124c16dda66254402e01c70f1648a11e106f8d14fefa653833756db6a17b
-SHA512: 66e5562718ad323594cf82d584ecf0471e31425052a22808920f2123c3769aea105724d7d4ee9d52d41b1f67d35dca62a88323566ff810f56a93f82cb9935714
+Size: 121922
+MD5sum: 4130e4f52991ea6936b268c42f678d6a
+SHA1: bc0608ae00c5d9cc1e6750a64effffbe2822873d
+SHA256: 6eb813de7ea75b199a2661810adc5845af1d1da172cdc966aa027438cd52a8e0
+SHA512: 59b14dbe5802d063fdc43bda8ed6022aa67d3e40715c36d6d7084ff93991fe207a888afdde0b49dbf97ef6b540a1af62846c2e2987fc8d62e8ad909942bc1b89
 Description: GNU readline and history libraries, run-time libraries
 
 Package: librtmp-dev
@@ -8455,14 +8447,12 @@ Section: Utilities
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 516
 Depends: libncursesw6 (>= 6.2-1)
-Conflicts: ncurses (<< 6.2-1)
-Replaces: ncurses (<< 6.2-1)
 Filename: debs/ncurses-bin_6.2-1_iphoneos-arm.deb
-Size: 156914
-MD5sum: 4e8fe20b19044a6303e204e59f4be8eb
-SHA1: 457167b812f55f773e895946d63bf93cd7d07fb1
-SHA256: 186c475f9553a5202f7062ad5dc0370f74b26ea43400420d11ca3aa8f94e9227
-SHA512: 6524675aaf506fa7dbad12a1eb88f0b558201478b256d979cb757f0403f31bdc4184c0284660d838fa769f06811ed424082181aac9ff9c44d17915a6e3b9572d
+Size: 156916
+MD5sum: 2132ddf355e8be0d4a99fcbcc6f9b6c3
+SHA1: 0063a2c26fdf0c6cd5fd3afd1b9369fa5a27f336
+SHA256: c7ce8dcced980d04ec99ca905c89c88eda1177d7f717a0ad3df0579de97f30fa
+SHA512: bdab452e5d0e6dd7a3fa16d5af6767e112b9e09b617653bb16a4f34496eb4c8be79e9dd8666f2b464abff4a2cac13f4a0b4f29840fe8816dd72c4b9a08d7b736
 Description: terminal-related programs and man pages
 
 Package: ncurses-doc
@@ -8472,14 +8462,12 @@ Priority: optional
 Section: Development
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 536
-Conflicts: ncurses (<< 6.2-1)
-Replaces: ncurses (<< 6.2-1)
 Filename: debs/ncurses-doc_6.2-1_all.deb
-Size: 305344
-MD5sum: 9431ff54ca6754ce246ac45781d819c2
-SHA1: 1509af1aa7d1f5bacebc3028dc9b12393c6a72f5
-SHA256: 192e913d092bba96ab300294826ab049219bf676e31af72e9b777464cc5504f3
-SHA512: fcb960796962cffc5596b9e40105df06f926000e81a0f813511b479d673a738cc066c39acd97ca960bff3da34eac0ba52ee3d410b86871816a1de35b56fe00aa
+Size: 305332
+MD5sum: fcef960fbef881d9d2f596974c332547
+SHA1: fea9b343ee4a6e2b15639a85bf7ad96db97a22ad
+SHA256: 761dd0c5292b0882cd2afb780ddfe1d140e7123d6f554237944160140cd96837
+SHA512: c89ed688c9b8c10d6fdd435cd6cbd00e69d1e93c4e5e293b3b28718b26bbae203935f8c7a471d5318b7e9fd199c5bb69b4edd0fecb32481929823ba830fc38ec
 Description: developer's guide and documentation for ncurses
 
 Package: ncurses-term
@@ -8489,14 +8477,12 @@ Priority: required
 Section: System
 Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1188
-Conflicts: ncurses (<< 6.2-1)
-Replaces: ncurses (<< 6.2-1)
 Filename: debs/ncurses-term_6.2-1_all.deb
-Size: 50770
-MD5sum: c381179f32492d6cc104e1f6488b53b8
-SHA1: 65fe29dd08dec88cff9a85a69912fe87f98986da
-SHA256: 79bf7452e0998e5a40bdc86af41483776350f0a1e046f964c079d4c2d77c1efc
-SHA512: 784c60b997b39dd707c59c0a2cbe878c534736117c352e0f05463a6569f2373c2e09b98611d00d68bf0542eac7635b93d76a29275d063fb463a750cad5c0c008
+Size: 50776
+MD5sum: 41256b6e000bc918fce5ff0bb67420ef
+SHA1: 3ca306a05b30c164054cc7ce3ff04ae5ec0cb0a7
+SHA256: 5a74576ec7f5100f3d7b7d1eed29d47c48f5b1ac57b8542f2a1fb2f8f81601d1
+SHA512: b0a7f66b051e1240d33a87056ed32105c9449caa1b8633582c5c65962094f9a600e6155bb7216fccf90610516024705099f489efb7101eca1b46eaf6a61d5f25
 Description: This package contains terminfo data files to support most types of terminals.
 
 Package: neofetch
