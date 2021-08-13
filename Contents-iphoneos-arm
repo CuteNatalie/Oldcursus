@@ -850,7 +850,6 @@ usr/include/apt-pkg/edsplistparser.h			    libapt-pkg-dev
 usr/include/apt-pkg/edspsystem.h			    libapt-pkg-dev
 usr/include/apt-pkg/endian.h				    libapt-pkg-dev
 usr/include/apt-pkg/error.h				    libapt-pkg-dev
-usr/include/apt-pkg/exitfail.h				    libapt-pkg-dev
 usr/include/apt-pkg/extracttar.h			    libapt-pkg-dev
 usr/include/apt-pkg/fileutl.h				    libapt-pkg-dev
 usr/include/apt-pkg/gpgv.h				    libapt-pkg-dev
@@ -864,7 +863,6 @@ usr/include/apt-pkg/metaindex.h				    libapt-pkg-dev
 usr/include/apt-pkg/missing.h				    libapt-pkg-dev
 usr/include/apt-pkg/mmap.h				    libapt-pkg-dev
 usr/include/apt-pkg/nameser_compat.h			    libapt-pkg-dev
-usr/include/apt-pkg/namespace.h				    libapt-pkg-dev
 usr/include/apt-pkg/netrc.h				    libapt-pkg-dev
 usr/include/apt-pkg/orderlist.h				    libapt-pkg-dev
 usr/include/apt-pkg/packagemanager.h			    libapt-pkg-dev
@@ -883,8 +881,6 @@ usr/include/apt-pkg/statechanges.h			    libapt-pkg-dev
 usr/include/apt-pkg/string_view.h			    libapt-pkg-dev
 usr/include/apt-pkg/strutl.h				    libapt-pkg-dev
 usr/include/apt-pkg/tagfile.h				    libapt-pkg-dev
-usr/include/apt-pkg/telldir.h				    libapt-pkg-dev
-usr/include/apt-pkg/un-namespace.h			    libapt-pkg-dev
 usr/include/apt-pkg/update.h				    libapt-pkg-dev
 usr/include/apt-pkg/upgrade.h				    libapt-pkg-dev
 usr/include/apt-pkg/version.h				    libapt-pkg-dev
@@ -16846,7 +16842,9 @@ usr/include/xorg/xvdix.h				    xserver-xorg-dev
 usr/include/xorg/xvmcext.h				    xserver-xorg-dev
 usr/include/xxh3.h					    libxxhash-dev
 usr/include/xxhash.h					    libxxhash-dev
+usr/include/zconf.h					    zlib
 usr/include/zdict.h					    libzstd-dev
+usr/include/zlib.h					    zlib
 usr/include/zstd.h					    libzstd-dev
 usr/include/zstd_errors.h				    libzstd-dev
 usr/lib/X11/app-defaults/KOI8RXTerm			    xterm
@@ -17568,6 +17566,10 @@ usr/lib/libxxhash.0.8.0.dylib				    libxxhash0
 usr/lib/libxxhash.0.dylib				    libxxhash0
 usr/lib/libxxhash.a					    libxxhash-dev
 usr/lib/libxxhash.dylib					    libxxhash-dev
+usr/lib/libz.1.2.11.dylib				    zlib
+usr/lib/libz.1.dylib					    zlib
+usr/lib/libz.a						    zlib
+usr/lib/libz.dylib					    zlib
 usr/lib/libzstd.1.5.0.dylib				    libzstd1
 usr/lib/libzstd.1.dylib					    libzstd1
 usr/lib/libzstd.a					    libzstd-dev
@@ -27483,6 +27485,7 @@ usr/share/man/man3/wunctrl.3x				    ncurses-doc
 usr/share/man/man3/wunctrl_sp.3x			    ncurses-doc
 usr/share/man/man3/wvline.3x				    ncurses-doc
 usr/share/man/man3/wvline_set.3x			    ncurses-doc
+usr/share/man/man3/zlib.3.zst				    zlib
 usr/share/man/man5/Compose.5.zst			    libx11-doc
 usr/share/man/man5/XCompose.5.zst			    libx11-doc
 usr/share/man/man5/adduser.conf.5.zst			    system-cmds
@@ -27886,6 +27889,7 @@ usr/share/pixmaps/xterm_32x32.xpm			    xterm
 usr/share/pixmaps/xterm_48x48.xpm			    xterm
 usr/share/pkgconfig/xkeyboard-config.pc			    xkeyboard-config
 usr/share/pkgconfig/xtrans.pc				    xtrans-dev
+usr/share/pkgconfig/zlib.pc				    zlib
 usr/share/polkit-1/actions/org.dpkg.pkexec.update-alternatives.policy dpkg
 usr/share/ri/3.0.0/system/ACL/ACLEntry/cdesc-ACLEntry.ri    ruby3.0-doc
 usr/share/ri/3.0.0/system/ACL/ACLEntry/dot_pat-i.ri	    ruby3.0-doc

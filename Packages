@@ -50,32 +50,6 @@ Description: package management related utility programs
     needed to publish an archive of Debian packages
   * apt-sortpkgs is a Packages/Sources file normalizer.
 
-Package: apt-utils
-Architecture: iphoneos-arm
-Version: 2.3.7
-Priority: standard
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 644
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.3.7), libdb18.1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
-Filename: debs/apt-utils_2.3.7_iphoneos-arm.deb
-Size: 222498
-MD5sum: 509e630fb444913bd583d39817023615
-SHA1: 917c91cc04f55e9096b8d4d771978d0321bd74ce
-SHA256: 6894efd9802ceeac997e6d08084bd4509e57160d953d29b8fc0228891a324f9a
-SHA512: 99ebbc4f93b0b64636be10263cb43432789ff4815797d2fc2c16dfb726d8c7afd636250ae826f81331bbc99ed0684246a519e835ac9f6250036c0203fc7a70fd
-Description: package management related utility programs
- This package contains some less used commandline utilities related
- to package management with APT.
- .
-  * apt-extracttemplates is used by debconf to prompt for configuration
-    questions before installation.
-  * apt-ftparchive is used to create Packages and other index files
-    needed to publish an archive of Debian packages
-  * apt-sortpkgs is a Packages/Sources file normalizer.
-
 Package: apt
 Architecture: iphoneos-arm
 Version: 2.3.5
@@ -117,29 +91,6 @@ MD5sum: c412c17d83f7237471e629a17f004d23
 SHA1: edc330c298981e84d5a4e92e4289c30e09a8d762
 SHA256: 2a4e9d3762db99dbe5d2242ef0f1ca9cb8cf4dafd4f47dae14c1414e24bf7855
 SHA512: 43b3757f3d930088d323c85997271ca3fe8e4d46313b6609c81d83daacaa815eb3ed57f2e94af68a35aaad2e7cda7ac3f2b8e4c1a5fa9728171906064497a8dc
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: apt
-Architecture: iphoneos-arm
-Version: 2.3.7
-Priority: required
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 2604
-Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
-Pre-Depends:
-Depends: libapt-pkg6.0 (= 2.3.7), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: debs/apt_2.3.7_iphoneos-arm.deb
-Size: 1021164
-MD5sum: 8622349d17374d5bc9b05aa5fdff7972
-SHA1: 0c8298eb0f327e85403a1432ec51a9333a911c96
-SHA256: fe9fb3b464e4c642d4b3c557096e2e1521b0f03e3e2937969a64023a957f671e
-SHA512: 9e5dccc924b8f6dc577b934511fae9887a57cd1f078c1e63e27fc954799cf4faca0e28b961802366e2077f17d06c6c584a399e3c1ff53a3bcb0404d86b651d33
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -1346,27 +1297,6 @@ Description: development files for APT's libapt-pkg and libapt-inst
  developing with APT's libapt-pkg Debian package manipulation
  library and the libapt-inst deb/tar/ar library.
 
-Package: libapt-pkg-dev
-Architecture: iphoneos-arm
-Version: 2.3.7
-Priority: standard
-Section: Development
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 608
-Depends: libapt-pkg6.0 (=2.3.7), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), apt-dev (<< 1:0)
-Replaces: apt-dev (<< 1:0)
-Filename: debs/libapt-pkg-dev_2.3.7_iphoneos-arm.deb
-Size: 97714
-MD5sum: d63e97725ee7723f2858b17f61839b2f
-SHA1: eaf20dd31d345eddebb191a6cef873340f419332
-SHA256: e54192ec1a85341a2f007d1dac4e1aa5faa3fb5e72b40290180f07557e2a2406
-SHA512: 9eeb4c9beb8a9eced2b520aa035aba1c3e8d7e40b9c4c8048baf370a1c1b25e6831c4410336159e108c30d80972b9f49518214957fe2a6685f81d875958df592
-Description: development files for APT's libapt-pkg and libapt-inst
- This package contains the header files and libraries for
- developing with APT's libapt-pkg Debian package manipulation
- library and the libapt-inst deb/tar/ar library.
-
 Package: libapt-pkg6.0
 Architecture: iphoneos-arm
 Version: 2.3.5
@@ -1406,28 +1336,6 @@ MD5sum: b5c6a030c2f0edb17d77f2666504c8ca
 SHA1: 30995422bf68167d30ad27a2fe361ea5fac52841
 SHA256: ffae5bbe525934ab6895ca680cfcc0e9e48736bc0e9a2bd9eadf878b64b6e939
 SHA512: b5248e2e67b203e4987de2774c2f89f346ca05f4262a8e20e45d100fe2c8068e1582f7e91c817ea64e06409cef5d015dd3335858adce7f94faaee100df1f0dad
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: libapt-pkg6.0
-Architecture: iphoneos-arm
-Version: 2.3.7
-Priority: required
-Section: Libraries
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1588
-Provides: libapt-pkg (=2.3.7)
-Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
-Filename: debs/libapt-pkg6.0_2.3.7_iphoneos-arm.deb
-Size: 761762
-MD5sum: 345ee0568f173ef8bcfd8e667c4d24cd
-SHA1: 82d153145425ba85f56070cf66b1c7dea6aa13c7
-SHA256: fcefd61fb7126697de62d8e3c54edb1a0aa2b4993dc8cae1e6fe686960e1ebdd
-SHA512: 16d39ae26ba1085fb9c291b92fff78ac5f2bb0cf8fdf24b0de45f748d2c52c43d9e96d6ccab88efd57b5ee938848ed5811e0c884a6f9b3f6a2c4a5a8055c2591
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -11519,6 +11427,23 @@ Description: downloader of videos from YouTube and other sites
  ZDFChannel,
  zingmp3,
  Zype
+
+Package: zlib
+Architecture: iphoneos-arm
+Version: 1.2.11
+Priority: optional
+Section: Libraries
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 464
+Filename: debs/zlib_1.2.11_iphoneos-arm.deb
+Size: 201566
+MD5sum: fc664eaeaba733a871cccccb2ab26ae8
+SHA1: e47442b280541507a21c957bb33b1fb0a8b628f3
+SHA256: 9f44235b0cb6ae5308ae290577c63c9cd32e2d40c6587bd4b1e82521153f59cf
+SHA512: 1fe345e49fb3463158463bac5e17750e58af0e8447e420aedb89193f65599676e6f0c680d3e7b899bdadae6c3de5d571bbb0f74949bae440b9f82476d6b2f3f3
+Description: next gen zlib compression library - runtime
+ next generation zlib library implementing the deflate compression method
+ found in gzip and PKZIP. This package includes the shared library.
 
 Package: zsh-autosuggestions
 Architecture: all
