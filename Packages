@@ -511,11 +511,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1480
 Depends: dpkg, libdpkg-perl (= 1.20.9-1)
 Filename: debs/dpkg-dev_1.20.9-1_iphoneos-arm.deb
-Size: 870782
-MD5sum: 306bc9e61c67f58d1fdf1537575ee08f
-SHA1: f4022ed2e27a6fe430d30e24f21106f333ba5aad
-SHA256: fbdd319ea441df43b210b6f06db37fc18ddeb6b528fe476002844a413440ed40
-SHA512: 455fc9cfb4b44a3101760fbe84a7e2a949711cf1347a0cc7f5b813cbcae79eb4b4df6efe696f69668e524a8c114dd673eeafd88765222eda6771aa5201b69afb
+Size: 870822
+MD5sum: ba2ef7c3adb733442ac2252ca265ab13
+SHA1: 7bd2459a215340993a8e775649674cb69eef8fad
+SHA256: b07e1874fe978d4a5cbf344c8636167ad451e77e2e4e1e2741ba775202104829
+SHA512: 20c08e645786634801539ef3b4c9cb2dc055ccee65ee47fa5b8890db6e565302cc3872e7df82936a43a396f610bf92c45e40d5ebf2e86437395a64fe5cb31111
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: Debian package development tools
  This package provides the development tools (including dpkg-source)
@@ -533,11 +533,11 @@ Installed-Size: 5432
 Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
 Depends: diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libzstd1, libmd0
 Filename: debs/dpkg_1.20.9-1_iphoneos-arm.deb
-Size: 1220950
-MD5sum: ad248e66f553441978fce5b06282053a
-SHA1: 67afdf6b150b886503771a6201ab236e929848d3
-SHA256: 45e156b4fabfdd8503d32b5dbf326bc46769149fc6801fa79cfa98c1ff2e28bf
-SHA512: fe161b92b31f07c7105a2fc8f225d9427a3bc77e3992aa01a8092a03806ae43db32cf2e7ed61d2218ac17bc628f28ca4cd05bcd5b75a6b294cb4711880dc73f7
+Size: 1220286
+MD5sum: 7a827b2e27030f8222ebadc9dadbc1f9
+SHA1: 7bcdf703e2a57e934959bbe009a292233d049951
+SHA256: b5c1d7246caac8bbac1d293b2b16af4a8da4fbd552a83dd2890a854ee202f20c
+SHA512: a981c97d940a5b7ba65efd7e6577fa8fe7f84ce7e9cef44c8b87c5711b246628e92f2ee52488f3b155a874e6f5efb885090686f8cf76998a3f17c606c4fbc547
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: package maintainance tools from Debian
 
@@ -2332,11 +2332,11 @@ Maintainer: Hayden Seay <me@diatr.us>
 Installed-Size: 1036
 Depends: liblzma-dev, libzstd-dev
 Filename: debs/libdpkg-dev_1.20.9-1_iphoneos-arm.deb
-Size: 262098
-MD5sum: bb0ff7be3ba9a40eab684e6713d17529
-SHA1: e060f409ffa4e1d808dff59160a5d27f5c25f9b2
-SHA256: cfe1f81bc2566e19be0c17062cb2dabc391d7ddb695b16366f93d606980462ef
-SHA512: 9ebd377592766ef681eb9a814a865bd8263ef15d251daeb37d4e63436ddd229c8bd3fcd05e1134dab7b1e42cd04514a74d18ed363b4b67b4e5b037a339fb293a
+Size: 262110
+MD5sum: f40ebad8a1a73826e06ea89619b46e79
+SHA1: 7f6199fe58735026ad789fef9c704d42012a49db
+SHA256: b1c929f1dfb9d515b96b5c57ba88929c73f910a3395e2f5515dffad4866a3721
+SHA512: f24eefafb8dda754a67f3ad40341cf55b3c870cf55504878801feb5b748edab914920ef7b3339fa997b015b09cef928bf80334734a1bcbe546d9ec233b21bc1b
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: Debian package management static library
  This package provides the header files and static library necessary to
@@ -2357,11 +2357,11 @@ Depends: dpkg, perl
 Conflicts: dpkg-perl (<<1:0), dpkg-dev (<< 1.20.9-1)
 Replaces: dpkg-perl
 Filename: debs/libdpkg-perl_1.20.9-1_iphoneos-arm.deb
-Size: 329500
-MD5sum: c56a3e094823ea0c3fb55d31dd767b7b
-SHA1: 1fa8eae97d568321b911af761bdfc7595dad67e6
-SHA256: 84733dfd15a55789e61a1bf884611339dd95668c223477b0e66ffdb317a2b8a0
-SHA512: c14b22c56305fe0f6e97d225266b5d689a5670ada7de8c44fe8c8de2773f927388d7a865c576aa1ab26d7029e769b28d82fecf5a9122fef9235bc34cb30a0c5c
+Size: 332432
+MD5sum: b6ce0cab654818b822d62ba0049cdde3
+SHA1: 0b878da09721b2cbbda4c1ce41e99952ba543671
+SHA256: 3302dd2a32778602fbf2d9b909db5db680d9cdb2b15134ba2cdea891e94c70d8
+SHA512: 8e15581ab8e286e5c79e1a05dcd082d5045df3625522c213c447037b8062bb73d90b36bc98342ca1c021fe98bab32d2e436bddf1343ceb356ce2d85b4bf5d8df
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: Dpkg perl modules
  This package provides the perl modules used by the scripts
