@@ -1782,15 +1782,36 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 488
 Depends: libcrypt2 (= 4.4.17)
 Filename: debs/libcrypt-dev_4.4.17_iphoneos-arm.deb
-Size: 180146
-MD5sum: 1f10fba2787b94ef34e4189597871582
-SHA1: 88e99e212955af7cfd3fe303142e5a01cce1044e
-SHA256: 36fd0eba5404f017077291c80ad978d07750974889f1e23c7aa4b186e73d3cdc
-SHA512: ab753305affecbe68c2e8bbb58dc41931d0be84abc56d4679f5d0bd673cd45105ad39812423864023709f4f1e47f7a5707e8c7b07cf13ef6554dc34b3f48a599
+Size: 180160
+MD5sum: 6f22996dc48c5f52787bf0f44dd4ca0c
+SHA1: 5c1f66ed5f44399a4b538c3fff91981592863cd0
+SHA256: 68beeed0b2c2fe5af0acc4976e1eb916c2cf28b32e66bf2ba71bd265fd69f8ae
+SHA512: e3f73762016c436b6e19184e7ce0aed57ec4d1e039fbec1cb1430fd5fd5c5bf5c680a0dca8b3c1ad4bee3c5c00e9fe0472767304de7af74336b48c386e2cd76c
 Description: libcrypt development files
  This package contains the files needed for developing applications that
  use libcrypt.
 Tag: role::developer
+
+Package: libcrypt2
+Architecture: iphoneos-arm
+Version: 4.4.17
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 220
+Filename: debs/libcrypt2_4.4.17_iphoneos-arm.deb
+Size: 83354
+MD5sum: 41dd16dd4c5ca8ba7eac07713106f412
+SHA1: 247d71d878681451b18090057a855e0a7ead0258
+SHA256: e1cc4a407f1e6f2e3118c0829d157d010333d5d11dfb3bc747dcd03b5fe12e68
+SHA512: c7b95b8f7bc84f5cd679d8805c5a90b54a7127c621959220b0f02461ad2a46b5929a4b2f942ba71514f638a3132c805aa9b587bf228a36fdbe45520f0874e085
+Description: libcrypt shared library
+ libxcrypt is a modern library for one-way hashing of passwords.
+ It supports DES, MD5, NTHASH, SUNMD5, SHA-2-256, SHA-2-512, and
+ bcrypt-based password hashes
+ It provides the traditional Unix 'crypt' and 'crypt_r' interfaces,
+ as well as a set of extended interfaces like 'crypt_gensalt'.
+Tag: purpose::library, role::developer
 
 Package: libcurl4-openssl-dev
 Architecture: iphoneos-arm
@@ -2519,11 +2540,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 2756
 Depends: libgmp10 (= 6.2.1-3), libgmpxx4ldbl (= 6.2.1-3)
 Filename: debs/libgmp-dev_6.2.1-3_iphoneos-arm.deb
-Size: 566176
-MD5sum: 40bcff9d1dc7ea87a1de58313f96be15
-SHA1: f8d52dd7f7cc2e43529c3c0984e0592f5356841e
-SHA256: 42188f6c0951dad5a79b8f5c426e12a5e633670e9c188ead1f655fd0c3c01a73
-SHA512: 3c1c71d5a4e77536019786bc67f02fdb7957bb0aadc724295fda0aa34325fb77cb1b03d680cc1fc789cd9c6872d689f3dc56f86fb0e2e56f1120834856ccc4fb
+Size: 566192
+MD5sum: e092089306e6808a40b97853446b9e40
+SHA1: 58d22e3be606fc5ed3c25ca62483497b4d7ad227
+SHA256: 3d7780b6e47dbec3bafa6359094e1866a91a6f1de66135e74f5e92a601af3578
+SHA512: 332b0ea9e7fb543898e93be053dc4af885745be9ccc90202b1b76cb2307745e5be769afda262883fcb735c25884839a3550f698585064b6760b1184dbeb4296d
 Homepage: https://gmplib.org/
 Description: Multiprecision arithmetic library developers tools
  This development package provides the header files and the symbolic
@@ -2536,6 +2557,28 @@ Description: Multiprecision arithmetic library developers tools
  The MPFR library (multiple-precision floating-point) used to be
  included, but has since been moved to package libmpfr-dev.
 
+Package: libgmp10
+Architecture: iphoneos-arm
+Version: 6.2.1-3
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 392
+Filename: debs/libgmp10_6.2.1-3_iphoneos-arm.deb
+Size: 229346
+MD5sum: f5d129a3844bbfe8fc632a4eb4caf6dc
+SHA1: a17a880c315679f6b24901794c381f1801639bec
+SHA256: aaa030510502e36c424cc0573ea3ed55473a3199736630097b51d911251759a1
+SHA512: a0d7030deca112ab69b5bdde1bf92b68f55d35442bf7ab4a42b1edb8edf1b5259a5464321fcbc6d49c4b2ce5593a55f9c2d908855abfcf0a2a566c850b656c19
+Homepage: https://gmplib.org/
+Description: Multiprecision arithmetic library
+ GNU MP is a programmer's library for arbitrary precision
+ arithmetic (ie, a bignum package).  It can operate on signed
+ integer, rational, and floating point numeric types.
+ .
+ It has a rich set of functions, and the functions have a regular
+ interface.
+
 Package: libgmpxx4ldbl
 Architecture: iphoneos-arm
 Version: 6.2.1-3
@@ -2545,11 +2588,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 64
 Depends: libgmp10 (= 6.2.1-3)
 Filename: debs/libgmpxx4ldbl_6.2.1-3_iphoneos-arm.deb
-Size: 7568
-MD5sum: 9746baa452380d41ce23208902eb5efe
-SHA1: f7eee04408d4723686461d524387760267b2b5da
-SHA256: fe4366dfc8bf212ea1d35cacdd6a1b69e35c6030b3f1e2b91db71403a6c2c15b
-SHA512: 492cc85e1a021863d9b28cf9b2da1c7d48d989ff7a44086c277b2051eb765b5bfad63f2cb139b33c294765b3d4d75fd8bd80307073f96f72df9c5d17829f47cd
+Size: 7574
+MD5sum: 2c3b208581db0c13d6b53af71995cb35
+SHA1: f8ec8812ca0d962fff139415bf3719a8336dfb6c
+SHA256: 04f8720cbf229534eecb28ef5a6ffc307d6cae7c62e42df6a3fe44896bedfe58
+SHA512: d0e310f5549e54c59fed80abdc68f408ca93359333ca4a7d60899069b92fa9c1ba259b031d049ad076ffc1ea7c39096b7df9a28e3252cb86eaa7e8f00e6e4cd6
 Homepage: https://gmplib.org/
 Description: Multiprecision arithmetic library (C++ bindings)
  GNU MP is a programmer's library for arbitrary precision
@@ -2782,12 +2825,29 @@ Installed-Size: 24
 Depends: libiosexec1 (= 1.0.16)
 Filename: debs/libiosexec-dev_1.0.16_iphoneos-arm.deb
 Size: 10328
-MD5sum: 4bed6507037b3f4431fbf33d42b6698b
-SHA1: 7bd530f9e80d7d4610668dae555e6beae5672a45
-SHA256: 1647e5abe1ada9588810083092e9eb538647025d3aafe7537727b4002c098e78
-SHA512: 9bbc2b2b78cd21c6e0321ca750151466ee30cd5a4e505dc9f1a82a7fbd44bc4ba5bbed66f3beaa02522e56d869a82296dafe9d22713df7d0cc90d960d99c2a59
+MD5sum: 2f30f74d509f5c910f3ed69385ba28ef
+SHA1: c6d71d70a9bc541a6a56ebe6cc91f24ca8b2d624
+SHA256: b50830fb60d3ae2527a4fc7fbf67bc1dacd87db1402dd2e89d2b21da4f4c0114
+SHA512: 0215241ed8966966ca26e94e6e4053a1f1a13d338edb3c66e5e9166bc6bb15de82dab4fae049cc6a16a066bf44b8000debdbac7148f54cb67446a7a95c035cf0
 Homepage: http://github.com/ProcursusTeam/libiosexec
 Description: development files for libiosexec
+
+Package: libiosexec1
+Architecture: iphoneos-arm
+Version: 1.0.16
+Priority: required
+Essential: yes
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 52
+Filename: debs/libiosexec1_1.0.16_iphoneos-arm.deb
+Size: 3388
+MD5sum: c9d306195bc0b4dc408ca4179a2ed7c8
+SHA1: 2123b2fc6e4d12ee14520d301763c3de099197a0
+SHA256: 1d5aa766f85581069d44e520bdd83f2ca8c19693221002274a6b1c906d944053
+SHA512: f7ec4d09b78df6638c73605b460321c44ac2ec8621d500421ae44d790bd5737b493a2fdd2aec7dbcd8a5bf4364b7ef3b67eb395a0bf7cd3f0de1e0e6280a6edb
+Homepage: http://github.com/ProcursusTeam/libiosexec
+Description: shim for execve w/ shell script support
 
 Package: libjansson-dev
 Architecture: iphoneos-arm

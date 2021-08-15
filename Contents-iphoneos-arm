@@ -16935,6 +16935,7 @@ usr/lib/libbrotlienc.1.0.9.dylib			    libbrotli1
 usr/lib/libbrotlienc.1.dylib				    libbrotli1
 usr/lib/libbrotlienc.a					    libbrotli-dev
 usr/lib/libbrotlienc.dylib				    libbrotli-dev
+usr/lib/libcrypt.2.dylib				    libcrypt2
 usr/lib/libcrypt.a					    libcrypt-dev
 usr/lib/libcrypt.dylib					    libcrypt-dev
 usr/lib/libcrypto.a					    libssl-dev
@@ -16971,6 +16972,7 @@ usr/lib/libgettextpo.0.dylib				    libgettextpo0
 usr/lib/libgettextpo.a					    libgettexpo-dev
 usr/lib/libgettextpo.dylib				    libgettexpo-dev
 usr/lib/libglapi.0.dylib				    libglapi-mesa
+usr/lib/libgmp.10.dylib					    libgmp10
 usr/lib/libgmp.a					    libgmp-dev
 usr/lib/libgmp.dylib					    libgmp-dev
 usr/lib/libgmpxx.4.dylib				    libgmpxx4ldbl
@@ -16990,6 +16992,7 @@ usr/lib/libidn2.dylib					    libidn2-dev
 usr/lib/libintl.8.dylib					    libintl8
 usr/lib/libintl.a					    libintl-dev
 usr/lib/libintl.dylib					    libintl-dev
+usr/lib/libiosexec.1.dylib				    libiosexec1
 usr/lib/libiosexec.a					    libiosexec-dev
 usr/lib/libiosexec.dylib				    libiosexec-dev
 usr/lib/libjansson.4.dylib				    libjansson4
