@@ -854,15 +854,15 @@ Architecture: iphoneos-arm
 Version: 3.0.5
 Priority: important
 Section: Administration
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 160
 Depends: libncursesw6 (>= 6.0)
 Filename: debs/htop_3.0.5_iphoneos-arm.deb
-Size: 68212
-MD5sum: d19a18112a1d63515cac042920c22b50
-SHA1: 8ae1502b08a3b4ec62f01809b6a6b11334671d57
-SHA256: 0134bde535e4d7ad5ed2964a72ba3fbcaed93eb2d5fc3c85a002063909e849e6
-SHA512: 6fe4657a3246df72e6680f3ab38254fe0d4a57a7e52814e1c3ac264a05a9e316f1e59c430b3cb929e2078bd3d4c94ae16d6a570ccbc74f560ea55097f185711b
+Size: 68322
+MD5sum: 2c95a00c1d6aa58d4e4c3f5edada1a57
+SHA1: 7eda5581ca05b13ce02856dc26e17ead989c9af0
+SHA256: 870df0912c6c757337025adfb00801b5ce2e3d2624a320f5d1a9f672a287066b
+SHA512: c97b5df2f61ffb36b465206762b564efea8420cbbc8c121f3483af5910063f6a56b7489ac690b77333bd56ba79b55ddbed0688ab15359e0f6c44de8733a6d513
 Description: An interactive process viewer for Unix systems.
 Tag: purpose::console, role::hacker
 
