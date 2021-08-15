@@ -3032,11 +3032,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 44
 Depends: libksba8 (= 1.5.0-1), libgpg-error-dev
 Filename: debs/libksba-dev_1.5.0-1_iphoneos-arm.deb
-Size: 9108
-MD5sum: 072ca0e61f577f5923012df2d46e1292
-SHA1: 71de8d2852f3bb5f2585b690c5465e0bbc240a5c
-SHA256: 43058068d14b997450dd639593965675bb924da532df186c131be51888d5f41f
-SHA512: 5395a981df34479873f668f41458a0025a311dbf70d754e8253a08c1f7bf74da779173ac332f1c91dbad2e0a4e25ba7ba0786fe95fad5a6a4abf3ba476951f09
+Size: 9106
+MD5sum: 9a1c2c348f052a6d168c6b5afff965bf
+SHA1: 4a2ba2b4b5648f3df0f3c41f3b3d8d666df97243
+SHA256: 0f75b9cd6f5474c31ff2f0aacea0a6b872cbd88ee345721a43c69a131644f7ec
+SHA512: 3e01daa0f6181bc1ca8dc884acdf47fd08f764e35a54bc7b615b2a93becab1628d610655a9f9e20bd854db81b9199b31309859b685816b1f14ae27318c040785
 Description: X.509 and CMS support library - development files
  KSBA (pronounced Kasbah) is a library to make X.509 certificates as
  well as the CMS easily accessible by other applications.  Both
@@ -3057,11 +3057,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 216
 Depends: libgpg-error0
 Filename: debs/libksba8_1.5.0-1_iphoneos-arm.deb
-Size: 91044
-MD5sum: c41556900f8d79174e51a080e8a92e03
-SHA1: 0322237023caab3674bf1dd20fc9ba99a5da95f6
-SHA256: e9d785880cc9d079dd64f05cc482da712596bbad718ebb2d8a31607a2c1f3f84
-SHA512: df3616b21323fb6c8bb6b8fd87ac736f5f0c61c67513351fce116f5b6941f367989b7ec666ea2ec8ef9ba3df2c3f396f69edef62c71d6d88b1087c5fee9f14d7
+Size: 91042
+MD5sum: e57e18e229419b4fa9215d6a6eb7368e
+SHA1: a3036bbc717484e4a61bfd55e937b3c08657daf4
+SHA256: 7fb0dd1d8e44b4099e39ce50a4cadeb34faf8d8c4a1df1a8a6cc99d5eea8f393
+SHA512: 225cc99cdb1b2a9b1e7ac8ffcbea2dc395abc908693449e3aec22666da54f944f8a156e6a86df6ce7f406edc1ddca29ff9a6ece3bd5492e28579be6f1b1d91a5
 Description: X.509 and CMS support library
  KSBA (pronounced Kasbah) is a library to make X.509 certificates as
  well as the CMS easily accessible by other applications.  Both
