@@ -16829,6 +16829,7 @@ usr/lib/libapt-pkg.6.0.dylib				    libapt-pkg6.0
 usr/lib/libapt-pkg.dylib				    libapt-pkg-dev
 usr/lib/libapt-private.0.0.0.dylib			    apt
 usr/lib/libapt-private.0.0.dylib			    apt
+usr/lib/libassuan.0.dylib				    libassuan0
 usr/lib/libassuan.dylib					    libassuan-dev
 usr/lib/libboost_atomic.1.76.0.dylib			    libboost-atomic1.76.0
 usr/lib/libboost_atomic.a				    libboost-all-dev
@@ -16978,6 +16979,7 @@ usr/lib/libgmpxx.dylib					    libgmp-dev
 usr/lib/libgnutls.dylib					    libgnutls28-dev
 usr/lib/libgnutlsxx.28.dylib				    libgnutlsxx28
 usr/lib/libgnutlsxx.dylib				    libgnutls28-dev
+usr/lib/libgpg-error.0.dylib				    libgpg-error0
 usr/lib/libgpg-error.dylib				    libgpg-error-dev
 usr/lib/libhistory.a					    libreadline-dev
 usr/lib/libhistory.dylib				    libreadline-dev
@@ -16985,6 +16987,7 @@ usr/lib/libhogweed.a					    nettle-dev
 usr/lib/libhogweed.dylib				    nettle-dev
 usr/lib/libidn2.a					    libidn2-dev
 usr/lib/libidn2.dylib					    libidn2-dev
+usr/lib/libintl.8.dylib					    libintl8
 usr/lib/libintl.a					    libintl-dev
 usr/lib/libintl.dylib					    libintl-dev
 usr/lib/libiosexec.a					    libiosexec-dev
@@ -17031,6 +17034,7 @@ usr/lib/libnettle.dylib					    nettle-dev
 usr/lib/libnghttp2.14.dylib				    libnghttp2-14
 usr/lib/libnghttp2.a					    libnghttp2-dev
 usr/lib/libnghttp2.dylib				    libnghttp2-dev
+usr/lib/libnpth.0.dylib					    libnpth0
 usr/lib/libnpth.dylib					    libnpth0-dev
 usr/lib/libogg.0.dylib					    libogg0
 usr/lib/libogg.a					    libogg-dev
