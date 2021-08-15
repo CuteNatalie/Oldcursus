@@ -2311,12 +2311,32 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 252
 Depends: libgpg-error-dev (>= 1.37), libgcrypt20 (= 1.9.3)
 Filename: debs/libgcrypt20-dev_1.9.3_iphoneos-arm.deb
-Size: 34532
-MD5sum: 3b3cd8177778d224e65a5c55f6e0ae9a
-SHA1: d47f4bf84abb874ec6bf045a4d3de9a0f154b27b
-SHA256: 484b126d3a6b498da933fc03d7fdb0dff7911421a77833882d3c778cb8eeed39
-SHA512: 7a8def290ae37821eee3e2976b3e1a3c7bf31e7c842d8b0425f9c2a659b2482b1bc1b59c339177963b604a24b6296986e919dc2c8a78b78a229863605ca03bc4
+Size: 34534
+MD5sum: 9c15fc13de3b94a981c5a47dd11aeb26
+SHA1: 13dbbb1aa8e414007b43a0bc5b19666341deee18
+SHA256: 0b7e3fe11f6ca6e3272ab7408e358108e84e58780fe526eb8e047c4f6af302a6
+SHA512: 4ad638caf8d78d1f1a47709113ecb5ff2e964a7d8c9a4969ad9c4b3fb483b65efcabfdf79ab67092dd295623e157231c3005cd8d614625ab6b3f367d3ea310b1
 Description: LGPL cryptographic algorithm library (Development files)
+
+Package: libgcrypt20
+Architecture: iphoneos-arm
+Version: 1.9.3
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 716
+Provides: gcrypt (=1.9.3), libgcrypt (=1.9.3)
+Depends: libgpg-error0 (>= 1.37)
+Conflicts: gcrypt (<<1:0), libgcrypt (<<1:0)
+Replaces: gcrypt, libgcrypt
+Filename: debs/libgcrypt20_1.9.3_iphoneos-arm.deb
+Size: 387492
+MD5sum: c38f347077e9a4b8ea4481a3c779472b
+SHA1: 1238dfc711b76bd18436f306406064a82f05e606
+SHA256: 859ca64128e3cad9cd19ab72bb9706599f2d39f63546a5432f7060098ec6a1a3
+SHA512: 881d3ed500620f8922c7b895f2b954ecd0ae6716070f436b77be3c44bd0d22c0cce22e64717e187509a59b2f4b1b0da9e3f8d349068dde00c04a80654d4ac436
+Description: LGPL cryptographic algorithm library (Libraries)
 
 Package: libgdbm-dev
 Architecture: iphoneos-arm

@@ -16964,6 +16964,7 @@ usr/lib/libexpat.dylib					    libexpat1-dev
 usr/lib/libformw.6.dylib				    libncursesw6
 usr/lib/libformw.a					    libncurses-dev
 usr/lib/libformw.dylib					    libncurses-dev
+usr/lib/libgcrypt.20.dylib				    libgcrypt20
 usr/lib/libgcrypt.dylib					    libgcrypt20-dev
 usr/lib/libgdbm.6.dylib					    libgdbm6
 usr/lib/libgdbm.a					    libgdbm-dev
