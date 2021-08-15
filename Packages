@@ -122,29 +122,6 @@ Description: commandline package manager
  managing as well as querying information about packages
  as a low-level access to all features of the libapt-pkg library.
 
-Package: apt
-Architecture: iphoneos-arm
-Version: 2.3.7
-Priority: required
-Section: Packaging
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 2604
-Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
-Pre-Depends:
-Depends: libapt-pkg6.0 (= 2.3.7), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: debs/apt_2.3.7_iphoneos-arm.deb
-Size: 1021138
-MD5sum: d6a2d70e59ab99cad22ee09f4dedb0aa
-SHA1: 68ddefd1a43d32cf34e16b4bdf76b138481a03ed
-SHA256: d37f50062abb00f02d0ef40cb502d8aaa78e9a1141f463624bdeb4566b9e81f1
-SHA512: c9f20544ecf3da3a3d04db645d43d2e07f2ffd3d3903d9ceb474e9bee9cd79b1d0655459a1578bcd35b2c2f1764ead7e21d6a9184f9d80d338840b46aeb8534c
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
 Package: autopoint
 Architecture: iphoneos-arm
 Version: 0.21-4
@@ -210,41 +187,6 @@ Description: A light command line download accelerator
  .
  Axel tries to be as light as possible, so it might be useful as a wget
  clone (and other console based programs) on byte-critical systems.
-
-Package: base
-Architecture: iphoneos-arm
-Version: 1-5
-Priority: required
-Essential: yes
-Section: System
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 0
-Filename: debs/base_1-5_iphoneos-arm.deb
-Size: 1486
-MD5sum: 3e6357b7d31042e28daa7ef59ccbe65c
-SHA1: 4e06ae3721fe5d7446c5b28bbbad690e84857012
-SHA256: 83ff6bad85d07fddbe2278a04de35c0999f38a2b754ce5f8e5374166be5d0e78
-SHA512: 6a2ba9443e5bead2ae7affdfb9acd92dc20a96e7e3efb921c82a37bb622ad3047bc100a45b690bf5e1ae31446d45fb032417524cb40fb8684be1b4b7d0638540
-Description: underlying system directory structure
-Tag: purpose::backend, role::hacker
-Name: Base Structure
-
-Package: bash
-Architecture: iphoneos-arm
-Version: 5.1.008
-Priority: optional
-Section: Terminal_Support
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 2868
-Depends: grep, libiosexec1, libncursesw6, libreadline8, sed, debianutils (>= 4.11.2)
-Filename: debs/bash_5.1.008_iphoneos-arm.deb
-Size: 526606
-MD5sum: 067932fc2a879ba5237506c657ced59a
-SHA1: a8aedb3fcbc9219856ec2385f751d89c52a76979
-SHA256: 00add7a1a0910b773f42fdb2fcaeec901646a78422ff512d6c407b8e21a7d3d3
-SHA512: d8b309105db479cb13dcb65893de707a061cdf43e2145f47d772635affa43bc56fe0183c023df3404391b42886abf9f02d4de90744edc24870f93097feac02f2
-Homepage: http://www.gnu.org/software/bash/
-Description: the best shell ever written by Brian Fox
 
 Package: beigelist
 Architecture: iphoneos-arm
@@ -328,23 +270,6 @@ SHA512: 8d9c143af415c679a9766ff4e9e64181a3fa7b726dedaed1f05e323c148eaf61a59670bd
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
-Package: ca-certificates
-Architecture: all
-Version: 20210707
-Multi-Arch: foreign
-Priority: optional
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 204
-Filename: debs/ca-certificates_20210707_all.deb
-Size: 112360
-MD5sum: 24a8197b4609a36ba6127ee749306049
-SHA1: 45e2cdf2ae6de549fc135653fc54387ae1b60eb1
-SHA256: 55986510760670225b9b65152b0507b1571c41335b9d72f85f9d2dcc62ce0d2a
-SHA512: d5ddb43a17d0494849f53793188722e4d278eaef4029e60029d21525c80aff11bb81110604f36c44173f49f03789e11c6565c57f8876ca06169b9e97c693e529
-Description: CA certs for curl, wget, git.
-Name: CA Certificates
-
 Package: com.nito.nitotv
 Architecture: iphoneos-arm
 Version: 0.8.7-33
@@ -365,38 +290,6 @@ Description: New and improved installer including package queues, weather, RSS, 
 Name: nitoTV
 Website: nitosoft.com
 Author: nito
-
-Package: coreutils
-Architecture: iphoneos-arm
-Version: 8.32-12
-Priority: standard
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 20628
-Provides: md5sum, sha1sum, coreutils-bin (=8.32-12), dirname, kill, mktemp, su
-Depends:
-Conflicts: coreutils-bin (<<1:0), shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1), system-cmds (<< 854.40.2-3)
-Replaces: netatalk (<= 2.0.3-6), coreutils-bin, shell-cmds (<< 207.40.1), text-cmds (<< 1:0), file-cmds (<< 272.250.1-1)
-Filename: debs/coreutils_8.32-12_iphoneos-arm.deb
-Size: 2654172
-MD5sum: 61a57062fbfe8f3b549fa44542949325
-SHA1: f27d786ac6695e114bd9f5e349a75768b3d7afd2
-SHA256: 49195145f2601f10efc5a472c6235ba7753fdb6ce1b5674bd5c54ff9d0a50a67
-SHA512: d84f7f43d1f2e7c991dc06e1526055dbcc99ba63d7ab4252ece9d6ac202e7810f0cbdb8101b5db8fc86bfcef4f9f314a8f1920603c75af17fec26e4fae8bbe03
-Homepage: http://www.gnu.org/software/coreutils/
-Description: GNU core utilities
- This package contains the basic file, shell and text manipulation
- utilities which are expected to exist on every operating system.
- .
- Specifically, this package includes: 
- arch base64 basename cat chcon chgrp chmod chown chroot cksum comm cp
- csplit cut date dd df dir dircolors dirname du echo env expand expr
- factor false flock fmt fold groups head hostid id install join link ln
- logname ls md5sum mkdir mkfifo mknod mktemp mv nice nl nohup nproc numfmt
- od paste pathchk pinky pr printenv printf ptx pwd readlink realpath rm 
- rmdir runcon sha*sum seq shred sleep sort split stat stty sum sync tac 
- tail tee test timeout touch tr true truncate tsort tty uname unexpand 
- uniq unlink users vdir wc who whoami yes
 
 Package: cpuminer
 Architecture: iphoneos-arm
@@ -431,74 +324,6 @@ SHA512: fc91b4167df067d3b9e8cb7cbb5c4fd285d90ea6738af1106fd217dd79e7fe343676a4d1
 Homepage: http://curl.haxx.se/
 Description: command line tool for transferring data with URL syntax
 Tag: purpose::console, role::hacker
-
-Package: dash
-Architecture: iphoneos-arm
-Version: 0.5.11.4
-Priority: required
-Essential: yes
-Section: Terminal_Support
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 152
-Provides: sh
-Pre-Depends: debianutils (>= 4.11.2)
-Depends: debianutils (>= 4.11.2), libedit0, libiosexec1
-Filename: debs/dash_0.5.11.4_iphoneos-arm.deb
-Size: 74960
-MD5sum: 10fe587a9262c7561877edf9814efa09
-SHA1: 373f06ef27ca0ce4953b6353d4ab913b530f4557
-SHA256: 2bc46d2d9950ac8962e7574819777ac9e84d091a7871285ad6f5d3d3648a8c65
-SHA512: ea3f79fd2b43b85be181714508b6fb0bf1f026d15f86d60a2169545e8b3a623334bc059b09de8ce8ffa0c26668f225b69f78e229a72812d7a51a5a8193e2dca0
-Homepage: http://gondor.apana.org.au/~herbert/dash/
-Description: POSIX-compliant shell
- The Debian Almquist Shell (dash) is a POSIX-compliant shell derived
- from ash.
- .
- Since it executes scripts faster than bash, and has fewer library
- dependencies (making it more robust against software or hardware
- failures), it is used as the default system shell on Debian systems.
-
-Package: debianutils
-Architecture: iphoneos-arm
-Version: 4.11.2
-Priority: required
-Essential: yes
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 160
-Filename: debs/debianutils_4.11.2_iphoneos-arm.deb
-Size: 34200
-MD5sum: 7a3b58cdc8bc3878e0ff9d3cbc9e4c83
-SHA1: cee2b37cc508098422c189c627a30ff4f7a550df
-SHA256: 6ad5d7c81fb758f781f82e5b68439ed4d7c477d01b61f7e0b5a5e0131bd95d4d
-SHA512: 96fc93512bc6be2d4b834dfacda1f8f04030a0b871d38c6edca6d05989dda029efb8a0ec79ee01adf86b8ce2b6bd5e13be943d75e3ea4b01a549d58659086e0a
-Description: Miscellaneous utilities specific to Debian
- This package provides a number of small utilities which are used
- primarily by the installation scripts of Debian packages, although
- you may use them directly.
- .
- The specific utilities included are:
- add-shell remove-shell run-parts
-Name: Debian Utilities
-
-Package: diffutils
-Architecture: iphoneos-arm
-Version: 3.7-2
-Multi-Arch: foreign
-Priority: important
-Section: Development
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 1464
-Depends: libintl8
-Filename: debs/diffutils_3.7-2_iphoneos-arm.deb
-Size: 287164
-MD5sum: 80eaeed3c3847ab91db0b8294d2b2ba4
-SHA1: aee305f22146b87f66bec64e5fa42f897a4cd0d6
-SHA256: f740bd75dd1c76cc92dca4225f0f56fc85f525c7f121b870e09c4c42611e5940
-SHA512: 73792c32a6f84487a642235d1aadf4ab8c964ad17cff107eb7172cae98be72da156a37deb507acc5ae29dafff6320c08043078261b957a09ce495264526cd5ea
-Homepage: http://www.gnu.org/software/diffutils/
-Description: compare two files for differences
-Name: Diff Utilities
 
 Package: dimentio
 Architecture: iphoneos-arm
@@ -589,25 +414,6 @@ Description: Debian package development tools
  required to unpack, build and upload Debian source packages.
 Name: Debian Packager (Devel)
 
-Package: dpkg
-Architecture: iphoneos-arm
-Version: 1.20.9-1
-Priority: required
-Essential: yes
-Section: Packaging
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 5448
-Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
-Depends: diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libzstd1, libmd0
-Filename: debs/dpkg_1.20.9-1_iphoneos-arm.deb
-Size: 1212888
-MD5sum: c411c490d811ef9749b30014eda913eb
-SHA1: 043d359307764ab9ead2c0ea7b5bab00188898ea
-SHA256: 4f4e98e4e6829794a928b0ecf2a4b61c38716ae1f313a4174d8db7c89dae3369
-SHA512: 88acb6498b87ee279a8ef250540beb8c119a8694a432e8ab61bf4f5b1238be57244549aac95dc98708c7804a7d316f91af36dcf7f3045513ec30849629206786
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: package maintainance tools from Debian
-
 Package: dropbear
 Architecture: iphoneos-arm
 Version: 2020.81
@@ -631,25 +437,6 @@ Description: lightweight SSH2 server and client - command line tools
  It implements most required features of the SSH 2 protocol, and other
  features such as authentication agent forwarding.
 
-Package: essential
-Architecture: iphoneos-arm
-Version: 0-5
-Priority: required
-Essential: yes
-Section: System
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 0
-Pre-Depends: bootstrap | dpkg (>= 1.19.0)
-Depends: org.coolstar.sileo (>= 2.1) | xyz.willy.zebra (>= 1.1.19) | me.apptapp.installer (>= 5.1) | cydia | openssh-server, shshd
-Filename: debs/essential_0-5_iphoneos-arm.deb
-Size: 704
-MD5sum: 63c80e072190965cd4a9b3ac73eea91a
-SHA1: 3bd120ff7b98115f27ba4863a4acc90e708dbcd7
-SHA256: 38eca6428b11f31183c30cb4b72acbd7a0a98a21e0211a6ba0a651a974925ec5
-SHA512: 4ca3b801a3c69866d73f4da2215a8e2457cb58dd1c901fb863d4be979179a0fb75119e56d88b8b932d2216cc34fd9accf6767a7116ec579096f4c89166167781
-Description: Virtual package to keep you safe from uninstalling important packages.
-Tag: cydia::essential, role::goddess
-
 Package: expat
 Architecture: iphoneos-arm
 Version: 2.2.10
@@ -666,22 +453,6 @@ SHA256: b6053056f993adfb868868ca77bc4f9d5ac79aaa5b9e5e0be18bba1d16a65cf2
 SHA512: 9544f17734c806cb7c42ccc00fea26940458ce95d516fc49b006f60ba530c6a82838f4bd7218568b90553bf5e789848b327dd79a97b5dc724f43acb48131535d
 Description: XML parsing C library - example application
   This package contains xmlwf, an example application of expat, the C library for parsing XML. The arguments to xmlwf are one or more files which are each to be checked for XML well-formedness.
-
-Package: file-cmds
-Architecture: iphoneos-arm
-Version: 272.250.1-2
-Priority: important
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 392
-Filename: debs/file-cmds_272.250.1-2_iphoneos-arm.deb
-Size: 70624
-MD5sum: c0ccc445eb02d692a29c537c40b50afa
-SHA1: ea2693a5c310c46bbc572f78f14c3b85cb6a31ed
-SHA256: eb8cc6f425aba0111ec58436311cb6faae1824d476bd92b2d21b61a08661319b
-SHA512: 8f93106c74aa1b5cd64035cf2dfef14175a104105d77b3cd520caa38c8cc6a6267830a5de02b148d8b7c203bd540fe5548a9990513dedcd8394f325ec53783f0
-Description: chflags, compress, ipcrm, ipcs, pax
-Tag: purpose::console, role::hacker
 
 Package: file
 Architecture: iphoneos-arm
@@ -702,46 +473,6 @@ Description: Recognize the type of data in a file using "magic" numbers
  tells you in words what kind of data a file contains.
  .
  This package contains the file program itself.
-
-Package: findutils
-Architecture: iphoneos-arm
-Version: 4.8.0-1
-Multi-Arch: foreign
-Priority: important
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 1748
-Depends: sh, sed, shell-cmds, libintl8
-Conflicts: shell-cmds (<< 207.40.1)
-Replaces: shell-cmds (<< 207.40.1)
-Filename: debs/findutils_4.8.0-1_iphoneos-arm.deb
-Size: 404330
-MD5sum: 95d69b13e339d4e8c0fc9cbe7437540f
-SHA1: ea92c10339e2f7ab21a0bc68b841d6e2b598e4e0
-SHA256: b882bb42310c8bc80c2b4004bc2e5233e94986af0329caf5ca0f6b443f70bcc6
-SHA512: 3eed18c9a7b4c0d71542add537c449dc0606aefacec83dcd47181c24c1f86d3aeef29dce4c086069035a2c36e88683cf09fe2428e3f82cce0c39ba6d87f22eec
-Homepage: http://www.gnu.org/software/findutils/
-Description: indexes and searches filesystems
-
-Package: firmware-sbin
-Architecture: all
-Version: 0-2
-Multi-Arch: foreign
-Priority: required
-Essential: yes
-Section: System
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 0
-Pre-Depends:
-Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
-Filename: debs/firmware-sbin_0-2_all.deb
-Size: 1564
-MD5sum: d720dc17c1c9283e5d6b31982330335e
-SHA1: ace216c8c763d193cd3b85a290a2676dc7677144
-SHA256: 1914176dd537782dde74f1c18d63edaf67a54485bd61e22b01e560bff7c46924
-SHA512: f6039f5c8c0c1ca5ab54f5843e27056652dd54df2db42ed23e69e17d940fac3fa7f9eb555283cbdd84280e1186908e5ad9d9765eec23eeec5b6a59cddf22170f
-Description: represents Telesphoreo / iPhoneOS conflicts
-Name: iPhone Firmware (/sbin)
 
 Package: flac
 Architecture: iphoneos-arm
@@ -1172,26 +903,6 @@ Description: GNU privacy guard - signature verification tool
  used to make the signature are valid. There are no configuration
  files and only a few options are implemented.
 
-Package: grep
-Architecture: iphoneos-arm
-Version: 3.6
-Multi-Arch: foreign
-Priority: important
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 824
-Depends: libpcre1
-Conflicts: text-cmds (<< 1:0)
-Replaces: text-cmds (<< 1:0)
-Filename: debs/grep_3.6_iphoneos-arm.deb
-Size: 201312
-MD5sum: c36e1b3ad8ed209e7805e27aab50a573
-SHA1: 1297a03b3c2d0852d5e9e4e981fe79dbd7faa781
-SHA256: 54648487c1209155b9cb80b7d110fc70399b50b30804c57d1e22bde7ed1a55ee
-SHA512: 027f950f3aed7702e5615f7e094dc1427539b25052ef30cf82eb8bf7f853a132a23e483434da5be13c8049587d86295d68af914c05e9a430c4887a02aaa564cb
-Homepage: http://www.gnu.org/software/grep/
-Description: searches files for regular expressions
-
 Package: gzip
 Architecture: iphoneos-arm
 Version: 1.10-2
@@ -1285,23 +996,6 @@ SHA512: 028ed04ce1a08662a13c2fc4f0a2a039e2352dd6063d62848bd1e4403843211c01910e7e
 Homepage: https://stedolan.github.io/jq/
 Description: a lightweight and flexible command-line JSON processor
 Tag: purpose::console, role::hacker
-
-Package: launchctl
-Architecture: iphoneos-arm
-Version: 23-3
-Priority: required
-Essential: yes
-Section: System
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 80
-Filename: debs/launchctl_23-3_iphoneos-arm.deb
-Size: 24808
-MD5sum: 5e90588a996b76eb908f14291cd854c8
-SHA1: 9c002691f2a042b28db90cb640c03c1d2d4502ab
-SHA256: 908ba8a1f6bd753ac64b4c5f9b6dde2b2b5aee1e2382172c37130775d253ddfa
-SHA512: 16b3a7c5ec8bfbbcd9d9f9e72802d46acc99891bf5657fa10843680cb62c19326d0a15cb970a1aabc2c1e352957f3c68a72d4a1c11eb872abf36235e7602aba0
-Description: Tells launchd what to do
-Name: Launch Daemon Controller
 
 Package: ldid
 Architecture: iphoneos-arm
@@ -1429,28 +1123,6 @@ Description: commandline package manager
  managing as well as querying information about packages
  as a low-level access to all features of the libapt-pkg library.
 
-Package: libapt-pkg6.0
-Architecture: iphoneos-arm
-Version: 2.3.7
-Priority: required
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 1588
-Provides: libapt-pkg (=2.3.7)
-Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
-Filename: debs/libapt-pkg6.0_2.3.7_iphoneos-arm.deb
-Size: 763604
-MD5sum: 60719d2f1bfdc34ec2f3357d5e26e9c0
-SHA1: f26dd3d9f883e2c490a2d4a589562c1e825b243f
-SHA256: 0b3c38ff498e55c2ec7dd7421f1859c9815b083d9e9a34c048b37666ccdbc068
-SHA512: 1c6511f0b9d925aa0c647ba9baf195eabbbef2b77444860869437fdc85b3766191da08f77e79435564130cb8926fa39bbef24ec3f794c22ab3f4474460a8be56
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
 Package: libassuan-dev
 Architecture: iphoneos-arm
 Version: 2.5.5
@@ -1471,25 +1143,6 @@ Description: IPC library for the GnuPG components -- header files
  components. Both server and client side functions are provided.
  .
  This package contains header files and static libraries for libassuan.
-
-Package: libassuan0
-Architecture: iphoneos-arm
-Version: 2.5.5
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 100
-Depends: libgpg-error0
-Filename: debs/libassuan0_2.5.5_iphoneos-arm.deb
-Size: 27700
-MD5sum: 2f0bb206b77b573aaecd27a58f24adcb
-SHA1: 290fd0e21d32cd91bd9391ccdaddc4d0b1b61dbe
-SHA256: 136ad040dba14ef032fdb053f91a0613d9733b4631c735dbde63d426316991d1
-SHA512: 340620024e7f85f23baa4f694e53cde3ea34dd9868fcbe0a16e4b19306468d164e4d909c1826c47f2f77fe894fa9fa65c9349713b6d79308f67b7ac9b074977c
-Description: IPC library for the GnuPG components
- Libassuan is a small library implementing the so-called "Assuan
- protocol". This protocol is used for IPC between most newer GnuPG
- components. Both server and client side functions are provided.
 
 Package: libboost-all-dev
 Architecture: iphoneos-arm
@@ -2259,27 +1912,6 @@ Description: libcrypt development files
  use libcrypt.
 Tag: role::developer
 
-Package: libcrypt2
-Architecture: iphoneos-arm
-Version: 4.4.17
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 220
-Filename: debs/libcrypt2_4.4.17_iphoneos-arm.deb
-Size: 83358
-MD5sum: 2f47b8d306f7a2f8f940176bcac02dc5
-SHA1: 963c01df8b014af24cd15949781f88015cfa72ec
-SHA256: 3c9f1b38580b54e4e3c518e0351d3c1f8d32ee3ac7326922e98efd9a5ac54675
-SHA512: ec192e18d4fdd72347fda2182af5b0ae0cc0caafb52b18aacc27e999a672c29f57f953c6f5b57a9d1736b59fee3f7c2045fd3664964608c570826bd5664e29e5
-Description: libcrypt shared library
- libxcrypt is a modern library for one-way hashing of passwords.
- It supports DES, MD5, NTHASH, SUNMD5, SHA-2-256, SHA-2-512, and
- bcrypt-based password hashes
- It provides the traditional Unix 'crypt' and 'crypt_r' interfaces,
- as well as a set of extended interfaces like 'crypt_gensalt'.
-Tag: purpose::library, role::developer
-
 Package: libcurl4-openssl-dev
 Architecture: iphoneos-arm
 Version: 7.77.0
@@ -2580,26 +2212,6 @@ Description: BSD editline and history libraries (development files)
  .
  It slightly resembles GNU readline.
 
-Package: libedit0
-Architecture: iphoneos-arm
-Version: 3.1-20210522
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 160
-Depends: libncursesw6 (>= 6.0)
-Filename: debs/libedit0_3.1-20210522_iphoneos-arm.deb
-Size: 69388
-MD5sum: bd31072910b2162d2dc146e8bdde8202
-SHA1: baf00fd9f9d996a679aa8d7be3f0383190fd02d2
-SHA256: af617f83bef7ee69d95b47423fdb75efbcd640093dc8c6afeaf203f917690688
-SHA512: 658494f2f54f594e9ef474145e19f90d6a845d92cf11a4587a652c01ccc34143f93370f101545e833816f72ab31d76dfafd6b39363c0e95231486405c69a9a84
-Description: BSD editline and history libraries
- Command line editor library provides generic line editing,
- history, and tokenization functions.
- .
- It slightly resembles GNU readline.
-
 Package: libepoxy-dev
 Architecture: iphoneos-arm
 Version: 1.5.7
@@ -2804,26 +2416,6 @@ SHA1: d47f4bf84abb874ec6bf045a4d3de9a0f154b27b
 SHA256: 484b126d3a6b498da933fc03d7fdb0dff7911421a77833882d3c778cb8eeed39
 SHA512: 7a8def290ae37821eee3e2976b3e1a3c7bf31e7c842d8b0425f9c2a659b2482b1bc1b59c339177963b604a24b6296986e919dc2c8a78b78a229863605ca03bc4
 Description: LGPL cryptographic algorithm library (Development files)
-
-Package: libgcrypt20
-Architecture: iphoneos-arm
-Version: 1.9.3
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 716
-Provides: gcrypt (=1.9.3), libgcrypt (=1.9.3)
-Depends: libgpg-error0 (>= 1.37)
-Conflicts: gcrypt (<<1:0), libgcrypt (<<1:0)
-Replaces: gcrypt, libgcrypt
-Filename: debs/libgcrypt20_1.9.3_iphoneos-arm.deb
-Size: 387492
-MD5sum: eb201f5b8b1af329a73ca89e74da8b11
-SHA1: 116ef83e9841aebcd6d89b8698cf3c43750293cb
-SHA256: 8ae25bac9d9a12a87ee9ebf345c157be1e2daab6fe3e5590732660205b83400c
-SHA512: a920705f59fb55d5242b3a972c54c63c94f003dfa7a0dca4a14ddd505461ea93a74c4d8074b92e012455f233ba417be432a68686292602abca408fb9f8108e78
-Description: LGPL cryptographic algorithm library (Libraries)
 
 Package: libgdbm-dev
 Architecture: iphoneos-arm
@@ -3064,28 +2656,6 @@ Description: Multiprecision arithmetic library developers tools
  The MPFR library (multiple-precision floating-point) used to be
  included, but has since been moved to package libmpfr-dev.
 
-Package: libgmp10
-Architecture: iphoneos-arm
-Version: 6.2.1-3
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 392
-Filename: debs/libgmp10_6.2.1-3_iphoneos-arm.deb
-Size: 229348
-MD5sum: 5ca583a4b2dff99a364d4385c7cdb102
-SHA1: 65a2a40cf057c453985d2cd63e6fd8cce99a2735
-SHA256: 3d32adc8b4371f9dede43370890d2e9d4297c7287a218b08a889c0097e7789b5
-SHA512: f9562439c3b51753798103e4ad4ffe7ad1b66fbf81c135717f37e5982b551744d1bed6981cbf18cdd5ecb20671b3653bbbfef4881ada9930d36d8f8c0c6b0184
-Homepage: https://gmplib.org/
-Description: Multiprecision arithmetic library
- GNU MP is a programmer's library for arbitrary precision
- arithmetic (ie, a bignum package).  It can operate on signed
- integer, rational, and floating point numeric types.
- .
- It has a rich set of functions, and the functions have a regular
- interface.
-
 Package: libgmpxx4ldbl
 Architecture: iphoneos-arm
 Version: 6.2.1-3
@@ -3137,40 +2707,6 @@ Description: GNU TLS library - development files
   - HSMs and cryptographic tokens, via PKCS #11.
  .
  This package contains the GnuTLS development files.
-
-Package: libgnutls30
-Architecture: iphoneos-arm
-Version: 3.7.1
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 1568
-Provides: gnutls (= 1:0)
-Depends: libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring2, libnettle8, libhogweed6, libp11-kit0, libtasn1-6
-Conflicts: gnutls (<< 1:0)
-Replaces: gnutls (<< 1:0)
-Filename: debs/libgnutls30_3.7.1_iphoneos-arm.deb
-Size: 745516
-MD5sum: 857c0368c9f400036d4fab73a3bb831e
-SHA1: f1eba809934915a64a6773d6216e43b738559fec
-SHA256: 2b630a8bc0eb3f6362b4e0daf298c8c3278760ae1e563f38716cc1721f9c369d
-SHA512: 34aca831a8ed6ee8591bdf0a41c2064dbb3a0e1929fbb13fb036aa33217670c638ade363f89d54a9bbd28b2ab43659a68881f8c4f4188731683e8c041863d43c
-Homepage: http://www.gnu.org/software/gnutls/
-Description: GNU TLS library - main runtime library
- GnuTLS is a portable library which implements the Transport Layer
- Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
- Transport Layer Security (DTLS 1.0, 1.2) protocols.
- .
- GnuTLS features support for:
-  - certificate path validation, as well as DANE and trust on first use.
-  - the Online Certificate Status Protocol (OCSP).
-  - public key methods, including RSA and Elliptic curves, as well as password
-    and key authentication methods such as SRP and PSK protocols.
-  - all the strong encryption algorithms, including AES and Camellia.
-  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
-  - HSMs and cryptographic tokens, via PKCS #11.
- .
- This package contains the main runtime library.
 
 Package: libgnutlsxx28
 Architecture: iphoneos-arm
@@ -3228,45 +2764,6 @@ Description: GnuPG development runtime library (developer tools)
  This package contains the headers and other files needed to compile
  against this library.
 
-Package: libgpg-error0
-Architecture: iphoneos-arm
-Version: 1.42
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 140
-Depends: libintl8
-Filename: debs/libgpg-error0_1.42_iphoneos-arm.deb
-Size: 52268
-MD5sum: 79a731331d710c06015964328b87ac43
-SHA1: c24c48a92592035cef56ac610534f4227d7c34bb
-SHA256: bc8908eaf01b85fddf5edab29aabfffb5fb0f4c8ecd840c16b6091f8f75ceed6
-SHA512: 1553d2a9b4e44b5ff9b682fe45901ee4fdecbb7ec8ab683f11d3f39c71e9e21baa6fb16f19f11e1a689d91e241e541d45ee545b2f8d668783a73d45e024a5428
-Description: GnuPG development runtime library
- Library that defines common error values, messages, and common
- runtime functionality for all GnuPG components.  Among these are GPG,
- GPGSM, GPGME, GPG-Agent, libgcrypt, pinentry, SmartCard Daemon and
- possibly more in the future.
- .
- It will likely be renamed "gpgrt" in the future.
-
-Package: libhogweed6
-Architecture: iphoneos-arm
-Version: 3.7.2
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 268
-Depends: libgmp10, libnettle8 (= 3.7.2)
-Filename: debs/libhogweed6_3.7.2_iphoneos-arm.deb
-Size: 180500
-MD5sum: efd34f9b89022d1de07e08d780a202e9
-SHA1: 2ec0de81202d4cc2c6e9a3bd96ebba49293be52d
-SHA256: 4d8ae7ed70c6d50049e28995984c3362ab2eb559473ab282afe141be5c5753c5
-SHA512: 7a7d73f5cc66678b25a570125d5180d4e4f002ecd198e0f862cb92fde80fc50f97e5bd9aca5f984ed7a8decb71500398aeea2e31331f1a04ac08284d0da5140d
-Homepage: http://www.lysator.liu.se/~nisse/nettle/
-Description: low level cryptographic library (public-key cryptos)
-
 Package: libice-dev
 Architecture: iphoneos-arm
 Version: 1.0.10
@@ -3319,27 +2816,6 @@ Description: X11 Inter-Client Exchange library
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libICE
 
-Package: libidn2-0
-Architecture: iphoneos-arm
-Version: 2.3.0-3
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 288
-Provides: libidn2 (= 2.3.0-3)
-Depends: libintl8, libunistring2
-Conflicts: libidn2 (<< 2.3.0-3)
-Replaces: libidn2 (<< 2.3.0-3)
-Filename: debs/libidn2-0_2.3.0-3_iphoneos-arm.deb
-Size: 67986
-MD5sum: 833b120d132a8b2782f29fb721388f1f
-SHA1: 1d05d6690546780eb502321cc034c6c31c59cc68
-SHA256: baecae5fe4b2f6b40640dbb73572a390e3d94076e2ee5a30c5daf207087b53c7
-SHA512: 35a40abee70a34685cdfbd18469377cf76891961351ba0890dbe763eef8b500941b7a6d9e838938a9a6baa0ad164ec2e4b9f0f641ba72b02ea90bcc595bf7ff6
-Homepage: https://www.gnu.org/software/libidn/#libidn2
-Description: Internationalized domain names (IDNA2008/TR46) library
-
 Package: libidn2-dev
 Architecture: iphoneos-arm
 Version: 2.3.0-3
@@ -3378,22 +2854,6 @@ SHA512: 1df90adbdbe9cec8f7265db6dfefbce43ae5e3751099ec6a39d92fac2a6a804a7a58fcca
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings - development files
 
-Package: libintl8
-Architecture: iphoneos-arm
-Version: 0.21-4
-Section: System
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 72
-Filename: debs/libintl8_0.21-4_iphoneos-arm.deb
-Size: 20244
-MD5sum: 0d9ff37731d0c5689f0a7bdbd582124c
-SHA1: cf1f1fbe3a0354ad304cc5b3df87fbaea7e4c1c0
-SHA256: cf572925c93d8a49e66eb28ae50ee58b42f10cd63b809aa65946e0672fb7284d
-SHA512: 00422e7cf94e213a6d836239ed16083cbded659260937bac97e44f752e3316a7b6a898e2ebe9939f63f267dcf01abb459574d322c865a1327a16c6ba2028fd0d
-Homepage: http://www.gnu.org/software/gettext/
-Description: internationalization helper for strings
-Essental: yes
-
 Package: libiosexec-dev
 Architecture: iphoneos-arm
 Version: 1.0.16
@@ -3410,23 +2870,6 @@ SHA256: 1647e5abe1ada9588810083092e9eb538647025d3aafe7537727b4002c098e78
 SHA512: 9bbc2b2b78cd21c6e0321ca750151466ee30cd5a4e505dc9f1a82a7fbd44bc4ba5bbed66f3beaa02522e56d869a82296dafe9d22713df7d0cc90d960d99c2a59
 Homepage: http://github.com/ProcursusTeam/libiosexec
 Description: development files for libiosexec
-
-Package: libiosexec1
-Architecture: iphoneos-arm
-Version: 1.0.16
-Priority: required
-Essential: yes
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 52
-Filename: debs/libiosexec1_1.0.16_iphoneos-arm.deb
-Size: 3390
-MD5sum: 086d9a8ce4ccd21f9d30aa077fa62d3a
-SHA1: 2c6bddd3aa5664cf5443f52b594f0ea6eaa5c4ac
-SHA256: 4d44e915793453e5c33eb14689f3907accaa17e0743a15353b2bf646962382ee
-SHA512: 0ab1fde310aff541c30610d391fa15d10cd2ceda0f3dad9a5381c411e8901621962d4ad1956cd8958f85ce2991b5d2b97c9826213cea3b8da26ce6590bc53b5b
-Homepage: http://github.com/ProcursusTeam/libiosexec
-Description: shim for execve w/ shell script support
 
 Package: libjansson-dev
 Architecture: iphoneos-arm
@@ -3712,31 +3155,6 @@ Description: XZ-format compression library - development files
  format, use the p7zip package instead.) This package provides the
  development library needed to build programs using liblzma.
 
-Package: liblzma5
-Architecture: iphoneos-arm
-Version: 5.2.5-3
-Priority: standard
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 140
-Conflicts: xz (<<1:0), lzma (<<3:0)
-Replaces: xz, lzma
-Filename: debs/liblzma5_5.2.5-3_iphoneos-arm.deb
-Size: 68844
-MD5sum: 62d1119a6883930eae0bfb72566a1437
-SHA1: fc94a5ad17d65dd31b53732aab2475ebd890c693
-SHA256: 243fc7550bbd81326e2a9756e2f109030a263590b2b8272be1969af2d2d6d4ba
-SHA512: eb246ebf874c46fb328300f2c9c1d3ce2ddddfe2c21fc8c5bb85b6182cbc87a3bc8977574e6c77657cc40b7114bf86c8050f061ae705a07083148a4614dd1b5d
-Homepage: https://tukaani.org/xz/
-Description: XZ-format compression library
- XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
- compression format, which provides memory-hungry but powerful
- compression (often better than bzip2) and fast, easy decompression.
- .
- The native format of liblzma is XZ; it also supports raw (headerless)
- streams and the older LZMA format used by lzma. (For 7-Zip's related
- format, use the p7zip package instead.)
-
 Package: liblzo2-2
 Architecture: iphoneos-arm
 Version: 2.10
@@ -3877,24 +3295,6 @@ Description: message digest functions from BSD systems - development files
   * SHA-1
   * SHA-2 (SHA-256, SHA-384 and SHA-512)
 
-Package: libmd0
-Architecture: iphoneos-arm
-Version: 1.0.3
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 72
-Filename: debs/libmd0_1.0.3_iphoneos-arm.deb
-Size: 17730
-MD5sum: 8a12f871dff08f9bbf9321d39f357319
-SHA1: 37c9b6e53cfe176716d17fe96c55e00b4fb8c1e0
-SHA256: 4e91d1a0ae676f7e6b0e196a241983f01c350a16b3e4be180db9ce00aa0009fa
-SHA512: aff479d61bb64c39ca951c2c55d024311eb0247786b33cd213ddafa54d0807a73f23da727fc052bd32e8506a3945acb79757a22a424a96c31931ddd631edc611
-Description: message digest functions from BSD systems - shared library
- The libmd library provides various message digest ("hash") functions,
- as found on various BSDs on a library with the same name and with a
- compatible API.
-
 Package: libmpfr-dev
 Architecture: iphoneos-arm
 Version: 4.1.0
@@ -3959,39 +3359,6 @@ SHA256: a47d1d0b32a355a5f5b6ee2f1746fd798bec77b2f119e8227ad5f31a13a8c117
 SHA512: 16a3c6f20fc6ccd7b7fc76fedcdc23e5d5beceb42c9222bfc65801bc18c40bcc2e89d4991935d13764d0563775d42679d241034b37af64a179b14ed350a86089
 Description: developer's libraries for ncurses
 
-Package: libncursesw6
-Architecture: iphoneos-arm
-Version: 6.2-1
-Priority: required
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 472
-Provides: ncurses (= 6.2-1)
-Depends:
-Filename: debs/libncursesw6_6.2-1_iphoneos-arm.deb
-Size: 167688
-MD5sum: 9ccc1579366cec84879911525e730090
-SHA1: bc332a2aa4a1aa903b34bb5ae0457086e357beaa
-SHA256: 8e6fa83f79f090fdaf880aabfdb2ae5b1a0d6de8b4a7da291030f1a068f977f2
-SHA512: 0542c70d1c456c155f1e48950cfeb352728d80a6569591ae198553176d34a1b62452d6d7bddf5dd0b60ed74fa851887decb29ac42a573799f8958e204a908e13
-Description: shared libraries for terminal handling (wide character support)
-
-Package: libnettle8
-Architecture: iphoneos-arm
-Version: 3.7.2
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 244
-Filename: debs/libnettle8_3.7.2_iphoneos-arm.deb
-Size: 128190
-MD5sum: 34fc61f523690df021a1c097a933c374
-SHA1: 49df3e3237195847d3e98667277f05714ed286eb
-SHA256: 882dd2392fcddba4db9b189c8829fb4900409e181c6c8f7e6e218373aa0b3662
-SHA512: 74959de4f2cc1a0e08f1481d8258701cae8371c42a91447cc3192c271a4530cac176551dd12ec1b7c9cc042a982201584af28d7765e8de71a6770f3ae3efeada
-Homepage: http://www.lysator.liu.se/~nisse/nettle/
-Description: low level cryptographic library (symmetric and one-way cryptos)
-
 Package: libnghttp2-14
 Architecture: iphoneos-arm
 Version: 1.43.0
@@ -4053,26 +3420,6 @@ SHA1: b654a201f3475b293be5c9db7a3e3bb1f0d9d0ad
 SHA256: 359e3c36f770693de37cc4a22db6f3e2e41e1c223ffd7301981d7d99614b1b52
 SHA512: 03a99304a1b57f45646576671b5eb91d10f9081ca0c9f7cbf8cb2df23a376e9200ae22c0c65fa15637447e451a95e0444ebb5da9d50d0b15577b95ea25c7a07c
 Description: headers for libnpth0
-
-Package: libnpth0
-Architecture: iphoneos-arm
-Version: 1.6-2
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 56
-Provides: npth (= 1.6-2)
-Conflicts: gnupth, npth (<< 1.6-2)
-Replaces: npth (<< 1.6-2)
-Filename: debs/libnpth0_1.6-2_iphoneos-arm.deb
-Size: 4608
-MD5sum: c613c8619a86c7b98d97bc0c382febbe
-SHA1: dbfc855c1346eef6984147e91ad85e66fea3f22d
-SHA256: 4cc8281e54c2db721502ffbfc97753ce5c4671154cbac166cfdcfeedc85ebeed
-SHA512: 6edd23317402bd7b3d82f063184d15c9b8c3d8ab43d40f57d0b79d703fce97383ff1076d6a444cb0af98b9c86010e58dd725d7dd2e9254b8ef3aec3a5f379baa
-Description: replacement for GNU Pth using system threads
-Name: New GNU Portable Threads
 
 Package: libogg-dev
 Architecture: iphoneos-arm
@@ -4140,34 +3487,6 @@ Description: library for loading and coordinating access to PKCS#11 modules - de
  This package contains the documentation and development headers required
  to build applications using the p11-kit library.
 
-Package: libp11-kit0
-Architecture: iphoneos-arm
-Version: 0.23.21
-Multi-Arch: foreign
-Priority: standard
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 732
-Depends: libintl8, ca-certificates
-Conflicts: p11-kit (<< 0.23.21)
-Replaces: p11-kit (<< 0.23.21)
-Filename: debs/libp11-kit0_0.23.21_iphoneos-arm.deb
-Size: 174740
-MD5sum: 8dfb8b9ec1a341a0abb75ce012e3e17a
-SHA1: 94474eaf7d7a5543f191b9236174b7c45bad7c7a
-SHA256: 6aded5a392289ab9c7296305933436759d448d4674e74533ad01beb7e2934f51
-SHA512: edfe867d0ffecad6ce560965f8762b9fd39581f2d18688afa3cd9644297412f72735108888543cb30036337031d4b6be0c975320f06c2719e3355d95023cfc78
-Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
-Description: library for loading and coordinating access to PKCS#11 modules - runtime
- The p11-kit library provides a way to load and enumerate Public-Key
- Cryptography Standard #11 modules, along with a standard configuration
- setup for installing PKCS#11 modules so that they're discoverable. It
- also solves problems with coordinating the use of PKCS#11 by different
- components or libraries living in the same process.
- .
- This package contains the shared library required for applications loading
- and accessing PKCS#11 modules.
-
 Package: libpam-dev
 Architecture: iphoneos-arm
 Version: 20190224
@@ -4189,44 +3508,6 @@ Description: Development files for PAM
  PAM decouples applications from the authentication mechanism, making it
  possible to upgrade the authentication system without recompiling or
  rewriting the applications.
-
-Package: libpam-modules
-Architecture: iphoneos-arm
-Version: 186.60.1
-Section: Administration
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 584
-Depends: libpam2
-Filename: debs/libpam-modules_186.60.1_iphoneos-arm.deb
-Size: 86986
-MD5sum: d688d8ce50727c6751974aec7930d0b2
-SHA1: 5ff5d8f96863dc37c6891c17c6192c97c58a37b1
-SHA256: 00af0707169ac772f9f43911f8d0f146ac9cf75d1f416da0f5b0700db7489caa
-SHA512: eca947b8e034462d9bb41acd54c602c5fe25bae4709ff93de92d6472b814f020f3eca0c1bc51f8f505c86dadf955370f639fff860200cc0bf0834cec1f31fa9d
-Description: Pluggable Authentication Modules for PAM
- This package completes the set of modules for PAM. It includes the
-  pam_unix.so module as well as some specialty modules.
-
-Package: libpam2
-Architecture: iphoneos-arm
-Version: 20190224
-Section: Administration
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 76
-Depends:
-Filename: debs/libpam2_20190224_iphoneos-arm.deb
-Size: 15402
-MD5sum: 1f558e06e2664f28394575c089ccf4cd
-SHA1: 83173d3534c8a22889c9adcee8dedf5292d651b4
-SHA256: d41e968b7fa964b45859f4f7627f28034babcd92be32ee7cde5859e76f17c341
-SHA512: 59b14d026701fdf311c1ae4bd8c18f59e0aa9fbb8f7d2e1d847d91668e5c1915b3b2c6784384cb2e88838f9bed10bba1e86a32289b02a28e00a4a437e4baa0f2
-Description: Pluggable Authentication Modules library
- Contains the shared library for OpenPAM, a library that enables the
- local system administrator to choose how applications authenticate users.
- In other words, without rewriting or recompiling a PAM-aware application,
- it is possible to switch between the authentication mechanism(s) it uses.
- One may entirely upgrade the local authentication system without touching
- the applications themselves.
 
 Package: libpcre1-dev
 Architecture: iphoneos-arm
@@ -4273,32 +3554,6 @@ Description: Old Perl 5 Compatible Regular Expression Library - 16 bit runtime f
  and semantics are as close as possible to those of the Perl 5 language.
  .
  This package contains the 16 bit runtime library.
-
-Package: libpcre1
-Architecture: iphoneos-arm
-Version: 8.44-1
-Multi-Arch: foreign
-Priority: standard
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 364
-Provides: pcre (= 1:0), libpcre (= 8.44-1)
-Conflicts: pcre (<< 1:0), libpcre (<< 1:0)
-Replaces: pcre, libpcre
-Filename: debs/libpcre1_8.44-1_iphoneos-arm.deb
-Size: 148868
-MD5sum: e2b4fc6e6ca1b8ecca5f4d369bcec9ee
-SHA1: 906316610d89427a6cb57722ae9f660670d82948
-SHA256: bd4c64fbffae4735e17c3a91ab447019124bb2b2ef27456dc828dd4365a6d04a
-SHA512: 31f079961b6613b11aef17935a7763d1ce0cadcd54efbb16516f86457bb10de67309194a2cdaced64d6efe6fd20085834c21f5cd4e482c9fd518f3934f3f00ac
-Description: Old Perl 5 Compatible Regular Expression Library - runtime library
- This is a library of functions to support regular expressions whose syntax 
- and semantics are as close as possible to those of the Perl 5 language.
- .
- New packages should use the newer pcre2 packages, and existing
- packages should migrate to pcre2.
- .
- This package contains the runtime library.
 
 Package: libpcre2-16-0
 Architecture: iphoneos-arm
@@ -4664,22 +3919,6 @@ SHA1: b23902a8dbb2ddd39e129f6d2aca5721f6cc01f4
 SHA256: 1d38e3c082964d2e5011030d371eb1746c87743f3a601ab4c3f47026586a58ec
 SHA512: 995ce023b691d00d994d37009d8d5292e28537ffd5d3a9bc6f69d1a3fd0d638bb077211b5b654256f3f021a3a442537e4d8aa53a9787f95723c66b9d6bb8c0bf
 Description: GNU readline and history libraries, development files
-
-Package: libreadline8
-Architecture: iphoneos-arm
-Version: 8.1
-Priority: required
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 312
-Depends: libncursesw6
-Filename: debs/libreadline8_8.1_iphoneos-arm.deb
-Size: 121976
-MD5sum: dba817d36fcda33b61bd02bb2f7e95a7
-SHA1: f249fed25ea55496c9e3b46e34631750d3bf7633
-SHA256: 7071cbf50308787a790b27597573d84a9846b2d890bc75e720c3538d8c258342
-SHA512: 403d856c08e071cc2b4089917ba5d45ee940e109c57301f2e0f3f4457424b921862735d87555691f72cd1e31563d3ce7b1c9f0684b1575be974ac9d2ef907ca4
-Description: GNU readline and history libraries, run-time libraries
 
 Package: librtmp-dev
 Architecture: iphoneos-arm
@@ -5086,32 +4325,6 @@ Description: Secure Sockets Layer toolkit - development files
  It contains development libraries, header files, and manpages for libssl
  and libcrypto.
 
-Package: libssl1.1
-Architecture: iphoneos-arm
-Version: 1.1.1k-1
-Priority: standard
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 2200
-Provides: libressl, libssl1.1.1 (=1.1.1k-1)
-Depends: ca-certificates
-Conflicts: libressl, libssl1.1.1
-Replaces: libressl, libssl1.1.1
-Filename: debs/libssl1.1_1.1.1k-1_iphoneos-arm.deb
-Size: 1147430
-MD5sum: e83d372f2078dbb42d487972c583eb20
-SHA1: 86a390cfc254e506606a4060ad57c3b2c751c117
-SHA256: 3442e0022a4d1733bdf52c5bb517367904358320473d5bfe63643c52a0f4181f
-SHA512: d61b5d75dcd0a45b482f30968ae5c347ed346d5a11633ac6e658072f6e9e8843835f907a6386500f427baa2fa5a17d4d409091bdd8a7f06e9d822c9442a795c9
-Description: Secure Sockets Layer toolkit - shared libraries
- This package is part of the OpenSSL project's implementation of the SSL
- and TLS cryptographic protocols for secure communication over the
- Internet.
- .
- It provides the libssl and libcrypto shared libraries.
-Tag: purpose::library, role::developer
-Name: OpenSSL 1.1.x Libraries
-
 Package: libtasn1-6-dev
 Architecture: iphoneos-arm
 Version: 4.16.0-2
@@ -5140,36 +4353,6 @@ Description: Manage ASN.1 structures (development)
    * no limits for INTEGER and ENUMERATED values
  .
  This package contains header files and libraries for static linking.
-
-Package: libtasn1-6
-Architecture: iphoneos-arm
-Version: 4.16.0-2
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 88
-Provides: libtasn1 (= 4.16.0-2)
-Conflicts: libtasn1 (<< 1:0)
-Replaces: libtasn1 (<< 1:0)
-Filename: debs/libtasn1-6_4.16.0-2_iphoneos-arm.deb
-Size: 27876
-MD5sum: 1ba0346da0164ee914730c290cb92288
-SHA1: fa4a9b9cdae649321d36ddb3d06ecdc8667ba62b
-SHA256: 2bf32681ab2f4da35424c83e667e82288f9529a3044692185fff094a8d46a571
-SHA512: 0f7b9d13b7d63a4adc1b43802fd4b863730080c5240e9f155dfc75b06d92de55f988a01160611011e7074408e818300397a718cfd90fc3c402fe1ae34f664260
-Homepage: https://www.gnu.org/software/libtasn1
-Description: Manage ASN.1 structures (runtime)
- Manage ASN1 (Abstract Syntax Notation One) structures.
- The main features of this library are:
-   * on-line ASN1 structure management that doesn't require any C code
-     file generation.
-   * off-line ASN1 structure management with C code file generation
-     containing an array.
-   * DER (Distinguish Encoding Rules) encoding
-   * no limits for INTEGER and ENUMERATED values
- .
- This package contains runtime libraries.
 
 Package: libtasn1-bin
 Architecture: iphoneos-arm
@@ -5418,26 +4601,6 @@ SHA256: a378683489439e7f1ac036a34148ffe8eb235686f140303cd15fa96bd7518b54
 SHA512: 2fa96a93f19931ed6453a51401dd3867caa80e6d9e66bb2bd550f4e322cffe0031f266c7c454b5e18e35a889706bdbee7815e7eca758eea818a3b15044e29ce9
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Unicode string library for C - development files
-
-Package: libunistring2
-Architecture: iphoneos-arm
-Version: 0.9.10-2
-Multi-Arch: foreign
-Priority: optional
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 1520
-Provides: libunistring (= 0.9.10-2)
-Conflicts: libunistring (<< 0.9.10-2)
-Replaces: libunistring (<< 0.9.10-2)
-Filename: debs/libunistring2_0.9.10-2_iphoneos-arm.deb
-Size: 499758
-MD5sum: fa71c2991d0994b854e9534f7ad579b9
-SHA1: 9c174a732e66425e869d3e1448c9a6f2108b1d2d
-SHA256: 8f86dc49bf41cbeb1ccb7f64306c14293b0550c290c63066414733e075d84b4f
-SHA512: 98fdebae845fd26834b8e5bd1a4fa299d6c445930db4043c9cab58e42b397cb38aa953f2692709309cabe238b78a666dfa7069f3d6b20c0e1fa7f6accb490922
-Homepage: https://www.gnu.org/software/libunistring/
-Description: Unicode string library for C
 
 Package: libunrar-dev
 Architecture: iphoneos-arm
@@ -8385,26 +7548,6 @@ Description: header files and a static library for libxxhash
  .
  This package contains xxHash static library and header files.
 
-Package: libxxhash0
-Architecture: iphoneos-arm
-Version: 0.8.0
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 52
-Filename: debs/libxxhash0_0.8.0_iphoneos-arm.deb
-Size: 12036
-MD5sum: b576ace5ba24acaf3f662cc5bee755ac
-SHA1: 735deea8dfff09abc2a2f9d598edb23fce87a9ac
-SHA256: f9d05501262c38bc85fe5f028ab6bfb094c933307e66d2b46c0c57247fc8af91
-SHA512: 113b2a00c9a61f9a88a3931e44c5dea414c51e2bfbceeb129b9912d3671e2b765f19e23847b33c37845764f5dafe83afef686bd58163233935db9f23614e8d77
-Description: shared library for xxhash
- xxHash is an Extremely fast Hash algorithm, running at RAM speed limits.
- It successfully completes the SMHasher test suite which evaluates collision,
- dispersion and randomness qualities of hash functions. Code is highly portable,
- and hashes are identical on all platforms (little / big endian).
- .
- This package contains the shared library.
-
 Package: libyaml-0-2
 Architecture: iphoneos-arm
 Version: 0.2.5
@@ -8460,25 +7603,6 @@ Description: fast lossless compression algorithm -- development files
  real-time compression scenarios at zlib-level compression ratio.
  .
  This package contains the headers and static library.
-
-Package: libzstd1
-Architecture: iphoneos-arm
-Version: 1.5.0
-Section: Libraries
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 924
-Depends: liblz4-1, liblzma5 (>= 5.2.5)
-Filename: debs/libzstd1_1.5.0_iphoneos-arm.deb
-Size: 483856
-MD5sum: abef7ba4bb3b6242cd36de34f32336c5
-SHA1: 91d1bc4b34c999553fa9d98d03624f024238043b
-SHA256: 5e02c9d48df7209f3bcc3a0e3cff7a3bacb392c79a554bce4a8ab1266cfd9650
-SHA512: 053c0e92b8813724b0e2b9999a08c7ba4e69532e5a2aea0ab642d937f82e09f59f6c00d21ac5f52d778d790130f879a593c55cf938a859de167ee6ee8e4e1ff9
-Description: fast lossless compression algorithm
- Zstd, short for Zstandard, is a fast lossless compression algorithm, targeting
- real-time compression scenarios at zlib-level compression ratio.
- .
- This package contains the shared library.
 
 Package: lolcat
 Architecture: iphoneos-arm
@@ -8569,22 +7693,6 @@ Description: Completely free, modern clone of Pico.
  - Toggling features while running
  - Full internationalization support
 
-Package: ncurses-bin
-Architecture: iphoneos-arm
-Version: 6.2-1
-Priority: important
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 516
-Depends: libncursesw6 (>= 6.2-1)
-Filename: debs/ncurses-bin_6.2-1_iphoneos-arm.deb
-Size: 156910
-MD5sum: 593403c9983ab2cde82a20ff81724edf
-SHA1: 7b0b1cdab35fb30dabe8646b26c86a446b67cc2e
-SHA256: 1eaccffbb8f65475dfad5c077bba64433a062dea910b4bc6ffa88941fb6b5711
-SHA512: 63f5bb3e7438dc067edaea755e2a2777841c03844d36d19a7dcacb27fb7f8bbce2158e7e5897d102433c01ea02e64fc5447472708388d025c431d3572634383f
-Description: terminal-related programs and man pages
-
 Package: ncurses-doc
 Architecture: all
 Version: 6.2-1
@@ -8599,21 +7707,6 @@ SHA1: faf87e994b184df16645955a5e3e11526a5bdef1
 SHA256: 63271f7823ffacf963afa7f8a4bb6c69003673f3652309eaa6bdbc0be729dd3e
 SHA512: 6a0d114779231ee0cba8cf9a0c8bdc5cd2a70c7963d8ae5cc94dc336f59622fa4bd01417cd5156d1f5a15c60aaf567ca9721ddfb912b89cb2515cb943724ac66
 Description: developer's guide and documentation for ncurses
-
-Package: ncurses-term
-Architecture: all
-Version: 6.2-1
-Priority: required
-Section: System
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 1188
-Filename: debs/ncurses-term_6.2-1_all.deb
-Size: 50790
-MD5sum: f79b559d3b9c807b7c8ad1b94c5e2cb7
-SHA1: aae34ffb7f4a27163965a0108269bc71459d818b
-SHA256: b6ba04a9dd2e15af48e78141dac03172cfb5a5c0a418649007b7064100b858d6
-SHA512: d43aa33a7c2ce2f4e20f250bf39ff76173253c4b3202952d2e9ccbc171f58afa096d4ec0771af518d102add32df9148607806906d774f7ec8e373834015d13df
-Description: This package contains terminfo data files to support most types of terminals.
 
 Package: neofetch
 Architecture: iphoneos-arm
@@ -9028,42 +8121,6 @@ SHA256: e78556df50248c6b44487b7f3ab0b6362b8f6dac85b24418646a3174f74ed842
 SHA512: 79752f281d0253218a10b2c73fef57559709775d0b1a56009d74b3b4de80bbe5e632b7bbf68f3ae18a35a787ed59cee5849447a615a682d5e55f426576479155
 Description: A pretty system information tool written in POSIX sh
 
-Package: procursus-keyring
-Architecture: all
-Version: 2020.05.09
-Priority: required
-Essential: yes
-Section: System
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 4
-Filename: debs/procursus-keyring_2020.05.09_all.deb
-Size: 2966
-MD5sum: c2aedcb9da50b4028e884ba6fe61fa02
-SHA1: 13680f39e5bfd6d4a0871201a684cc13bea94a10
-SHA256: 00920963765b38f7b2a92cfe2a3a70faa5010f69a1c122f4b038542b8217d8f6
-SHA512: b7ecc9da35dfc0d83042dcfd6cd1ff48e8bf8284a2c9c5e435a7e9df5e10ebb23e9841e7fdbc3fb30306f0dfcfb51342a8df610ef964651127a2a74f0025e1ad
-Description: GnuPG keys for stock *OS repositories.
-Tag: purpose::backend, role::hacker
-Name: Procursus APT Keyring
-
-Package: profile.d
-Architecture: iphoneos-arm
-Version: 0-7
-Priority: standard
-Section: Administration
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 96
-Pre-Depends: system-cmds (>=805.220.1)
-Depends: zsh
-Filename: debs/profile.d_0-7_iphoneos-arm.deb
-Size: 3532
-MD5sum: 433cdbd041dfd65696a1c03e2cfa8e98
-SHA1: f499a4e1c007793514cf2b6d0ebae70aba198bac
-SHA256: 67dbb4807d6a8cccb19e4906e16134e155e2e6030cfc4cdf880aef95efe15cf0
-SHA512: 9347722b105d2ecced8286059c2cc78b8fe6193b69056bfe4cb881dea2ff713aaae3b907f7ec199fc17440ace2ef27d86553d8160548adf850008c1719de1a73
-Description: makes packaging for /etc/profile reasonable
-Name: Profile Directory
-
 Package: python3-libxml2
 Architecture: iphoneos-arm
 Version: 2.9.12
@@ -9335,26 +8392,6 @@ Description: multiplexes a terminal into many
 Tag: purpose::console, role::hacker
 Name: Screen
 
-Package: sed
-Architecture: iphoneos-arm
-Version: 4.8-2
-Multi-Arch: foreign
-Priority: important
-Section: Utilities
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 164
-Depends: libintl8
-Conflicts: text-cmds (<< 1:0)
-Replaces: text-cmds (<< 1:0)
-Filename: debs/sed_4.8-2_iphoneos-arm.deb
-Size: 78930
-MD5sum: f647c564b3feb0ea49ad3a3ae53819be
-SHA1: 8160910f04870f95935882cbbc583bacdef8b23f
-SHA256: 825eea4282e651508dada1c0d1318775d8cc603d4668d97d0075e7ca654bf8e8
-SHA512: 3cd1b84e3072fea5a1a8264b08d2a63af525e006ae06370d441961370c92d88c197b9fc4074278e81d66772525a7f0f8a1aa02db154d6723bfd1eaabf45c7f61
-Homepage: http://www.gnu.org/software/sed/
-Description: edits streams of text using patterns
-
 Package: shc
 Architecture: iphoneos-arm
 Version: 4.0.3
@@ -9492,23 +8529,6 @@ SHA256: 01c79e1161ee977ef640e1c736b9da30f75961797178e1a127614e0d15ab9964
 SHA512: 951bf2ee7e6e430627aa3e588cee617e5f1b74f914611bd311fd26c25a0dcb5a9d3482dcbda24d4243dfb1c4d79dcedb65e738d876ffcc6567c588ff6368ee92
 Description: temporarily assume root priviledges
 
-Package: sudo
-Architecture: iphoneos-arm
-Version: 1.9.7p2-4
-Priority: required
-Essential: yes
-Section: Administration
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 6284
-Depends: libintl8, libiosexec1
-Filename: debs/sudo_1.9.7p2-4_iphoneos-arm.deb
-Size: 1697370
-MD5sum: 2e6372b5dee86a97579aa5b55d453939
-SHA1: e2c2300e57ee26ebb5b569a330889cf34fc788c7
-SHA256: b2b1822ad98e03781b071b399d467a7bacb473c8b183da1d32a6e997c51813ea
-SHA512: 0c29dccd3bd53acb475c5ad46e54fb94b1ba73f2aee03c49bbd61bbdd4e5348d76a8eecc07a534bda2659d92fe78334138232525cb30d4d2aaa20308e7f0bb0e
-Description: temporarily assume root priviledges
-
 Package: sudoku
 Architecture: iphoneos-arm
 Version: 1.0.5
@@ -9526,44 +8546,6 @@ SHA512: 56551531c8daf95f85bf663b0c5fe9e5a367124432763510dc1b356147bd8b20b6693446
 Homepage: https://github.com/cinemast/sudoku
 Description: 9x9 grid number-placement puzzle
  Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9.
-
-Package: system-cmds
-Architecture: iphoneos-arm
-Version: 854.40.2-11
-Priority: required
-Essential: yes
-Section: Administration
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 768
-Provides: login, passwd, reboot
-Pre-Depends: libiosexec1
-Depends: firmware-sbin, file-cmds, libcrypt2, libpam2
-Recommends: vi
-Filename: debs/system-cmds_854.40.2-11_iphoneos-arm.deb
-Size: 107676
-MD5sum: e91d4cbe66d2f4146e34b6fb39210b5e
-SHA1: d55575ef52f29d736fe4184384286f272b4f91e3
-SHA256: a903962f31d2e759f37fbd204a13778bb8ed480493803add8309379fe15fbad5
-SHA512: 33ef840d54d9ce922eecc20a8a0ab71357e219475b94e5f89c0415942dc6e23eeb727342546b47a3993b489303cb289e9d6c1a3135a1675e808cb1cec49b0412
-Description: iostat, login, passwd, sync, sysctl, pw
-
-Package: tar
-Architecture: iphoneos-arm
-Version: 1.34
-Priority: required
-Section: Archiving
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 2664
-Depends: libintl8
-Recommends: bzip2, gzip, xz-utils, zstd
-Filename: debs/tar_1.34_iphoneos-arm.deb
-Size: 612932
-MD5sum: c426fd8e556c2ac07e1936e730d49857
-SHA1: 73413d647fa4b50b4feb59a8929923cc45598ea0
-SHA256: 249fe65df90f30b912c8ed3cee8ec97f303040db187d8cb1a7ee475bce682fa6
-SHA512: 6a2e4371b0edbe496c55cc5047529b20dfcc37d9eaae54d141a19d133ea2e1c6a2463cc6f64eadf74095c0b8912413ad2c0d45c833479889cc5adbbb7c6d78c5
-Homepage: http://www.gnu.org/software/tar/
-Description: tool for making tape archives
 
 Package: tcsh
 Architecture: iphoneos-arm
@@ -11786,25 +10768,6 @@ Description: Fish shell like syntax highlighting for zsh
  .
  There are numerous ways to configure the colors used for highlighting,
  and to configure what is highlighted.
-
-Package: zsh
-Architecture: iphoneos-arm
-Version: 5.8-5
-Priority: required
-Essential: yes
-Section: Terminal_Support
-Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 10836
-Pre-Depends: debianutils (>= 4.11.2)
-Depends: libiosexec1, libncursesw6, libpcre1, debianutils (>= 4.11.2)
-Filename: debs/zsh_5.8-5_iphoneos-arm.deb
-Size: 2124750
-MD5sum: ff919630352bc25d7244bf6078182327
-SHA1: 30fd651bfd295df5518bc8b8815878206f561f66
-SHA256: 447622e9f23956d81cab34b66940fb6fa0edc370368c299cad1e683c653a10b7
-SHA512: 6fd42c9eebcfe993e3bad9af7d0ad3dc356dc0ea5c814517ff0d58e5c6a1bd6f67a7bbbc6aa3b5ce711a2f5ebe2e64bb4525f489bca0f2607c22066f8d535aad
-Description: a shell with interactive features
-Name: Z Shell
 
 Package: zsign
 Architecture: iphoneos-arm
