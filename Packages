@@ -1,71 +1,19 @@
 Package: apt-utils
 Architecture: iphoneos-arm
-Version: 2.3.5
-Priority: standard
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 644
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.3.5), libdb18.1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
-Filename: debs/apt-utils_2.3.5_iphoneos-arm.deb
-Size: 222502
-MD5sum: 5107060cfc13b731e7c308df5f03cddc
-SHA1: 63fe9562b08eb80725318c2bfab45cc0de292920
-SHA256: 9dc03138845e5039a56b223102f74d449e2c8498204a7d10bd53111dc620f5bd
-SHA512: 49cd30c460dba13e954ce3b982487cabcaf3dbc5a47679eb2f97922fe6b4524753d7d6def8c62c23dec9d2ecc6d6419b18c3989326d1c7960db010e5777b0a70
-Description: package management related utility programs
- This package contains some less used commandline utilities related
- to package management with APT.
- .
-  * apt-extracttemplates is used by debconf to prompt for configuration
-    questions before installation.
-  * apt-ftparchive is used to create Packages and other index files
-    needed to publish an archive of Debian packages
-  * apt-sortpkgs is a Packages/Sources file normalizer.
-
-Package: apt-utils
-Architecture: iphoneos-arm
-Version: 2.3.6
-Priority: standard
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 644
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.3.6), libdb18.1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
-Filename: debs/apt-utils_2.3.6_iphoneos-arm.deb
-Size: 222514
-MD5sum: 943c920242d59866f3161b21cddefa49
-SHA1: f42955d35bd590e1a025550d7fa52632b7c605ce
-SHA256: 4c384debaf87683e4465f2b5ea9c4e8190f586e317bdbc40bf782872851b7bd8
-SHA512: d2f2cfe8f327670f4456116de4e30c4ffdab91f4238f59641342cefb487b379a9d6f6afdf37aeff5f0ff3ec862922198b798a3f85d10dd9cacd4fb7e8be08aa6
-Description: package management related utility programs
- This package contains some less used commandline utilities related
- to package management with APT.
- .
-  * apt-extracttemplates is used by debconf to prompt for configuration
-    questions before installation.
-  * apt-ftparchive is used to create Packages and other index files
-    needed to publish an archive of Debian packages
-  * apt-sortpkgs is a Packages/Sources file normalizer.
-
-Package: apt-utils
-Architecture: iphoneos-arm
-Version: 2.3.7
+Version: 2.3.8
 Priority: standard
 Section: Packaging
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 644
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: apt (=2.3.7), libdb18.1
+Depends: apt (=2.3.8), libdb18.1
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
-Filename: debs/apt-utils_2.3.7_iphoneos-arm.deb
-Size: 222498
-MD5sum: 66a66b1f0f408b4e765380ddf4e9cc50
-SHA1: d8eeccfc757b93c046e3d47f9b6c3caa69ef2617
-SHA256: 83cf3e1436ffb8c2d755d99df219d181833bd24f5e2879c8e750117c473febb7
-SHA512: 9e3a95b73ced9645fb0f526672dd6f2d7420fefb60a17e365777ecf6f068635016acdd93b7badce56f2a38b86fd2920e86ed123c1c6116bd1cc8955f4b40846e
+Filename: debs/apt-utils_2.3.8_iphoneos-arm.deb
+Size: 222488
+MD5sum: 178693b2773d96ca7b9a362b194f08d6
+SHA1: c19c9a7c5d3a0b412a2c3762c646ffea70c15a49
+SHA256: 2d2b68e6b3c1393b13db4916e62053f3b1c165eb4f3a324af332584d2bc4a53c
+SHA512: df4ea2270fbddacabc10185b7d11aefb8a0f97c8ac97371f444326c71d3e668ef217375f27483f6729baf901d0314c5ea4aac64d62ff10988f779dc9b6791442
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -78,68 +26,22 @@ Description: package management related utility programs
 
 Package: apt
 Architecture: iphoneos-arm
-Version: 2.3.5
-Priority: required
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 2604
-Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
-Pre-Depends:
-Depends: libapt-pkg6.0 (= 2.3.5), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: debs/apt_2.3.5_iphoneos-arm.deb
-Size: 1020410
-MD5sum: 43813ed80831e6cab8f5c9a1a3e912af
-SHA1: 3d04bd75aec72d70fdeb0db1405d9860baa55c01
-SHA256: 3c1dfeea3f388bc2fdafa0402a02e6f3b8f82f7dff386e2a56d90e68fdc58d6a
-SHA512: c6d118a86ecd9d830e4f5dbef868b12b5be3f4c60197df37e8a6bd1ed92f18443a6f86d950b0e5f3fa0d9e093499b9717930be4698e4e6221ff1209073dfd8ac
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: apt
-Architecture: iphoneos-arm
-Version: 2.3.6
-Priority: required
-Section: Packaging
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 2604
-Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
-Pre-Depends:
-Depends: libapt-pkg6.0 (= 2.3.6), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: debs/apt_2.3.6_iphoneos-arm.deb
-Size: 1020474
-MD5sum: c412c17d83f7237471e629a17f004d23
-SHA1: edc330c298981e84d5a4e92e4289c30e09a8d762
-SHA256: 2a4e9d3762db99dbe5d2242ef0f1ca9cb8cf4dafd4f47dae14c1414e24bf7855
-SHA512: 43b3757f3d930088d323c85997271ca3fe8e4d46313b6609c81d83daacaa815eb3ed57f2e94af68a35aaad2e7cda7ac3f2b8e4c1a5fa9728171906064497a8dc
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: apt
-Architecture: iphoneos-arm
-Version: 2.3.7
+Version: 2.3.8
 Priority: required
 Section: Packaging
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 2604
 Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
 Pre-Depends:
-Depends: libapt-pkg6.0 (= 2.3.7), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
+Depends: libapt-pkg6.0 (= 2.3.8), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
-Filename: debs/apt_2.3.7_iphoneos-arm.deb
-Size: 1021164
-MD5sum: 40ea92f621fc734ab4ea5b200be8cc0b
-SHA1: 9dbfafac2a177e43b8281dfa83848883ceb5cc57
-SHA256: d7a2b81bf81f2265f9e0a89dc96318b0c938ba0c9c64393515a33293970c0668
-SHA512: d74d684f7d3df559f735e230908ce33d95de81f926207a41af82ff7776c8b2e8f3b9520d35061c6246e91b511c706a2d3b357c10dadac10dd0769b567c8d2c55
+Filename: debs/apt_2.3.8_iphoneos-arm.deb
+Size: 1021128
+MD5sum: 39fb1fbf7b574d4274fa72b1e72f608e
+SHA1: 32c0e1c544adf67c939d922dfb3e549ed969bad5
+SHA256: 7c5b83de53a984aaed32d20c8db15775a5957d0887e40ce69fee1252c95dcda6
+SHA512: a142a9b071daee9e1f679b201e7f2318388e1bfeb952ec5a0db75c25b659eaf416590db7046a62da789d01d20eb6b3766e2fe7c64ed0e51aa5dbe031e03909ae
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -1041,62 +943,20 @@ Name: Link Identity Editor
 
 Package: libapt-pkg-dev
 Architecture: iphoneos-arm
-Version: 2.3.5
-Priority: standard
-Section: Development
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 588
-Depends: libapt-pkg6.0 (=2.3.5), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), apt-dev (<< 1:0)
-Replaces: apt-dev (<< 1:0)
-Filename: debs/libapt-pkg-dev_2.3.5_iphoneos-arm.deb
-Size: 95998
-MD5sum: f34e451425d12b0f4cd4ca291e02a93e
-SHA1: bc70f87337df6aa5c3611f3e3417e5223aca4fb6
-SHA256: eb701f3b362274f249d2149375183fba06cd15d16d2b2d0cae23576b0bb6a966
-SHA512: 17dd0b2f8c820b2e0348fa40f3ac8a9d27348166b71b7289ef412c4d2de4041123e0036fe4dc562fd88ebb69bb08111ecabf6aa52dacd295d7daf764796414e5
-Description: development files for APT's libapt-pkg and libapt-inst
- This package contains the header files and libraries for
- developing with APT's libapt-pkg Debian package manipulation
- library and the libapt-inst deb/tar/ar library.
-
-Package: libapt-pkg-dev
-Architecture: iphoneos-arm
-Version: 2.3.6
-Priority: standard
-Section: Development
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 588
-Depends: libapt-pkg6.0 (=2.3.6), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), apt-dev (<< 1:0)
-Replaces: apt-dev (<< 1:0)
-Filename: debs/libapt-pkg-dev_2.3.6_iphoneos-arm.deb
-Size: 96042
-MD5sum: 69b684bf637c6e3ceba21e0a3bbbb398
-SHA1: d1b71032873c339b968f35e5f2dde50843c50b29
-SHA256: 880b88c39ec9d0311ebb4bb86fb9d5425ee4f9b0d0dcd33559fc8ec59082d78d
-SHA512: 57bc87f86702cf76b6d24471749a44ed33af077816d6a9d053996324107a6dbde2a9e952484e786e5f6f95993c6bf6e399d46142014aa9a98a1fb196857795d3
-Description: development files for APT's libapt-pkg and libapt-inst
- This package contains the header files and libraries for
- developing with APT's libapt-pkg Debian package manipulation
- library and the libapt-inst deb/tar/ar library.
-
-Package: libapt-pkg-dev
-Architecture: iphoneos-arm
-Version: 2.3.7
+Version: 2.3.8
 Priority: standard
 Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 604
-Depends: libapt-pkg6.0 (=2.3.7), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
+Installed-Size: 600
+Depends: libapt-pkg6.0 (=2.3.8), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), apt-dev (<< 1:0)
 Replaces: apt-dev (<< 1:0)
-Filename: debs/libapt-pkg-dev_2.3.7_iphoneos-arm.deb
-Size: 97906
-MD5sum: 29323c13aa260c03a8f703653c6f86cd
-SHA1: 2755f04ccd1b4444c4f8c03df40929e9a32292f2
-SHA256: 1d8f52938bdd8af214bf6b913c6183848bfba4532645d947f600375174d7c22e
-SHA512: 5ffb95961860a14e1bfcb9234b30255daa75b82b68b06c980358e7cddd3b634b54b69ab033ea865b7e9cb506c319b95ef975dbdff1b3ded7d5386a2f67f4ee05
+Filename: debs/libapt-pkg-dev_2.3.8_iphoneos-arm.deb
+Size: 97402
+MD5sum: 82674586be44fbd404a472e03e46bd3e
+SHA1: fe31142974fbb9fba25801c4b844db1c2e097368
+SHA256: 3998caa7813a14b209c7c911ee1d61fb591c17ae247d4bf4dbe868d95c4f8348
+SHA512: fb324f638f6787c74c409dd832965cfa3ed872a88b7b65d66dbd09da093a6b5ad9a829f57cda13df5b73a98bd3336708efa76eb8b0aedad292e9c75bacb689f0
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
@@ -1104,65 +964,21 @@ Description: development files for APT's libapt-pkg and libapt-inst
 
 Package: libapt-pkg6.0
 Architecture: iphoneos-arm
-Version: 2.3.5
-Priority: required
-Section: Libraries
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1588
-Provides: libapt-pkg (=2.3.5)
-Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
-Filename: debs/libapt-pkg6.0_2.3.5_iphoneos-arm.deb
-Size: 762278
-MD5sum: 74571c6b74ec113b7b4aa001035853ec
-SHA1: f08a9a8f080e2321c9c8ce7675a44e3720b9f1d4
-SHA256: 15803630493170ca1619ab5a26caabcdae4cd0d564577da0faccfdce3d9a3c16
-SHA512: b223d7fcef5b1fc078acd7d1fc21ab9ce3d5fb202ee9223c8dc555fd204030c06bb327289cfd2376c115e558b3caa3ed5b9ac1e252e4fd25c84f2e6e2a8695bd
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: libapt-pkg6.0
-Architecture: iphoneos-arm
-Version: 2.3.6
-Priority: required
-Section: Libraries
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 1588
-Provides: libapt-pkg (=2.3.6)
-Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
-Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
-Filename: debs/libapt-pkg6.0_2.3.6_iphoneos-arm.deb
-Size: 762872
-MD5sum: b5c6a030c2f0edb17d77f2666504c8ca
-SHA1: 30995422bf68167d30ad27a2fe361ea5fac52841
-SHA256: ffae5bbe525934ab6895ca680cfcc0e9e48736bc0e9a2bd9eadf878b64b6e939
-SHA512: b5248e2e67b203e4987de2774c2f89f346ca05f4262a8e20e45d100fe2c8068e1582f7e91c817ea64e06409cef5d015dd3335858adce7f94faaee100df1f0dad
-Description: commandline package manager
- This package provides commandline tools for searching and
- managing as well as querying information about packages
- as a low-level access to all features of the libapt-pkg library.
-
-Package: libapt-pkg6.0
-Architecture: iphoneos-arm
-Version: 2.3.7
+Version: 2.3.8
 Priority: required
 Section: Libraries
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 1588
-Provides: libapt-pkg (=2.3.7)
+Provides: libapt-pkg (=2.3.8)
 Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
 Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
-Filename: debs/libapt-pkg6.0_2.3.7_iphoneos-arm.deb
-Size: 761504
-MD5sum: efe83589fcf2a18ebe940a2ced326405
-SHA1: 8f2d9e0fef1b5556c6865ae0418dc01c18edcfc3
-SHA256: 27297ec41936b9f74e2c7737b67647301f8a9fcc55fdcc314f7ce9de6ab9b58e
-SHA512: 97b4aec672faa809cd6cc322ef0776f6dcc2df06b67ffcc8edcb1591d273dd7454f6c381a67f249ce902e52a898e1123a1ffc6e61fda1d0572f7c4fb940f4947
+Filename: debs/libapt-pkg6.0_2.3.8_iphoneos-arm.deb
+Size: 763738
+MD5sum: b6c80293fd928025d04ab7f74a6d3283
+SHA1: 29aadc8ce0dd1dc6c3319cdc516313a86f872681
+SHA256: fd19baf8c9cb0e90407103d9b8eedf9e8b0cd1ecfb4a3df9b64b4376c04d7de4
+SHA512: 04f7d5044fa847287e8a7c8b60e02d78fd5cb0e6ba7ff888dc2e89f3cddace18f7dc6ec687caa855223923e5ae19d9f2db95882b61d0c7c1f552f43dab80d288
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages

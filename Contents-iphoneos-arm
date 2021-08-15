@@ -650,7 +650,6 @@ usr/include/apt-pkg/endian.h				    libapt-pkg-dev
 usr/include/apt-pkg/error.h				    libapt-pkg-dev
 usr/include/apt-pkg/extracttar.h			    libapt-pkg-dev
 usr/include/apt-pkg/fileutl.h				    libapt-pkg-dev
-usr/include/apt-pkg/gen-private.h			    libapt-pkg-dev
 usr/include/apt-pkg/gpgv.h				    libapt-pkg-dev
 usr/include/apt-pkg/hashes.h				    libapt-pkg-dev
 usr/include/apt-pkg/indexcopy.h				    libapt-pkg-dev
