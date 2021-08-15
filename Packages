@@ -3213,12 +3213,29 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 2440
 Depends: libncursesw6 (= 6.2-1)
 Filename: debs/libncurses-dev_6.2-1_iphoneos-arm.deb
-Size: 693992
-MD5sum: 300bd03eaaf52657ca08108121ce7093
-SHA1: d3b426b6cf5ae13c935a220ad5d082b4e063d940
-SHA256: a47d1d0b32a355a5f5b6ee2f1746fd798bec77b2f119e8227ad5f31a13a8c117
-SHA512: 16a3c6f20fc6ccd7b7fc76fedcdc23e5d5beceb42c9222bfc65801bc18c40bcc2e89d4991935d13764d0563775d42679d241034b37af64a179b14ed350a86089
+Size: 693984
+MD5sum: e49b2f48426b85e80694c6a03a868ffd
+SHA1: 9bc7ce2bdd2f70fe7b1c8d5febe57fc1943d4a05
+SHA256: 5ff35ba604849c6fd0cbe0da6695fb20c496e0bb7bc621cb5422f4c812eb1a3e
+SHA512: 99e2999137c0a60d3eaf79b4eb9048867822444a7fdc44f79f2a87ef92fbaf8b7208335f76bb00565d6a90d7ea181814623d803f39a93405ad1251946a9b34f6
 Description: developer's libraries for ncurses
+
+Package: libncursesw6
+Architecture: iphoneos-arm
+Version: 6.2-1
+Priority: required
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 472
+Provides: ncurses (= 6.2-1)
+Depends:
+Filename: debs/libncursesw6_6.2-1_iphoneos-arm.deb
+Size: 167682
+MD5sum: 202bc206f49ac1f315462f5670f715c0
+SHA1: b0d5d47a2638062b060ce5f4e949662d0eae25e4
+SHA256: d07ec02a5ee20abbdfc2d57fc5a211f0ca08fb2fcdb8b3f82021365717cfd98d
+SHA512: 475fc4a9e9d2030b75c2c9fd420dcf32955ec1ce1a3b31bd7038fbb4ad23f6cde2e2af90ebda76762deb876da23f5affd2190c5e75bb6add01be6ba2685710b3
+Description: shared libraries for terminal handling (wide character support)
 
 Package: libnghttp2-14
 Architecture: iphoneos-arm
@@ -7554,6 +7571,22 @@ Description: Completely free, modern clone of Pico.
  - Toggling features while running
  - Full internationalization support
 
+Package: ncurses-bin
+Architecture: iphoneos-arm
+Version: 6.2-1
+Priority: important
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 516
+Depends: libncursesw6 (>= 6.2-1)
+Filename: debs/ncurses-bin_6.2-1_iphoneos-arm.deb
+Size: 156896
+MD5sum: e4c8857bd2ed74b77fcea9902476d512
+SHA1: 53da5be726d15f1a2bf21650e9cc75b286f05e74
+SHA256: 919c146723e37790f8a687e26326ee917dbda5f67eae5b4c7b51b539325daeaf
+SHA512: cf2ee9fbb45bfd53e52e42b913d69d78e60a4ccb1ab0d9ce52b5d7b9d891883ec4b2777133294956572117263f6cc8399e11466cdcbc56443449a00edd98d4ef
+Description: terminal-related programs and man pages
+
 Package: ncurses-doc
 Architecture: all
 Version: 6.2-1
@@ -7562,12 +7595,27 @@ Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 536
 Filename: debs/ncurses-doc_6.2-1_all.deb
-Size: 305394
-MD5sum: e3ddf58c721b1defdb6e25eb4458bd6c
-SHA1: faf87e994b184df16645955a5e3e11526a5bdef1
-SHA256: 63271f7823ffacf963afa7f8a4bb6c69003673f3652309eaa6bdbc0be729dd3e
-SHA512: 6a0d114779231ee0cba8cf9a0c8bdc5cd2a70c7963d8ae5cc94dc336f59622fa4bd01417cd5156d1f5a15c60aaf567ca9721ddfb912b89cb2515cb943724ac66
+Size: 305356
+MD5sum: 199e05bb99a044ed93d9bc56241c8583
+SHA1: d4df18a6705c8a550b7ed098b7d40266007ceb0d
+SHA256: 9597e4835f8e3106f906b7ec670af5b249e8928e6d578d265993fd0cb438a79e
+SHA512: a58799d1216546b19e443492b70af916f5c07a94be7a1a3941808e9d4d8af41c9198f9dbb1d17a9a119d5bd732a8792180aabc25214062fe745c0bf2b0620d21
 Description: developer's guide and documentation for ncurses
+
+Package: ncurses-term
+Architecture: all
+Version: 6.2-1
+Priority: required
+Section: System
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 1188
+Filename: debs/ncurses-term_6.2-1_all.deb
+Size: 50786
+MD5sum: ec670bc18ccf2c881f6a42e02c739ec3
+SHA1: 10253f0387e8a5c9c1c1620e14e3d28ec821719e
+SHA256: 52dc59a26b81f18f0831f39ab832a67d0fb9446277e8ec66aa4dfb4f0a2f5d51
+SHA512: a8590f7cdf2fad047f1f31a69d8339d7c1e2bfa07f27eb1862969532e3a29ef2cabe6d919ca4618466dc8b52b89d46d1dd1fdb996b2fa568a41d104ba7fd4c45
+Description: This package contains terminfo data files to support most types of terminals.
 
 Package: neofetch
 Architecture: iphoneos-arm
