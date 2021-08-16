@@ -15,5 +15,5 @@ zstd -9c Contents-iphoneos-arm > Contents-iphoneos-arm.zst
 tmp=$(mktemp)
 apt-ftparchive -c release.conf release . > $tmp
 sed '/debian/d' $tmp > Release
-gpg -abs -u 3E2F176CBEFAA412AA1010CFDDA94DD278B5C270 -o Release.gpg Release
-gpg -abs -u 3E2F176CBEFAA412AA1010CFDDA94DD278B5C270 --clearsign -o InRelease Release
+gpg -abs -u 33C75BD6053B7AB3A9F0D61012FE7355E0EC5805 -o Release.gpg Release
+gpg -abs -u 33C75BD6053B7AB3A9F0D61012FE7355E0EC5805 --clearsign -o InRelease Release
