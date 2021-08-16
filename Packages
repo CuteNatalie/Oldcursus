@@ -344,16 +344,35 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 1480
 Depends: dpkg, libdpkg-perl (= 1.20.9-1)
 Filename: debs/dpkg-dev_1.20.9-1_iphoneos-arm.deb
-Size: 870768
-MD5sum: e2009bf89afe8fee9aaa520eff834a25
-SHA1: fba00eda719929ae712e59d3f3f4df284122a9e5
-SHA256: a720f7452776e0986d11c57e60344ab5bae82eb8aabc03a6bcd99b0c75c6a3c5
-SHA512: ebabd43bdd17182b5648a1716921ce61c456673d626872cf576d5bccb2674da3eebad5a4dc3e54950c1da552faa9ee8c07b66c62d3609587c8be7d634209cf1b
+Size: 870878
+MD5sum: 0b37e0aa16a35bd4af94a35388590d0f
+SHA1: 9dd3eed99e0930dd75b46c9a923a6dc4f2dca84b
+SHA256: fa1893cd0041eb459bcba9bf0472201b7a64112fae75875637c987d3424eec08
+SHA512: 0b6ade27e529ba089d220e650799a0eedca398d8ccfb84cf160a54a7c175ff36bfb564bd9c3ae8e042b1f8d06c0c3eabaee0a6f554981244795451496bc884ea
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: Debian package development tools
  This package provides the development tools (including dpkg-source)
  required to unpack, build and upload Debian source packages.
 Name: Debian Packager (Devel)
+
+Package: dpkg
+Architecture: iphoneos-arm
+Version: 1.20.9-1
+Priority: required
+Essential: yes
+Section: Packaging
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 5568
+Pre-Depends: tar (>= 1.23), libintl8 (>= 0.20)
+Depends: diffutils, tar, liblzma5 (>= 5.2.5), libintl8, libzstd1, libmd0
+Filename: debs/dpkg_1.20.9-1_iphoneos-arm.deb
+Size: 1217110
+MD5sum: 973424ad1a817a7e2cb009fe60ab24e1
+SHA1: 8b60d33d900dd3c994415c75ab83b3660f2b871d
+SHA256: 387d3c833022ad8111d9b78ea70da4f0b404705cf6922634a49fe8d019c2a610
+SHA512: 2bf205b399f396bd1e5c972382b072587f61c45d61504dd73c426f1c1220a81af1c0af2faffb01050cd65a2c3ab3774699550a41f95d5e3070ea400bf7671c16
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
 
 Package: dropbear
 Architecture: iphoneos-arm
@@ -602,11 +621,11 @@ Installed-Size: 1188
 Depends: libgnutls30 (>= 3.7.1), libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring2, libnettle8, libhogweed6, libp11-kit0, libtasn1-6
 Conflicts: gnutls (<< 1:0)
 Filename: debs/gnutls-bin_3.7.1_iphoneos-arm.deb
-Size: 253772
-MD5sum: f7801831396ecf85afd292ac1f7f0a25
-SHA1: 12d20c07cf4a70410dd793c31a93a923a43cd45c
-SHA256: 2bf52f09dcd1d0500532185d9d480234f224197d45fdedd0f24fc1deaedcf9b4
-SHA512: 7d38d2487a07ab4e71f330a6079f8434a26a8110195a9f44df0501c84c174e70b30463decaafdedd24483f9c3a9f0d098e6a56dc4ebd92ee0f277e00cd7f7aa7
+Size: 253778
+MD5sum: 334c8174fc7c78f5e47a2c8587e5ed7c
+SHA1: bc5b026074d905ec2e4f76249f6d1cccf3e1f40f
+SHA256: ed80e8a1431cb4ccaf64734300875856040bdf73d9c1e45a0464101edd4523d7
+SHA512: 34b70265202cb2c00b87a97924ade08ef51b561b9a83cef86d57032d4ec7a1ece89279ea943b2c894027eee8a38175edc1a2e8fc1ec3fb78d089747ae71865c8
 Description: GNU TLS library - commandline utilities
  GnuTLS is a portable library which implements the Transport Layer
  Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
@@ -2026,11 +2045,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 1036
 Depends: liblzma-dev, libzstd-dev
 Filename: debs/libdpkg-dev_1.20.9-1_iphoneos-arm.deb
-Size: 262060
-MD5sum: 20db5ed03a01da0b94c101cfe1403497
-SHA1: 8cd0aac9401fe6c4e414a91432187d37b90db245
-SHA256: b66178f03eb778c15a5598123bf7752dd2ec446c4428247a4f929d30369f82b7
-SHA512: af65d7e0003ff5d82306d1eb9c179ea6da17017e69093383236cf4de1cc6bd65395733fdf33a408a3ef95f1f24ca6e1181c9cc597200cc00a24a82f180278353
+Size: 262068
+MD5sum: 237352b312798cdb2bb288ed43d8114d
+SHA1: 7aa257ca86a4d0c3a82ef2a3764718491c8ff31c
+SHA256: c2c5fa226143acfe21112b1ccc67a7acd838dbbdf8a5ff9c1f30adc8b7657ac2
+SHA512: 6f3c69fe910e430cd75b3b5941b3fd2641b968f180dc69926d1516b0c97a675020e501f85f3c3fe2f25d67d077acb308bd8cc0f03b46f0eb7259eaed0eb70285
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: Debian package management static library
  This package provides the header files and static library necessary to
@@ -2051,11 +2070,11 @@ Depends: dpkg, perl
 Conflicts: dpkg-perl (<<1:0), dpkg-dev (<< 1.20.9-1)
 Replaces: dpkg-perl
 Filename: debs/libdpkg-perl_1.20.9-1_iphoneos-arm.deb
-Size: 332492
-MD5sum: c7548810efedde686a3e9b3f5c94a3b4
-SHA1: a0cdd05c690fb94695ea41288ad9736260c2706e
-SHA256: 708a2b4f3d106c40ce352dc17a96d338b77b46578566c366f633f07054304c6e
-SHA512: 77cd6175f72666b9557af9f2c8948df0b4d684f2f964ff8c8b3984225d4600ca50a64808dbd81176066d1e9c5680ccbc7e62e28c75e0f66c311e7c423e692cc4
+Size: 330188
+MD5sum: 38174129337a5217b0f9cc7baec64cf9
+SHA1: bedc246e580650f9ce17154a973e37b8941ea557
+SHA256: e2a712cc52c47e7a1ffde6fe6b6b3dec7224d0a5445a686f3aa596db1833439c
+SHA512: 628e8a1de5f9509d68ff9bd7412a65f39efd794813f8becbdcf3b7a047bbc9fc97bac175166defcb939cd61d42c6eba9d356c6bbb5df19fb02e7584a461d9ff9
 Homepage: http://wiki.debian.org/Teams/Dpkg
 Description: Dpkg perl modules
  This package provides the perl modules used by the scripts
@@ -2643,11 +2662,11 @@ Installed-Size: 376
 Depends: libgnutls30 (>= 3.7.1), libgnutlsxx28 (>= 3.7.1), libp11-kit-dev, libtasn1-6-dev, nettle-dev, libidn2-dev
 Conflicts: gnutls (<< 1:0)
 Filename: debs/libgnutls28-dev_3.7.1_iphoneos-arm.deb
-Size: 56940
-MD5sum: ce018ca0f3c7d0115fea0fe7511de59f
-SHA1: df7777cc2cf946d6e5b9602d18ee765c2ced93d6
-SHA256: 3db729f649101bdb3a23814c545f7561aaed50898cd81d4da3b93f1cc7859edb
-SHA512: 8c668d2875e305861b466542e0affc2fc1629e011ab3a9f408137bab8c1d4cbc0c0b39e5d18d56153352b289bef4bab920e8ea6da7a2916c1798555487371c15
+Size: 56966
+MD5sum: 6622dc1f6de0db9709b04374753d90a0
+SHA1: 5237a5cf3d6779e651c3796f6d8172bce97ebd02
+SHA256: 8cc398cd39bc2a32b6460b01f3a635c7b7cfc92d93eb996b1340246115a23894
+SHA512: 81c22c5f3a2604d7705bb08e82da51f36b0a80735138b31cfcd1ef77282a94a16bfc773c3b8fbd5a33bda5fa3a0d2104d45039903eefdf21ca51198fa2934bad
 Homepage: http://www.gnu.org/software/gnutls/
 Description: GNU TLS library - development files
  GnuTLS is a portable library which implements the Transport Layer
@@ -2665,6 +2684,40 @@ Description: GNU TLS library - development files
  .
  This package contains the GnuTLS development files.
 
+Package: libgnutls30
+Architecture: iphoneos-arm
+Version: 3.7.1
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 1568
+Provides: gnutls (= 1:0)
+Depends: libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring2, libnettle8, libhogweed6, libp11-kit0, libtasn1-6
+Conflicts: gnutls (<< 1:0)
+Replaces: gnutls (<< 1:0)
+Filename: debs/libgnutls30_3.7.1_iphoneos-arm.deb
+Size: 745552
+MD5sum: 145a890befdcf03a91cb13e5f9634727
+SHA1: fd0eeecbaa851b03a4921e872fb190baaab92824
+SHA256: 519126df12e82c09e767d0a498dd75c6b4a338b4ad20e8c8e14386f6b52be7f9
+SHA512: c5e453332d63f4c8e3135b988d55c5ec5b71cff4bb220a2d111d64c95810da13d10eba61c5773fe0c029f2f0ada6b9a59ffd1fb5ee285d7ae8a5eed4db66b7bd
+Homepage: http://www.gnu.org/software/gnutls/
+Description: GNU TLS library - main runtime library
+ GnuTLS is a portable library which implements the Transport Layer
+ Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
+ Transport Layer Security (DTLS 1.0, 1.2) protocols.
+ .
+ GnuTLS features support for:
+  - certificate path validation, as well as DANE and trust on first use.
+  - the Online Certificate Status Protocol (OCSP).
+  - public key methods, including RSA and Elliptic curves, as well as password
+    and key authentication methods such as SRP and PSK protocols.
+  - all the strong encryption algorithms, including AES and Camellia.
+  - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
+  - HSMs and cryptographic tokens, via PKCS #11.
+ .
+ This package contains the main runtime library.
+
 Package: libgnutlsxx28
 Architecture: iphoneos-arm
 Version: 3.7.1
@@ -2675,11 +2728,11 @@ Installed-Size: 84
 Depends: libintl8 (>= 0.20.0), libgmp10, libidn2-0, libunistring2, libnettle8, libhogweed6, libp11-kit0, libtasn1-6, libgnutls30 (= 3.7.1)
 Conflicts: gnutls (<< 1:0)
 Filename: debs/libgnutlsxx28_3.7.1_iphoneos-arm.deb
-Size: 15292
-MD5sum: cc16f8044c0abe86e7daff610d2469da
-SHA1: dc67727dfa6e81ecc33b6bce38580ec5a283cc95
-SHA256: 0945e6ff2dba73f1e7dae5c643c0c7fcc4ce4af6e7008fb6bda1179fd8873c67
-SHA512: 1468f80b97d3c8746ded68c2184b5338d228015f91a230ca5aa90f44ae08a332fde3d7311fdfbe2c266ae8430818c8f392ede27e69a01ccfda5cd8d015338600
+Size: 15324
+MD5sum: dd071b17ad6a0c2e1b8716e5bb9d26fd
+SHA1: 1b2588144fec7f12ca7431e326dabbdafd90d4da
+SHA256: 367a869e12b37d820edba72dbb94390caa6541dd058c54ed53979edd3acbb6ea
+SHA512: 5422ca53e0ea37a4b3415a445aea78f204a9bdbead59ad95d40098932719e6082aa6f5a712b71afdfd459ec077617644378cc6a639fd161acbc38a55af6e5af1
 Homepage: http://www.gnu.org/software/gnutls/
 Description: GNU TLS library - C++ runtime library
  GnuTLS is a portable library which implements the Transport Layer
