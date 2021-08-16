@@ -8638,6 +8638,24 @@ Description: Shell script compiler
  original script. Upon execution, the compiled binary will decrypt and
  execute the code with the shells' -c option.
 
+Package: shell-cmds
+Architecture: iphoneos-arm
+Version: 207.40.1-2
+Priority: important
+Section: Administration
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 520
+Provides: killall, which
+Depends: libpam2
+Conflicts: coreutils (<< 8.32-9)
+Filename: debs/shell-cmds_207.40.1-2_iphoneos-arm.deb
+Size: 49256
+MD5sum: 45f9326be871fe92050f54ffcd67a538
+SHA1: d1f188885b2b1f536bcaa4ca560fcddac8863a23
+SHA256: 65cd9f05d842d3cb77075a40e74de7e2a02e805584d87b71f255e3154cdc6f7a
+SHA512: a3cc9c4e73780b17c8c340dfbb41e2b5e59d392e7d09e32c57ac49a06e0331cba2123e58ed7f6dce7c6c77710b7ec46e4a2c943b9b11cef8a781556ea22d5f47
+Description: killall, renice, script, time, which, getopt, what, hexdump, su
+
 Package: sl
 Architecture: iphoneos-arm
 Version: 5.05

@@ -59,6 +59,7 @@ bin/bzip2						    bzip2
 bin/bzip2recover					    bzip2
 bin/bzless						    bzip2
 bin/bzmore						    bzip2
+bin/su							    shell-cmds
 etc/alternatives/README					    dpkg
 etc/bash_completion.d/youtube-dl			    youtube-dl
 etc/doas.conf						    doas
@@ -82,6 +83,7 @@ etc/joe/shell.sh					    joe
 etc/nanorc						    nano
 etc/pam.d/doas						    doas
 etc/pam.d/sshd						    openssh-server
+etc/pam.d/su						    shell-cmds
 etc/profile.d/cacerts.bootstrap.sh			    ca-certificates
 etc/profile.d/gawk.csh					    gawk
 etc/profile.d/gawk.sh					    gawk
@@ -216,6 +218,7 @@ usr/bin/gdbm_dump					    gdbmtool
 usr/bin/gdbm_load					    gdbmtool
 usr/bin/gdbmtool					    gdbmtool
 usr/bin/gem3.0						    ruby3.0
+usr/bin/getopt						    shell-cmds
 usr/bin/gif2webp					    webp
 usr/bin/gnutls-cli					    gnutls-bin
 usr/bin/gnutls-cli-debug				    gnutls-bin
@@ -234,6 +237,7 @@ usr/bin/gpgsplit					    gnupg-utils
 usr/bin/gpgtar						    gnupg-utils
 usr/bin/gpgv						    gpgv
 usr/bin/gtf						    xserver-xorg-core
+usr/bin/hexdump						    shell-cmds
 usr/bin/hmac256						    libgcrypt20-dev
 usr/bin/htop						    htop
 usr/bin/idle3						    python3
@@ -254,6 +258,7 @@ usr/bin/jpico						    joe
 usr/bin/jq						    jq
 usr/bin/jstar						    joe
 usr/bin/kbxutil						    gnupg-utils
+usr/bin/killall						    shell-cmds
 usr/bin/koi8rxterm					    xterm
 usr/bin/ksba-config					    libksba-dev
 usr/bin/launchctl					    sudo
@@ -318,6 +323,7 @@ usr/bin/rbs3.0						    ruby3.0
 usr/bin/rdjpgcom					    libjpeg-turbo-progs
 usr/bin/rdoc						    ruby
 usr/bin/rdoc3.0						    ruby3.0
+usr/bin/renice						    shell-cmds
 usr/bin/reset						    ncurses-bin
 usr/bin/resize						    xterm
 usr/bin/ri						    ruby
@@ -329,6 +335,7 @@ usr/bin/ruby						    ruby
 usr/bin/ruby3.0						    ruby3.0
 usr/bin/scp						    openssh-client,openssh
 usr/bin/screen						    screen
+usr/bin/script						    shell-cmds
 usr/bin/sexp-conv					    nettle-bin
 usr/bin/sftp						    openssh-client,openssh
 usr/bin/shc						    shc
@@ -355,6 +362,7 @@ usr/bin/ssh-agent					    openssh-client,openssh
 usr/bin/ssh-copy-id					    openssh-client
 usr/bin/ssh-keygen					    openssh-client,openssh
 usr/bin/ssh-keyscan					    openssh-client,openssh
+usr/bin/su						    shell-cmds
 usr/bin/sudo						    sudo
 usr/bin/sudoedit					    sudo
 usr/bin/sudoku						    sudoku
@@ -362,6 +370,7 @@ usr/bin/sudoreplay					    sudo
 usr/bin/sxpm						    xpmutils
 usr/bin/tcsh						    tcsh
 usr/bin/tic						    ncurses-bin
+usr/bin/time						    shell-cmds
 usr/bin/tjbench						    libjpeg-turbo-progs
 usr/bin/tmux						    tmux
 usr/bin/toe						    ncurses-bin
@@ -396,6 +405,8 @@ usr/bin/weechat						    weechat-curses
 usr/bin/weechat-curses					    weechat-curses
 usr/bin/weechat-headless				    weechat-headless
 usr/bin/wget						    wget
+usr/bin/what						    shell-cmds
+usr/bin/which						    shell-cmds
 usr/bin/whois						    whois
 usr/bin/wrjpgcom					    libjpeg-turbo-progs
 usr/bin/x0vncserver					    tigervnc-scraping-server
@@ -23451,6 +23462,7 @@ usr/share/man/man1/gawk.1.zst				    gawk
 usr/share/man/man1/gdbm_dump.1.zst			    gdbmtool
 usr/share/man/man1/gdbm_load.1.zst			    gdbmtool
 usr/share/man/man1/gdbmtool.1.zst			    gdbmtool
+usr/share/man/man1/getopt.1.zst				    shell-cmds
 usr/share/man/man1/gettext.1.zst			    gettext-base
 usr/share/man/man1/gettextize.1.zst			    gettext
 usr/share/man/man1/gpg-agent.1.zst			    gpg-agent
@@ -23465,6 +23477,7 @@ usr/share/man/man1/gpgsm.1.zst				    gpgsm
 usr/share/man/man1/gpgtar.1.zst				    gnupg-utils
 usr/share/man/man1/gpgv.1.zst				    gpgv
 usr/share/man/man1/gtf.1.zst				    xserver-xorg-core
+usr/share/man/man1/hexdump.1.zst			    shell-cmds
 usr/share/man/man1/hmac256.1.zst			    libgcrypt20-dev
 usr/share/man/man1/htop.1.zst				    htop
 usr/share/man/man1/idn2.1.zst				    idn2
@@ -23475,6 +23488,7 @@ usr/share/man/man1/irb3.0.1.zst				    ruby3.0
 usr/share/man/man1/joe.1.zst				    joe
 usr/share/man/man1/jpegtran.1.zst			    libjpeg-turbo-progs
 usr/share/man/man1/jq.1.zst				    jq
+usr/share/man/man1/killall.1.zst			    shell-cmds
 usr/share/man/man1/koi8rxterm.1.zst			    xterm
 usr/share/man/man1/lz4.1.zst				    lz4
 usr/share/man/man1/lz4c.1				    lz4
@@ -23536,6 +23550,7 @@ usr/share/man/man1/ruby3.0.1.zst			    ruby3.0
 usr/share/man/man1/scdaemon.1.zst			    scdaemon
 usr/share/man/man1/scp.1.zst				    openssh-client
 usr/share/man/man1/screen.1.zst				    screen
+usr/share/man/man1/script.1.zst				    shell-cmds
 usr/share/man/man1/sftp.1.zst				    openssh-client
 usr/share/man/man1/shc.1.zst				    shc
 usr/share/man/man1/slsh.1.zst				    slsh
@@ -23556,10 +23571,12 @@ usr/share/man/man1/ssh-agent.1.zst			    openssh-client
 usr/share/man/man1/ssh-keygen.1.zst			    openssh-client
 usr/share/man/man1/ssh-keyscan.1.zst			    openssh-client
 usr/share/man/man1/ssh.1.zst				    openssh-client
+usr/share/man/man1/su.1.zst				    shell-cmds
 usr/share/man/man1/sxpm.1.zst				    xpmutils
 usr/share/man/man1/tabs.1.zst				    ncurses-bin
 usr/share/man/man1/tcsh.1.zst				    tcsh
 usr/share/man/man1/tic.1m.zst				    ncurses-bin
+usr/share/man/man1/time.1.zst				    shell-cmds
 usr/share/man/man1/tmux.1.zst				    tmux
 usr/share/man/man1/toe.1m.zst				    ncurses-bin
 usr/share/man/man1/tput.1.zst				    ncurses-bin
@@ -23583,6 +23600,8 @@ usr/share/man/man1/vim.1.zst				    vim
 usr/share/man/man1/vimtutor.1.zst			    vim
 usr/share/man/man1/watchgnupg.1.zst			    gnupg-utils
 usr/share/man/man1/wget.1.zst				    wget
+usr/share/man/man1/what.1.zst				    shell-cmds
+usr/share/man/man1/which.1.zst				    shell-cmds
 usr/share/man/man1/whois.1.zst				    whois
 usr/share/man/man1/wrjpgcom.1.zst			    libjpeg-turbo-progs
 usr/share/man/man1/xauth.1.zst				    xauth
@@ -26872,6 +26891,7 @@ usr/share/man/man8/apt.8.zst				    apt
 usr/share/man/man8/dirmngr.8.zst			    dirmngr
 usr/share/man/man8/dropbear.8.zst			    dropbear
 usr/share/man/man8/pw.8.zst				    system-cmds
+usr/share/man/man8/renice.8.zst				    shell-cmds
 usr/share/man/man8/rmuser.8.zst				    system-cmds
 usr/share/man/man8/rtmpgw.8.zst				    rtmpdump
 usr/share/man/man8/sftp-server.8.zst			    openssh-sftp-server
