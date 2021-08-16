@@ -911,11 +911,11 @@ Depends: libidn2-0 (= 2.3.0-3)
 Conflicts: libidn2 (<< 2.3.0-3)
 Replaces: libidn2 (<< 2.3.0-3)
 Filename: debs/idn2_2.3.0-3_iphoneos-arm.deb
-Size: 20902
-MD5sum: 7a16996dc2fae89237af097122c12e92
-SHA1: 8288992dbcd5c35e65ec252a5dadcb10e12266d2
-SHA256: e9d30adaaddebdac610c985b6861eb73e681781daae441547e965102464b066b
-SHA512: cb8a63d06954dd96038989372045a5b277a40c2c435d7d6da660e36c6d27603fa6b155402b8db3d71a74ddc7c52f0459a132a580f9c31ccdebbe51cba87e3ed6
+Size: 20898
+MD5sum: 4b4e4df6554d6e0a4585c7bd7fab490b
+SHA1: 7ea919d4bda14a2465f1f53151a404d5f2106ab6
+SHA256: 6a8269c12bee5e88fa34b45a33f8844f22e54711f30dfd8da67eb8c242fd299e
+SHA512: 9a025a68405c6a5a13ac693a41e144141663384deee32877407338a80683292e8c0c77e78a3cfdb78dae59750dd8f4787058c020f9e258c2cf673fe098a62ce8
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Internationalized domain names (IDNA2008/TR46) command line tool
 
@@ -2848,6 +2848,27 @@ Description: X11 Inter-Client Exchange library
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libICE
 
+Package: libidn2-0
+Architecture: iphoneos-arm
+Version: 2.3.0-3
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 288
+Provides: libidn2 (= 2.3.0-3)
+Depends: libintl8, libunistring2
+Conflicts: libidn2 (<< 2.3.0-3)
+Replaces: libidn2 (<< 2.3.0-3)
+Filename: debs/libidn2-0_2.3.0-3_iphoneos-arm.deb
+Size: 68134
+MD5sum: 48517dbf60eea4667b058e137187c106
+SHA1: 6733cba8daaaa974bae94faac62275aa74e4f8c4
+SHA256: 0a287f9472e485535fe6690a8c7f4329359c1438102ea4dd3a05c3108987299f
+SHA512: 20feafc432647503c3ec4cb6b71f2e5cd8db6cba95874f843628dd872d33c27d71b5a3b8dd52541d5415623f038d95a86523431600ec48d56b034f7016d03cc7
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Description: Internationalized domain names (IDNA2008/TR46) library
+
 Package: libidn2-dev
 Architecture: iphoneos-arm
 Version: 2.3.0-3
@@ -2860,11 +2881,11 @@ Depends: libidn2-0 (= 2.3.0-3)
 Conflicts: libidn2 (<< 2.3.0-3)
 Replaces: libidn2 (<< 2.3.0-3)
 Filename: debs/libidn2-dev_2.3.0-3_iphoneos-arm.deb
-Size: 119696
-MD5sum: 72c0064f2f5434f3d6bc4a45c290afe9
-SHA1: 04beed1d2dfe6ab1a6e686c51bb9c88f9cfbe50e
-SHA256: c0a38bf864dd10a3e660320d03ef7f2ad84a031eacfd43a0c6cf560c613a1518
-SHA512: 5db80fd3feb76d219f90e5ded648e8fd4a26f9c2ffc0015e4f0a8940ae89c1dd2254c19384d0506b1fe3d34a985f1690e7f0e85fa67d2d9ec897e79e612ea4ff
+Size: 119688
+MD5sum: d0ece7823ae3efe42f26430fc66ff92b
+SHA1: ace32ac1f865b5b54b28093f0449b468142de626
+SHA256: 222d45e03975fbbfc52a2b47d7bbbc3e30582efaca9f6adef138009532761091
+SHA512: 1370eb1ae284bdc936fd671d97c16eadf732c27f627571d640a4f1ec68375182a5ca0447769442397e185603324200a78ba1ea97027b80dea3eb1fa8fbe2b099
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Internationalized domain names (IDNA2008/TR46) development files
 
@@ -4738,13 +4759,33 @@ Depends: libunistring2 (>= 0.9.10-2)
 Conflicts: libunistring (<< 0.9.10-2)
 Replaces: libunistring (<< 0.9.10-2)
 Filename: debs/libunistring-dev_0.9.10-2_iphoneos-arm.deb
-Size: 996942
-MD5sum: 778827eeb0d2fdd92581a7610e4a9c2b
-SHA1: 075bf0c80c3cf2d62774d71265dddb25ceacaf47
-SHA256: a378683489439e7f1ac036a34148ffe8eb235686f140303cd15fa96bd7518b54
-SHA512: 2fa96a93f19931ed6453a51401dd3867caa80e6d9e66bb2bd550f4e322cffe0031f266c7c454b5e18e35a889706bdbee7815e7eca758eea818a3b15044e29ce9
+Size: 996896
+MD5sum: 1cb6f4e2baa3b6e4822d7d3a2108d378
+SHA1: b044252ba52aed20099c135a71c8efdfef4187b7
+SHA256: 913ea145d4b2b78d186e854cddecf39d7a118a34591b4644a41e63e9af82009c
+SHA512: 102f296160196b750ee532f9830a393761becd8dfcbe85c93bfc2ea1c53395eec59749c0fe0978fe522e55eb7f6b18ad928c6fd764be642583f5d3b043d059f9
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Unicode string library for C - development files
+
+Package: libunistring2
+Architecture: iphoneos-arm
+Version: 0.9.10-2
+Multi-Arch: foreign
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 1520
+Provides: libunistring (= 0.9.10-2)
+Conflicts: libunistring (<< 0.9.10-2)
+Replaces: libunistring (<< 0.9.10-2)
+Filename: debs/libunistring2_0.9.10-2_iphoneos-arm.deb
+Size: 499786
+MD5sum: 5d87e524ff3e4296c807416a058f77da
+SHA1: 704d0db8a7833f19fc853f85606405e8ab49eb22
+SHA256: 669109d7b580a07f4c139bd36146c9829564a381ce90d3e4e80c813640641478
+SHA512: d58c5cf99c6d276e6c0ffa75467621d1a995eac3ff74fca4bb3f36436cf442685e534254644f30c8542d1b59b4721e165304f22947bcbbd49e52248b378f9d99
+Homepage: https://www.gnu.org/software/libunistring/
+Description: Unicode string library for C
 
 Package: libunrar-dev
 Architecture: iphoneos-arm

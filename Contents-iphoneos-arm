@@ -17013,6 +17013,7 @@ usr/lib/libhistory.a					    libreadline-dev
 usr/lib/libhistory.dylib				    libreadline-dev
 usr/lib/libhogweed.a					    nettle-dev
 usr/lib/libhogweed.dylib				    nettle-dev
+usr/lib/libidn2.0.dylib					    libidn2-0
 usr/lib/libidn2.a					    libidn2-dev
 usr/lib/libidn2.dylib					    libidn2-dev
 usr/lib/libintl.8.dylib					    libintl8
@@ -17152,6 +17153,7 @@ usr/lib/libturbojpeg.0.2.0.dylib			    libturbojpeg0
 usr/lib/libturbojpeg.0.dylib				    libturbojpeg0
 usr/lib/libturbojpeg.a					    libturbojpeg0-dev
 usr/lib/libturbojpeg.dylib				    libturbojpeg0-dev
+usr/lib/libunistring.2.dylib				    libunistring2
 usr/lib/libunistring.a					    libunistring-dev
 usr/lib/libunistring.dylib				    libunistring-dev
 usr/lib/libunrar.5.0.dylib				    libunrar5
@@ -22814,6 +22816,7 @@ usr/share/locale/cs/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/cs/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/cs/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/cs/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/cs/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/cs/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/cs/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/cs/LC_MESSAGES/sudoers.mo		    sudo
@@ -22826,6 +22829,7 @@ usr/share/locale/da/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/da/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/da/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/da/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/da/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/da/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/da/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/da/LC_MESSAGES/sudoers.mo		    sudo
@@ -22839,6 +22843,7 @@ usr/share/locale/de/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/de/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/de/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/de/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/de/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/de/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/de/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/de/LC_MESSAGES/sudoers.mo		    sudo
@@ -22861,6 +22866,7 @@ usr/share/locale/eo/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/eo/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/eo/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/eo/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/eo/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/eo/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/eo/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/eo/LC_MESSAGES/sudoers.mo		    sudo
@@ -22872,6 +22878,7 @@ usr/share/locale/es/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/es/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/es/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/es/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/es/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/es/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/es/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/es/LC_MESSAGES/tcsh.cat		    tcsh
@@ -22890,6 +22897,7 @@ usr/share/locale/fi/LC_MESSAGES/gawk.mo			    gawk
 usr/share/locale/fi/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/fi/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/fi/LC_MESSAGES/libcwidget3.mo		    libcwidget4
+usr/share/locale/fi/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/fi/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/fi/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/fi/LC_MESSAGES/sudoers.mo		    sudo
@@ -22904,6 +22912,7 @@ usr/share/locale/fr/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/fr/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/fr/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/fr/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/fr/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/fr/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/fr/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/fr/LC_MESSAGES/sudoers.mo		    sudo
@@ -22911,6 +22920,7 @@ usr/share/locale/fr/LC_MESSAGES/tcsh.cat		    tcsh
 usr/share/locale/fr/LC_MESSAGES/whois.mo		    whois
 usr/share/locale/fr/LC_MESSAGES/xkeyboard-config.mo	    xkeyboard-config
 usr/share/locale/fr/LC_MESSAGES/xz.mo			    xz-utils
+usr/share/locale/fur/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/fur/LC_MESSAGES/sudo.mo		    sudo
 usr/share/locale/fur/LC_MESSAGES/sudoers.mo		    sudo
 usr/share/locale/fur/LC_MESSAGES/xkeyboard-config.mo	    xkeyboard-config
@@ -22923,6 +22933,7 @@ usr/share/locale/gl/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/gl/LC_MESSAGES/xkeyboard-config.mo	    xkeyboard-config
 usr/share/locale/gr/LC_MESSAGES/tcsh.cat		    tcsh
 usr/share/locale/hr/LC_MESSAGES/libcwidget3.mo		    libcwidget4
+usr/share/locale/hr/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/hr/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/hr/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/hr/LC_MESSAGES/sudoers.mo		    sudo
@@ -22931,6 +22942,7 @@ usr/share/locale/hu/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/hu/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/hu/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/hu/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/hu/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/hu/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/hu/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/hu/LC_MESSAGES/sudoers.mo		    sudo
@@ -22939,6 +22951,7 @@ usr/share/locale/hu/LC_MESSAGES/xz.mo			    xz-utils
 usr/share/locale/id/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/id/LC_MESSAGES/gawk.mo			    gawk
 usr/share/locale/id/LC_MESSAGES/gnupg2.mo		    gnupg
+usr/share/locale/id/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/id/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/id/LC_MESSAGES/xkeyboard-config.mo	    xkeyboard-config
 usr/share/locale/is/LC_MESSAGES/nano.mo			    nano
@@ -22947,6 +22960,7 @@ usr/share/locale/it/LC_MESSAGES/gawk.mo			    gawk
 usr/share/locale/it/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/it/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/it/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/it/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/it/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/it/LC_MESSAGES/netcat.mo		    netcat
 usr/share/locale/it/LC_MESSAGES/sudo.mo			    sudo
@@ -22961,6 +22975,7 @@ usr/share/locale/ja/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/ja/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/ja/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/ja/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/ja/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/ja/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/ja/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/ja/LC_MESSAGES/sudoers.mo		    sudo
@@ -23000,6 +23015,7 @@ usr/share/locale/nl/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/nl/LC_MESSAGES/gawk.mo			    gawk
 usr/share/locale/nl/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/nl/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/nl/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/nl/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/nl/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/nl/LC_MESSAGES/sudoers.mo		    sudo
@@ -23016,6 +23032,7 @@ usr/share/locale/pl/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/pl/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/pl/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/pl/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/pl/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/pl/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/pl/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/pl/LC_MESSAGES/sudoers.mo		    sudo
@@ -23036,6 +23053,7 @@ usr/share/locale/pt_BR/LC_MESSAGES/dpkg.mo		    dpkg
 usr/share/locale/pt_BR/LC_MESSAGES/gawk.mo		    gawk
 usr/share/locale/pt_BR/LC_MESSAGES/gdbm.mo		    libgdbm6
 usr/share/locale/pt_BR/LC_MESSAGES/libcwidget3.mo	    libcwidget4
+usr/share/locale/pt_BR/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/pt_BR/LC_MESSAGES/nano.mo		    nano
 usr/share/locale/pt_BR/LC_MESSAGES/sudo.mo		    sudo
 usr/share/locale/pt_BR/LC_MESSAGES/sudoers.mo		    sudo
@@ -23046,6 +23064,7 @@ usr/share/locale/ro/LC_MESSAGES/dpkg.mo			    dpkg
 usr/share/locale/ro/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/ro/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/ro/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/ro/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/ro/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/ro/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/ro/LC_MESSAGES/sudoers.mo		    sudo
@@ -23056,6 +23075,7 @@ usr/share/locale/ru/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/ru/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/ru/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/ru/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/ru/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/ru/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/ru/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/ru/LC_MESSAGES/sudoers.mo		    sudo
@@ -23079,6 +23099,7 @@ usr/share/locale/sl/LC_MESSAGES/xkeyboard-config.mo	    xkeyboard-config
 usr/share/locale/sq/LC_MESSAGES/xkeyboard-config.mo	    xkeyboard-config
 usr/share/locale/sr/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/sr/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/sr/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/sr/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/sr/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/sr/LC_MESSAGES/sudoers.mo		    sudo
@@ -23090,6 +23111,7 @@ usr/share/locale/sv/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/sv/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/sv/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/sv/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/sv/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/sv/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/sv/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/sv/LC_MESSAGES/sudoers.mo		    sudo
@@ -23109,6 +23131,7 @@ usr/share/locale/uk/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/uk/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/uk/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/uk/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/uk/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/uk/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/uk/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/uk/LC_MESSAGES/sudoers.mo		    sudo
@@ -23118,6 +23141,7 @@ usr/share/locale/vi/LC_MESSAGES/gawk.mo			    gawk
 usr/share/locale/vi/LC_MESSAGES/gdbm.mo			    libgdbm6
 usr/share/locale/vi/LC_MESSAGES/libcwidget3.mo		    libcwidget4
 usr/share/locale/vi/LC_MESSAGES/libgpg-error.mo		    gpgrt-tools
+usr/share/locale/vi/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/vi/LC_MESSAGES/nano.mo			    nano
 usr/share/locale/vi/LC_MESSAGES/sudo.mo			    sudo
 usr/share/locale/vi/LC_MESSAGES/sudoers.mo		    sudo
@@ -23128,6 +23152,7 @@ usr/share/locale/zh_CN/LC_MESSAGES/gawk.mo		    gawk
 usr/share/locale/zh_CN/LC_MESSAGES/gnupg2.mo		    gnupg
 usr/share/locale/zh_CN/LC_MESSAGES/libcwidget3.mo	    libcwidget4
 usr/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo	    gpgrt-tools
+usr/share/locale/zh_CN/LC_MESSAGES/libidn2.mo		    libidn2-0
 usr/share/locale/zh_CN/LC_MESSAGES/nano.mo		    nano
 usr/share/locale/zh_CN/LC_MESSAGES/sudo.mo		    sudo
 usr/share/locale/zh_CN/LC_MESSAGES/sudoers.mo		    sudo
