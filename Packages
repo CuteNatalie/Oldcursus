@@ -7,13 +7,13 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 644
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: apt (=2.3.8), libdb18.1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0)
+Conflicts:
 Filename: debs/apt-utils_2.3.8_iphoneos-arm.deb
-Size: 222488
-MD5sum: 178693b2773d96ca7b9a362b194f08d6
-SHA1: c19c9a7c5d3a0b412a2c3762c646ffea70c15a49
-SHA256: 2d2b68e6b3c1393b13db4916e62053f3b1c165eb4f3a324af332584d2bc4a53c
-SHA512: df4ea2270fbddacabc10185b7d11aefb8a0f97c8ac97371f444326c71d3e668ef217375f27483f6729baf901d0314c5ea4aac64d62ff10988f779dc9b6791442
+Size: 222466
+MD5sum: 0055f206e831ebd180481291205d6f9d
+SHA1: d20704863e1886bec0746c64908ec8a27d4d59af
+SHA256: 343d20eb9a66c16025f618609e75feeda303d2692b61b720017f531871e06259
+SHA512: 46d39373d77e449a4c8393a8367edb297943386fba22f757c5e9f5b2709f7cf714875e202acb13111152a388b747bb5fc0fd4881847a3770e183c8558e780469
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -34,14 +34,14 @@ Installed-Size: 2604
 Provides: apt1.8 (= 1:0), apt-lib (= 1:0), libapt (=1:0), apt-key (= 1:0)
 Pre-Depends:
 Depends: libapt-pkg6.0 (= 2.3.8), libgnutls30, gpgv, dpkg (>= 1.19.0), coreutils
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8, libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0)
+Conflicts:
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key
 Filename: debs/apt_2.3.8_iphoneos-arm.deb
-Size: 1021128
-MD5sum: 39fb1fbf7b574d4274fa72b1e72f608e
-SHA1: 32c0e1c544adf67c939d922dfb3e549ed969bad5
-SHA256: 7c5b83de53a984aaed32d20c8db15775a5957d0887e40ce69fee1252c95dcda6
-SHA512: a142a9b071daee9e1f679b201e7f2318388e1bfeb952ec5a0db75c25b659eaf416590db7046a62da789d01d20eb6b3766e2fe7c64ed0e51aa5dbe031e03909ae
+Size: 1021122
+MD5sum: 180fc9ef9bd6711bde27dd367e63cbb6
+SHA1: 557ae48d121f0bc365e8740c9ec5901545d74a51
+SHA256: 4788a2eed169266b9f0aa7cf02a2f80fabc90760e2219735d5af1809ff82d583
+SHA512: e901295d43cfdd3fb809a528a2586d79f9fbdbc821352e6cf42a0193039071be38e05787390759b5834d292ad75c3c0cde525014d2723ad964c4b45d9a92265a
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -276,14 +276,13 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 420
 Depends: gpgconf (= 2.3.1-1), libassuan0, libgcrypt20, libgnutls30, libgpg-error0, libksba8, libnpth0, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
 Replaces: gnupg2
 Filename: debs/dirmngr_2.3.1-1_iphoneos-arm.deb
-Size: 177136
-MD5sum: 3fb77841346b34bd7bcb3fcd045bf634
-SHA1: 820f311085b8109975f8074c1a8e296967060d6c
-SHA256: 9dd8990bb3d4760d5c9486b1479e349f4d2ed6c4077955cb7449d0640d5da3ee
-SHA512: 7e5da1b78eb4675d300bb79ab7515befe68e0b4b0065bfe22730863a84469e34df873fbfbf61309696e10824585d636cdf8c5574941871337a461ea9dacc42f7
+Size: 177124
+MD5sum: 173e91b740948352be963ef31498d466
+SHA1: 29a7cd948905048ec6e54874fe200c783ebaf987
+SHA256: 6feadfe5ba37d83c24476bffe9fc201b74adc50e1bafb199c91eb0430576de49
+SHA512: f923a52a542a287fd24e2be2f22e463b7b695f5164b039d72748d87a8a4fd38c244f80beb8746bfcc35c6a6e1c4408a7f4d67542b95714e418285bc75560993d
 Description: GNU privacy guard - network certificate management service
  dirmngr is a server for managing and downloading OpenPGP and X.509
  certificates, as well as updates and status signals related to those
@@ -530,14 +529,13 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 368
 Depends: libassuan0, libgcrypt20, libgpg-error0, libksba8, libnpth0, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
 Replaces: gnupg2
 Filename: debs/gnupg-utils_2.3.1-1_iphoneos-arm.deb
-Size: 74998
-MD5sum: 5a0b2dd624992060e86b1321eaa1a138
-SHA1: e25768179c15d9c3c049cd529ab158b73e48c030
-SHA256: 1ac80fc14087744ad51bf28b477358a623a540a6eda00ef97afbbd209a042e20
-SHA512: eadd1d6b4e42577171f9c9ad78841c53990a5c242e066df77c67e6d0d3d9112a86dc44a8554450d07ad8c76a4184b62057d1660496a65f3108cb5dac9286d064
+Size: 74978
+MD5sum: 99ee7641648704aa5137494b1e9392f9
+SHA1: 4022cfe4d1838bbfb6e209d2ceee44860828198e
+SHA256: 08827c32bef10ab3c4d6e22d8bcc5338643101bb14da9781beed6c35386d5c94
+SHA512: d08a6d8d4bb59b471931d3adf627aaee272c49c2a1d4491ee09b5eff788b8e826a2d6ef9cf07c3f086cff3bfe4f9c68e38af084d95e61cf6cb977f3408c1c75e
 Description: GNU privacy guard - utility programs
  GnuPG is GNU's tool for secure communication and data storage.
  .
@@ -563,11 +561,11 @@ Depends: dirmngr (= 2.3.1-1), gnupg-utils (= 2.3.1-1), gpg (= 2.3.1-1), gpg-agen
 Conflicts: gnupg2
 Replaces: gnupg2
 Filename: debs/gnupg_2.3.1-1_all.deb
-Size: 678004
-MD5sum: 5fbbc468480c256dd4e7c909c0cae614
-SHA1: 0818f80026723d155cf88b7c34a2d35266503931
-SHA256: 8468717e8c6535d0e9004c08ae1701cf5c0b484365fc25932d7a439f4ce0cefb
-SHA512: cea005586bcf820cfdc6ffae7968ae2eeed8eefcb748044aaae83cdf575232b4ffcfea18c67eb3409f059bca54a02870904c85f3333d5ede78db10e78a6a883b
+Size: 684864
+MD5sum: 1f8d795c74a9fec22b6ff77ff7c98421
+SHA1: 124caa533b33dddffe0da339a203f47855c53962
+SHA256: 5c70397c33becbbb436d337366550cb4bf6e5679c35239add35b416082ee4b79
+SHA512: ed87915bcd7614a47692ebbe9c6cc142c4a2ecc3ad39154ce1488ffb4ebfbbcf532387222ccf250905dc7edfce9078593e3a2fb06b09c5275feafbac35f432aa
 Description: GNU privacy guard - a free PGP replacement
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -623,14 +621,14 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 524
 Depends: gpgconf, gpg, dirmngr, libassuan0, libgcrypt20, libgpg-error0, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
+Conflicts:
 Replaces: gnupg2
 Filename: debs/gpg-agent_2.3.1-1_iphoneos-arm.deb
-Size: 179926
-MD5sum: 45a1bee8a5d5a7c92e4fd3d825b59a4b
-SHA1: 4852b74b3109ded4a612cbc87a093d2e63e8ee5e
-SHA256: b080af7c02f583e59f82aefd0f82745cd4bc0de322e563c8cb1bbe214ea781ed
-SHA512: f4eb8c8584c01b7ee2c46bc6a8dae1a934cd0c8130f423306ad3755f912aceca0c27d93fd4a177b506ac285d37b25fa37b02f0f2b1b27248633ca151aa197e40
+Size: 179906
+MD5sum: 881ea3a4aa8aa4c4efb8d6c712683506
+SHA1: 03dd3ffc6e11f88e5f2d97e0bbe1f7ec156898df
+SHA256: e13ef185077bc47d636f980da1188d3360012d5d5d411cc24cb2c08e7230e9cd
+SHA512: ff3fdf04d05450ab2229070a46abee9ab36335e9a096e4f51b3b15ecc7a2707431860f666a6ba0bf9fd74bfd8e068928b4ac7087850526845a25b541af118974
 Description: GNU privacy guard - cryptographic agent
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -652,14 +650,13 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 8
 Depends: gpgconf, gpg, dirmngr, libassuan0, libgcrypt20, libgpg-error0, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
 Replaces: gnupg2
 Filename: debs/gpg-wks-client_2.3.1-1_iphoneos-arm.deb
-Size: 3362
-MD5sum: 8e52f9cb225bad5af716021ff0207d64
-SHA1: e2a4940f2e5000f2088087c0f1d1aac95602b599
-SHA256: ba5e5dbb86eb04c88e5262cea53db31606f221ae62d2b1089253e7c73ceaa5c3
-SHA512: 0835ce1371baff7f914305b8b2ab63fcfa8a0a1fd51a1db4d86234f4a472548d06724e265da68192791477db88438aa69eedf4677ba0eb448de749fd2e4024af
+Size: 3350
+MD5sum: 96ffd2bf211ef95703f3cfe2628cf311
+SHA1: ca12b8d4f150a9c48c443e2a1a9b08fbc9908d81
+SHA256: a1866c48d4940ad90b5043271646806476dca0ac8c3ec59788489b755c76d962
+SHA512: 5073064952b43f425c46d7da920862c7e202f3503bc7e78de33dac8f11a3f6c80a08e8df64b9685232560b8c03f81794a85b35ed66f520afef6cfbf3284c9129
 Description: GNU privacy guard - Web Key Service client
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -683,14 +680,14 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 136
 Depends: gpgconf, gpg, libgcrypt20, libgpg-error0, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
+Conflicts:
 Replaces: gnupg2
 Filename: debs/gpg-wks-server_2.3.1-1_iphoneos-arm.deb
-Size: 49944
-MD5sum: 53f2f867ec66478e9f5249405de1d3ca
-SHA1: 9844fe3a016e4954f59a3a0467a41806f12fea81
-SHA256: 13a93dfffd2449a3b773a4cdb825164254620fde15e63bd60dd611c31af140f4
-SHA512: 7c31b41c8816e354c124ec73d0f45598294db0db95703b903e0117e569a9eb55d9f4e53f0db176c8b07c742d968dc244c017e00b789c91ca8b549d4043a224bd
+Size: 49938
+MD5sum: e138ec8d2748b07dd2b644d83be678b7
+SHA1: 583f0f8f65779daa425e7faa9fa4559186c16c1a
+SHA256: 5c0a30679e1a8880dbd1d0f5b3639d6c14b0ac6cd7fa7687a2ee54837f73f348
+SHA512: e4826abeddd9b20cc3b8ea494396a900182377451da89770a967e3b34960d0616ea70e17ddb4f44ce9970355b37cde32c5902de3014c312a26efe2941674ef12
 Description: GNU privacy guard - Web Key Service server
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -714,14 +711,14 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 804
 Depends: libassuan0, libgcrypt20, libgpg-error0, libreadline8, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
+Conflicts:
 Replaces: gnupg2
 Filename: debs/gpg_2.3.1-1_iphoneos-arm.deb
-Size: 457316
-MD5sum: f10fbcfa9f1fc65fb706eb6718ae2ed1
-SHA1: 709ddacb9713e1f254dc2a8994fa63d32c7395b8
-SHA256: 9a87cb41343dfdbcd6745a3acfb11d02b5eefbb7b4052eb925e69e87122735a0
-SHA512: 95e44479cd8bc77776598fad6db63307cb83253073dd1490bc8f87774a38a748edcf3a234be614d10fc6c3cc4a2ea6a7bae3bc1f741884d6ee1f8566ae0acee4
+Size: 457306
+MD5sum: 6a7eff30f6adb63cd5a77b33f3c6b422
+SHA1: 4f8a15196db400b11f5359a2059d3f7563a48e6a
+SHA256: 9b871b3396a470bf6e710e8d3e62a27893d723714b48789a82ef6e6861413abc
+SHA512: d68455de8dd2a48a28d39b9d44654705f47ce9c59a323bfea270634e20db8cfda163bc6807bafd9c383e32f385eb64fce29d389da47f0da1305159ef48a3911a
 Description: GNU Privacy Guard -- minimalist public key operations
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -742,14 +739,14 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 228
 Depends: libassuan0, libgcrypt20, libgpg-error0, libreadline8, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
+Conflicts:
 Replaces: gnupg2
 Filename: debs/gpgconf_2.3.1-1_iphoneos-arm.deb
-Size: 78120
-MD5sum: 90d6a7179e072313c490bedfcced8702
-SHA1: 71132d674f7b9139e48c13b4746d798a1a501c1d
-SHA256: 1970095b2129d7076dc2fb7617a2542f622311d72bbbf043640f4445e2f7c946
-SHA512: b65e9cb5cdcdb2a9aa7859cb58725361ff53dddcfe4fa92d25a608b6d72dc8086b422172a4c54dadc24e99cc8c23837485819b3cfcdcd952c9cdd91eb21ecbb2
+Size: 78110
+MD5sum: 4a7daf4801f28607f3167e32db3341e2
+SHA1: b8ced38c408de7ada6a746b242a30573efe63d2f
+SHA256: 1f6f1220c745f143832227333f3959657a2e9837df694f5269d2fb488a8f585c
+SHA512: bc74b76f89a5e5e8b5c10025694198f11443e5c788c875343e77374583588d260d3fe10973f284e5ebe45866949b589e470507817317077c37bb7a86c48178a3
 Description: GNU privacy guard - core configuration utilities
  GnuPG is GNU's tool for secure communication and data storage.
  .
@@ -769,11 +766,11 @@ Installed-Size: 784
 Depends: libgpg-error0 (= 1.42)
 Conflicts: libgpg-error (<< 1.42)
 Filename: debs/gpgrt-tools_1.42_iphoneos-arm.deb
-Size: 145138
-MD5sum: 38e5f3156619ed2715df18ffb8465abd
-SHA1: f669485d909cb901af2b837e1b880667ee5122e7
-SHA256: 306399f1d03c65739fa907e77ee013b84bfdd6f0e95f8040f9e14464a8319f42
-SHA512: ec1a09ec4c9d5046675369bf31401c8e43538a68c0888c98e13cc8abd05d25187d0bca9e6d66deb8a3cf1c6ca54eda1b1bf447718c2c236a20414220a2d297fc
+Size: 145154
+MD5sum: fa76581a1f2546bd1a3f9719bc7f33a1
+SHA1: 1e4aafd4b8be9b2e24e1818bd5d3a2460ac145b2
+SHA256: ab2e9d9407b2a0e72d72884e8f1d0ac600cb0aa780d8eb57905085cc81d9ff1a
+SHA512: 5683f5e77fe8e5669c0383028fdf3a47cbfe5023e7b168e164140ea9f2404fd77e519460a7bcbcdf44a269e1774e76f9a316c81d56d041793b9e55259dac38a5
 Description: gpgrt (also known as libgpg-error) defines common error values, messages, and common runtime functionality for all GnuPG components. This package contains yat2m, a Texinfo to nroff/troff converter useful for building manpages, and gpg-error, a binary for deciphering GnuPG/libgcrypt error codes.
 Name: GnuPG Errors (Tools)
 
@@ -785,14 +782,14 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 372
 Depends: gpgconf, libassuan0, libgcrypt20, libgpg-error0, libksba8, libreadline8, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
+Conflicts:
 Replaces: gnupg2
 Filename: debs/gpgsm_2.3.1-1_iphoneos-arm.deb
-Size: 185100
-MD5sum: c582ebf385256a7043fbd522a8db4dd2
-SHA1: 1f32a688afba044ce84230b9b8878a7531001e32
-SHA256: 7609c3e697f7ec2115f350ccbe787136747afc5061b25f3d82c9d54ef648f2f5
-SHA512: 35aceb8a488b9105cf196b6c7a25daf8e4fc663967c25c04346ee5a187bedfb1638d23cc98fb5e4fc578ac5ef8088be9d4ee7c12fa2513d2e882d7281336bdca
+Size: 185068
+MD5sum: e684be8e38dc32ab5ee75c7777abcc0f
+SHA1: 4a568b6e78719403c60e71f301462528468d68c3
+SHA256: 886f161521e9c0224cae98af53c4e6053e993e914c3571435d2191a3c0b370f4
+SHA512: ef87e8ec4c500d5be7cb0d2351a5c0d482a346fea4df3e51cc7c8ae3ee00a8eba1ef847c1f7db45d3315e9afe9ac5d766467ea1eb632cf0e82783ea894c39ac6
 Description: GNU privacy guard - S/MIME version
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
@@ -811,14 +808,14 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 308
 Depends: libassuan0, libgcrypt20, libgpg-error0, libintl8, libnpth0
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
+Conflicts:
 Replaces: gnupg2
 Filename: debs/gpgv_2.3.1-1_iphoneos-arm.deb
-Size: 150692
-MD5sum: a42ce23e88066cf2ec96576b91b1a9d1
-SHA1: 238a84946086e1415dd5749b1d97f106417ea446
-SHA256: 4cde9612cb61f554d7454c7e434b4bcf6508eae36c2e55c43e1be2c9e42e7d18
-SHA512: cc2c4139c3c6709e9b2df6949396bda976517b8d85a669b094b9eeb2ea2a06618ecf54e717a66a08aa33c7aaff1be466bc4e1c5a6630b2a8a00f97f2d2c464dd
+Size: 150624
+MD5sum: e57cdbcb861b437e0b86603382d88777
+SHA1: fbb32411de905ebe811475426aa091bc3c693d07
+SHA256: 5d7f21cc7b65bfc44d3c40f38ef70e0c2d5606086e0d7a10120e750b1e1b1c3d
+SHA512: 859da30785b913fe3c9bc2becd2409ddb3eff7bdfcd7588c4a9dbe22753456944f81286b9aaba34aeb9ff17d9aecba9bac885823aea816f9e22ca1572daa193e
 Description: GNU privacy guard - signature verification tool
  GnuPG is GNU's tool for secure communication and data storage.
  .
@@ -949,14 +946,14 @@ Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 600
 Depends: libapt-pkg6.0 (=2.3.8), libgcrypt20-dev, liblz4-dev, liblzma-dev, libxxhash-dev, libzstd-dev, libiosexec-dev
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt (<<2.0.0), apt-dev (<< 1:0)
+Conflicts:
 Replaces: apt-dev (<< 1:0)
 Filename: debs/libapt-pkg-dev_2.3.8_iphoneos-arm.deb
-Size: 97402
-MD5sum: 82674586be44fbd404a472e03e46bd3e
-SHA1: fe31142974fbb9fba25801c4b844db1c2e097368
-SHA256: 3998caa7813a14b209c7c911ee1d61fb591c17ae247d4bf4dbe868d95c4f8348
-SHA512: fb324f638f6787c74c409dd832965cfa3ed872a88b7b65d66dbd09da093a6b5ad9a829f57cda13df5b73a98bd3336708efa76eb8b0aedad292e9c75bacb689f0
+Size: 97400
+MD5sum: 6065bb2bacc8ef36709715a8d45ff096
+SHA1: 63e338c61053a8dca8e7092a2889a2378bcff320
+SHA256: 486a94d861f720289b19d94badd461df3ac385b9aa2cc5ac7b0e533d59f1d992
+SHA512: 3a3fbbdbafe28555f1a82834df81fa0bbe8473ccb6a88d8644552e1fb96ceeef268b636a0887568b2b3e45aafad1a64cf7a41d271140a922d54a75d215d9315b
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
@@ -971,14 +968,14 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 1588
 Provides: libapt-pkg (=2.3.8)
 Depends: libiosexec1, libgcrypt20, liblz4-1, liblzma5 (>= 5.2.5), libxxhash0, libzstd1
-Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8 (<<1:0), libapt-pkg5.0 (<<1:0), libapt (<<1:0), apt-key (<<1:0), apt (<< 2.1.10-2)
+Conflicts:
 Replaces: apt1.8, apt1.4, libapt, libapt-pkg5.0, apt-lib, apt-key, apt (<< 2.1.10-2)
 Filename: debs/libapt-pkg6.0_2.3.8_iphoneos-arm.deb
-Size: 763738
-MD5sum: b6c80293fd928025d04ab7f74a6d3283
-SHA1: 29aadc8ce0dd1dc6c3319cdc516313a86f872681
-SHA256: fd19baf8c9cb0e90407103d9b8eedf9e8b0cd1ecfb4a3df9b64b4376c04d7de4
-SHA512: 04f7d5044fa847287e8a7c8b60e02d78fd5cb0e6ba7ff888dc2e89f3cddace18f7dc6ec687caa855223923e5ae19d9f2db95882b61d0c7c1f552f43dab80d288
+Size: 763716
+MD5sum: 2145852ff2b17f39dc709d2970155805
+SHA1: 8e4e69db4833110be9b060c98e004f559ea8306d
+SHA256: 2014a979292b0e52151f9951e60e98e38d2ad906b542a8a3e203dd475f08d977
+SHA512: 403efb0f23e980136c0a2fe43046fcee6ded9e1084d4131dfb0d8eaf27568bb11c38610a534f9d49096e8c4ce9dd03052cd37df9e18615d6dc42d0287a55b17f
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -2311,11 +2308,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 252
 Depends: libgpg-error-dev (>= 1.37), libgcrypt20 (= 1.9.3)
 Filename: debs/libgcrypt20-dev_1.9.3_iphoneos-arm.deb
-Size: 34534
-MD5sum: 9c15fc13de3b94a981c5a47dd11aeb26
-SHA1: 13dbbb1aa8e414007b43a0bc5b19666341deee18
-SHA256: 0b7e3fe11f6ca6e3272ab7408e358108e84e58780fe526eb8e047c4f6af302a6
-SHA512: 4ad638caf8d78d1f1a47709113ecb5ff2e964a7d8c9a4969ad9c4b3fb483b65efcabfdf79ab67092dd295623e157231c3005cd8d614625ab6b3f367d3ea310b1
+Size: 34530
+MD5sum: 8fcba4d6a4050acb0df059830efecbd4
+SHA1: 4a9b1a5216a0c60e087d14b4cef69ad0b5dbb818
+SHA256: 17e3c9657e9c14a825fea5e5d2e67e3ea850c6319eea4bd9075277b6ce95d09c
+SHA512: 50bf34ef7df58439cf8961af5ef01516a150951a5657788ef3cb1dbfdd9011be997e03b9328a429674d80b08ed920743bcee54fc129f894a4749ce68583cad32
 Description: LGPL cryptographic algorithm library (Development files)
 
 Package: libgcrypt20
@@ -2331,11 +2328,11 @@ Depends: libgpg-error0 (>= 1.37)
 Conflicts: gcrypt (<<1:0), libgcrypt (<<1:0)
 Replaces: gcrypt, libgcrypt
 Filename: debs/libgcrypt20_1.9.3_iphoneos-arm.deb
-Size: 387492
-MD5sum: c38f347077e9a4b8ea4481a3c779472b
-SHA1: 1238dfc711b76bd18436f306406064a82f05e606
-SHA256: 859ca64128e3cad9cd19ab72bb9706599f2d39f63546a5432f7060098ec6a1a3
-SHA512: 881d3ed500620f8922c7b895f2b954ecd0ae6716070f436b77be3c44bd0d22c0cce22e64717e187509a59b2f4b1b0da9e3f8d349068dde00c04a80654d4ac436
+Size: 387490
+MD5sum: 25a6932c8b3a26a1eb42b05c3fb1e4df
+SHA1: 28a05f613186827b94c43a211c37deb994ca812b
+SHA256: 05b48db47bf345d885c15eda9b0f9676cd7bcfc0e0ad7ef351f1754c3d47c652
+SHA512: f0d3fa5b3f38556bc325c1bfbe72326cf5db1f6b20abde0af74b02aeb3f57e7fbd3b1c0b847375b3426351adfeb02686e31cf9ea47f22f486270103f4169af2b
 Description: LGPL cryptographic algorithm library (Libraries)
 
 Package: libgdbm-dev
@@ -2691,11 +2688,11 @@ Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 156
 Filename: debs/libgpg-error-dev_1.42_iphoneos-arm.deb
-Size: 17690
-MD5sum: 6a3589ea6b703ec56cd3838d8ecaeaab
-SHA1: 75ea6565abc40456bdfe595b38a239f3355e1040
-SHA256: 4d603b240c89aa03e28649efd35e0b18ed47d2535ab29375256c26bb04d5d21a
-SHA512: ac031af69430721183d61d7cbafb17753b46020bc66a77ab95f9530593a2b3140aee14b2dd9196bf369c965cb19d9af1fa968ee1592aa2df7eba1ae36c91b144
+Size: 17710
+MD5sum: ebb31291ff8673bf3ed3355092aab4d3
+SHA1: c6390d30e5e8181bc88de7830eca6bf640216113
+SHA256: ab8be3c11c7f33e2ecce8c6a430a86f60000f4cc92d3ba7195c2028c2c2279c9
+SHA512: cb0111a973fcc1af8644147c0d14c47f1321dbbe5db3682457a63a79a89b29ffb9b678f6891460a463d577880a2b5e1ddde234f63c3c633f2b448386661ff093
 Description: GnuPG development runtime library (developer tools)
  Library that defines common error values, messages, and common
  runtime functionality for all GnuPG components.  Among these are GPG,
@@ -2717,10 +2714,10 @@ Installed-Size: 140
 Depends: libintl8
 Filename: debs/libgpg-error0_1.42_iphoneos-arm.deb
 Size: 52264
-MD5sum: 59f4d62ad55096986baea6c2f5496280
-SHA1: 43ed51e29af17fd8d1449e63e733d0738da71b8a
-SHA256: 63c1535566f6879988f0b0821ae18464390fd909e7c589efcb7860b77c8e21d6
-SHA512: 7192be4b6b7593c373a5ba03e705fdee53153ef543c1de833df0647a3ae74368cdbfeb97d193fe3718eedb183c1d05306c006e3b981d5b7d2b0c4cda8e236b4d
+MD5sum: 07f0521fa48f00374b5e088ddcc1b319
+SHA1: b910455b78205cb0f95a53f7a64121c0aa988164
+SHA256: 6162f27a7e6ca8b612a40d2c947da093f4ef7091cca538f6c516149f654c14b8
+SHA512: 0e4e8f3779eb1a5ae47b85e3eee5a6184d9f03ce3c042f316381342fca594f627b99dd742a16fe5be7caddbb538812f2c9d28ac77089b24e1726008b6db20762
 Description: GnuPG development runtime library
  Library that defines common error values, messages, and common
  runtime functionality for all GnuPG components.  Among these are GPG,
@@ -8464,14 +8461,14 @@ Section: Security
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 316
 Depends: gpg-agent (= 2.3.1-1), libassuan0, libgcrypt20, libgpg-error0, libksba8, libnpth0, libusb-1.0-0, libintl8
-Conflicts: gnupg2, gnupg (<< 2.3.1-1)
+Conflicts:
 Replaces: gnupg2
 Filename: debs/scdaemon_2.3.1-1_iphoneos-arm.deb
-Size: 160382
-MD5sum: 837effcab7302ebf151d439439eb3288
-SHA1: a267f215ce82bf6e852928f4682606c5dbd928df
-SHA256: f74d4f1bf2ad39f42126cb49747eb190a57f17e9c7e5dbf1633d7fbb42587ccc
-SHA512: 82616ac66c79093a7684ac7ae838b2aec9f23bb47ac1c73618d6afbad9f32ee0e6fda14dc054dfb38838cffd2806d963361ecfa40dcba0e33cb29e6a17e8b133
+Size: 160392
+MD5sum: 6e762e5ce65a3450697283edda0d831f
+SHA1: 627316d99cd400b3e69c51d5ff356474b2f57600
+SHA256: 5c13d4318e29018e714282e456eca8ea5f3eaa6e2431c5155c6e0c6fe8e96459
+SHA512: b532688dc7c2691190bda2697e1650a5f7d9c5703e1df3951f5fd0e4ce1f6364a209a8a72a693b4cd9f2db6485a094bbf2d3c9d73bd543654b9702ac3d368e58
 Description: GNU privacy guard - smart card support
  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
