@@ -79,6 +79,7 @@ etc/joe/shell.sh					    joe
 etc/nanorc						    nano
 etc/pam.d/doas						    doas
 etc/pam.d/sshd						    openssh-server
+etc/profile.d/cacerts.bootstrap.sh			    ca-certificates
 etc/profile.d/gawk.csh					    gawk
 etc/profile.d/gawk.sh					    gawk
 etc/screenrc						    screen
@@ -86,6 +87,8 @@ etc/slsh.rc						    slsh
 etc/ssh/moduli						    openssh-server,openssh
 etc/ssh/ssh_config					    openssh-client,openssh
 etc/ssh/sshd_config					    openssh-server,openssh
+etc/ssl/cert.pem					    ca-certificates
+etc/ssl/certs/cacert.pem				    ca-certificates
 etc/ssl/ct_log_list.cnf					    openssl
 etc/ssl/ct_log_list.cnf.dist				    openssl
 etc/ssl/misc/CA.pl					    openssl
@@ -21927,6 +21930,8 @@ usr/lib/slang/v2/modules/sysconf-module.so		    libslang2-modules
 usr/lib/slang/v2/modules/termios-module.so		    libslang2-modules
 usr/lib/slang/v2/modules/varray-module.so		    libslang2-modules
 usr/lib/slang/v2/modules/zlib-module.so			    libslang2-modules
+usr/lib/ssl/cacert.pem					    ca-certificates
+usr/lib/ssl/certs					    ca-certificates
 usr/lib/terminfo					    ncurses-term
 usr/lib/weechat/plugins/irc.0.so			    weechat-core
 usr/lib/weechat/plugins/irc.so				    weechat-core

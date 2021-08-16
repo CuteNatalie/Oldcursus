@@ -195,6 +195,23 @@ SHA512: 8d9c143af415c679a9766ff4e9e64181a3fa7b726dedaed1f05e323c148eaf61a59670bd
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
 
+Package: ca-certificates
+Architecture: all
+Version: 20210707
+Multi-Arch: foreign
+Priority: optional
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 204
+Filename: debs/ca-certificates_20210707_all.deb
+Size: 112352
+MD5sum: 2b23aa220eda07c1c8075913de703b64
+SHA1: f9be2260d4168606a2f863dac24daa2fae7282c9
+SHA256: a25d00fd50e942473a5a7a474fc2d892401a700ebc4f37e744077bf9d56426d2
+SHA512: 4d1b452f07b35495149a656f5eff9cfe7107fcc2e36fa3cbc55628553818f2eed2388ff7a86eed32ce53c27758b68314e520494e1024e5c7ad043cdeda62998c
+Description: CA certs for curl, wget, git.
+Name: CA Certificates
+
 Package: com.nito.nitotv
 Architecture: iphoneos-arm
 Version: 0.8.7-33
