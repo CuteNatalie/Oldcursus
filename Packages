@@ -8655,6 +8655,26 @@ Homepage: https://github.com/cinemast/sudoku
 Description: 9x9 grid number-placement puzzle
  Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid contain all of the digits from 1 to 9.
 
+Package: system-cmds
+Architecture: iphoneos-arm
+Version: 854.40.2-11
+Priority: required
+Essential: yes
+Section: Administration
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 288
+Provides: login, passwd, reboot
+Pre-Depends: libiosexec1
+Depends: firmware-sbin, file-cmds, libcrypt2, libpam2
+Recommends: vi
+Filename: debs/system-cmds_854.40.2-11_iphoneos-arm.deb
+Size: 79622
+MD5sum: 62db90c9973c9f0b0b7f790b4c9f6ba8
+SHA1: 00d5745287700bb45bc26f794b6d776c66f8ae55
+SHA256: 3e03701ec7c2af9b58523e67885232b1eabd5e2dc7354625647824c68797d8cd
+SHA512: 7ef2b9d7a0b3328d3fca248c024bfc6691d7f65a87b7c6237ad478d8bb00d015a6fa652a89423fe87191312dcdc3b2c15f5db5b02d6fe0d4ced9954322cb3ba4
+Description: iostat, login, passwd, sync, sysctl, pw
+
 Package: tcsh
 Architecture: iphoneos-arm
 Version: 6.22.04

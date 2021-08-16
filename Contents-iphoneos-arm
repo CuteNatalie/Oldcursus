@@ -146,6 +146,9 @@ usr/bin/c_rehash					    openssl
 usr/bin/captoinfo					    ncurses-bin
 usr/bin/censor						    lolcat
 usr/bin/certtool					    gnutls-bin
+usr/bin/chfn						    system-cmds
+usr/bin/chpass						    system-cmds
+usr/bin/chsh						    system-cmds
 usr/bin/cjpeg						    libjpeg-turbo-progs
 usr/bin/clear						    ncurses-bin
 usr/bin/curl						    curl
@@ -22021,8 +22024,11 @@ usr/local/lib/pkgconfig/liblzma.pc			    liblzma-dev
 usr/local/lib/pkgconfig/libxml-2.0.pc			    libxml2-dev
 usr/local/lib/xml2Conf.sh				    libxml2-dev
 usr/sbin/addgnupghome					    gnupg-utils
+usr/sbin/adduser					    system-cmds
 usr/sbin/applygnupgdefaults				    gnupg-utils
 usr/sbin/dropbear					    dropbear
+usr/sbin/pw						    system-cmds
+usr/sbin/rmuser						    system-cmds
 usr/sbin/rtmpgw						    rtmpdump
 usr/sbin/rtmpsrv					    rtmpdump
 usr/sbin/rtmpsuck					    rtmpdump
@@ -23279,6 +23285,9 @@ usr/share/man/man1/bzip2.1.zst				    bzip2
 usr/share/man/man1/bzless.1.zst				    bzip2
 usr/share/man/man1/bzmore.1.zst				    bzip2
 usr/share/man/man1/captoinfo.1m.zst			    ncurses-bin
+usr/share/man/man1/chfn.1				    system-cmds
+usr/share/man/man1/chpass.1.zst				    system-cmds
+usr/share/man/man1/chsh.1				    system-cmds
 usr/share/man/man1/cjpeg.1.zst				    libjpeg-turbo-progs
 usr/share/man/man1/clear.1.zst				    ncurses-bin
 usr/share/man/man1/curl-config.1.zst			    libcurl4-openssl-dev
@@ -26667,6 +26676,7 @@ usr/share/man/man3/wvline_set.3x			    ncurses-doc
 usr/share/man/man3/zlib.3.zst				    zlib
 usr/share/man/man5/Compose.5.zst			    libx11-doc
 usr/share/man/man5/XCompose.5.zst			    libx11-doc
+usr/share/man/man5/adduser.conf.5.zst			    system-cmds
 usr/share/man/man5/apt.conf.5.zst			    apt
 usr/share/man/man5/apt_auth.conf.5.zst			    apt
 usr/share/man/man5/apt_preferences.5.zst		    apt
@@ -26701,6 +26711,7 @@ usr/share/man/man5/dsc.5.zst				    dpkg-dev
 usr/share/man/man5/moduli.5.zst				    openssh-server
 usr/share/man/man5/nanorc.5.zst				    nano
 usr/share/man/man5/pam.conf.5.zst			    libpam-dev
+usr/share/man/man5/pw.conf.5.zst			    system-cmds
 usr/share/man/man5/scr_dump.5.zst			    ncurses-bin
 usr/share/man/man5/sources.list.5.zst			    apt
 usr/share/man/man5/ssh_config.5.zst			    openssh-client
@@ -26723,6 +26734,7 @@ usr/share/man/man7/gnupg.7.zst				    gnupg
 usr/share/man/man7/term.7.zst				    ncurses-bin
 usr/share/man/man7/xkeyboard-config.7.zst		    xkeyboard-config
 usr/share/man/man8/addgnupghome.8.zst			    gnupg-utils
+usr/share/man/man8/adduser.8.zst			    system-cmds
 usr/share/man/man8/applygnupgdefaults.8.zst		    gnupg-utils
 usr/share/man/man8/apt-cache.8.zst			    apt
 usr/share/man/man8/apt-cdrom.8.zst			    apt
@@ -26734,6 +26746,8 @@ usr/share/man/man8/apt-secure.8.zst			    apt
 usr/share/man/man8/apt.8.zst				    apt
 usr/share/man/man8/dirmngr.8.zst			    dirmngr
 usr/share/man/man8/dropbear.8.zst			    dropbear
+usr/share/man/man8/pw.8.zst				    system-cmds
+usr/share/man/man8/rmuser.8.zst				    system-cmds
 usr/share/man/man8/rtmpgw.8.zst				    rtmpdump
 usr/share/man/man8/sftp-server.8.zst			    openssh-sftp-server
 usr/share/man/man8/ssh-keysign.8.zst			    openssh-client
