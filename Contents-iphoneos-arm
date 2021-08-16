@@ -16754,6 +16754,8 @@ usr/lib/cmake/libssh/libssh-config-release.cmake	    libssh-dev
 usr/lib/cmake/libssh/libssh-config-version.cmake	    libssh-dev
 usr/lib/cmake/libssh/libssh-config.cmake		    libssh-dev
 usr/lib/cwidget/cwidget-config.h			    libcwidget-dev
+usr/lib/engines-1.1/capi.dylib				    libssl1.1
+usr/lib/engines-1.1/padlock.dylib			    libssl1.1
 usr/lib/gawk/filefuncs.so				    gawk
 usr/lib/gawk/fnmatch.so					    gawk
 usr/lib/gawk/fork.so					    gawk
@@ -16938,6 +16940,7 @@ usr/lib/libbrotlienc.dylib				    libbrotli-dev
 usr/lib/libcrypt.2.dylib				    libcrypt2
 usr/lib/libcrypt.a					    libcrypt-dev
 usr/lib/libcrypt.dylib					    libcrypt-dev
+usr/lib/libcrypto.1.1.dylib				    libssl1.1
 usr/lib/libcrypto.a					    libssl-dev
 usr/lib/libcrypto.dylib					    libssl-dev
 usr/lib/libcurl.4.dylib					    libcurl4
@@ -16984,6 +16987,8 @@ usr/lib/libgnutlsxx.28.dylib				    libgnutlsxx28
 usr/lib/libgnutlsxx.dylib				    libgnutls28-dev
 usr/lib/libgpg-error.0.dylib				    libgpg-error0
 usr/lib/libgpg-error.dylib				    libgpg-error-dev
+usr/lib/libhistory.8.1.dylib				    libreadline8
+usr/lib/libhistory.8.dylib				    libreadline8
 usr/lib/libhistory.a					    libreadline-dev
 usr/lib/libhistory.dylib				    libreadline-dev
 usr/lib/libhogweed.a					    nettle-dev
@@ -17085,6 +17090,8 @@ usr/lib/libplist-2.0.3.dylib				    libplist3
 usr/lib/libplist-2.0.a					    libplist-dev
 usr/lib/libplist-2.0.dylib				    libplist-dev
 usr/lib/libpython3.9.dylib				    libpython3.9
+usr/lib/libreadline.8.1.dylib				    libreadline8
+usr/lib/libreadline.8.dylib				    libreadline8
 usr/lib/libreadline.a					    libreadline-dev
 usr/lib/libreadline.dylib				    libreadline-dev
 usr/lib/librtmp.1.dylib					    librtmp1
@@ -17107,6 +17114,7 @@ usr/lib/libssh.dylib					    libssh-dev
 usr/lib/libssh2.1.dylib					    libssh2-1
 usr/lib/libssh2.a					    libssh2-dev
 usr/lib/libssh2.dylib					    libssh2-dev
+usr/lib/libssl.1.1.dylib				    libssl1.1
 usr/lib/libssl.a					    libssl-dev
 usr/lib/libssl.dylib					    libssl-dev
 usr/lib/libtasn1.a					    libtasn1-6-dev
