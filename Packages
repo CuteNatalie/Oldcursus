@@ -113,6 +113,23 @@ Description: A light command line download accelerator
  Axel tries to be as light as possible, so it might be useful as a wget
  clone (and other console based programs) on byte-critical systems.
 
+Package: bash
+Architecture: iphoneos-arm
+Version: 5.1.8
+Priority: optional
+Section: Terminal_Support
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 2868
+Depends: grep, libiosexec1, libncursesw6, libreadline8, sed, debianutils (>= 4.11.2)
+Filename: debs/bash_5.1.8_iphoneos-arm.deb
+Size: 522872
+MD5sum: 9aaa3a58eede0e2b06ddec07789bfb7f
+SHA1: 956dbaa4c9d892d2f7e42bfa255f2127ba04654f
+SHA256: b3f37d30e4f17f869f16ec909975fed4a3ee9b61f335cf407b4177829ec9bdb1
+SHA512: 53e1da20e3d6858125c6dcdecfdc0076f2ed6cb898fe1d8ddbf63dafe9c9df01a5b669cb7dea9a9a3f790c406aa097f03b302fa40912a822753422cddf5018b3
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+
 Package: beigelist
 Architecture: iphoneos-arm
 Version: 2.2.6-30
@@ -232,6 +249,44 @@ Description: New and improved installer including package queues, weather, RSS, 
 Name: nitoTV
 Website: nitosoft.com
 Author: nito
+
+Package: com.nito.updatebegone
+Architecture: iphoneos-arm
+Version: 0.2-1
+Section: Utilities
+Maintainer: nito
+Installed-Size: 16
+Depends: mobilesubstrate
+Filename: debs/com.nito.updatebegone_0.2-1_iphoneos-arm.deb
+Size: 2074
+MD5sum: 2199ce5fe729d966667edcdeeb28e098
+SHA1: 051142050b357158e9b868503485180de17cc508
+SHA256: dc78aecb7318e2eb568565de186b9292ef5791f52d503fadab5d51a80b37af7f
+SHA512: f558e3e34697ef88f496703f2392078ef9a5c578ab6b4787259b44f504cc81477106abb62519e1665a0c75d4cdb42558ec22e114247ec04f10ccebfcaaffa4f6
+Description: Mobile Substrate Tweak to remove Update Nag screen.
+Name: updateBeGone
+Website: nitosoft.com
+Author: nito
+
+Package: com.saurik.patcyh
+Architecture: iphoneos-arm
+Version: 1.2.0-1
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 224
+Depends: firmware (>= 5.3), coreutils-bin, ldid
+Filename: debs/com.saurik.patcyh_1.2.0_iphoneos-arm-fixed.deb
+Size: 27572
+MD5sum: cb0e061861992a2631f8040f3b12a8bb
+SHA1: 2d3b40bc9c0f3768b7aeb9f1920a3aeea334d8e1
+SHA256: 778987966dc259ad7c7d611774ae70c8485440994347a72cf89568bf8e59665d
+SHA512: e1269d1651cee66be458b84ab2eef7ecaaf9b3bee1893cc0b4f67897a7a42a6f11c2317cbbf422562b9dac586a1604c52eaf1fe32573ee889b0b2b63d62bc0c1
+Description: patch for installd to support uikittools
+Tag: cydia::obsolete
+Name: Patcyh
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.patcyh/
 
 Package: cpuminer
 Architecture: iphoneos-arm
@@ -960,15 +1015,15 @@ Architecture: iphoneos-arm
 Version: 2.1.4
 Priority: optional
 Section: Development
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 172
 Depends: libssl1.1, libplist3 (>= 2.2.0)
 Filename: debs/ldid_2.1.4_iphoneos-arm.deb
-Size: 58286
-MD5sum: ef94c1ec901403f4140ca8de30c2e417
-SHA1: 7774b29fb918db3c3590f188d2141390c45dcc6a
-SHA256: a046f05611e87dfceb847dba3d15f902e22c45764c451e1a12c0662e6f585a82
-SHA512: 3f16136137d9ae38d678a56463c0e899b0494a640a2a3993731fa48b635551cab89504e7e2a59383ec0976fedfd9cd5c09a77edd9b23c35534f185b81d260131
+Size: 58294
+MD5sum: 95e4bed90297a2a552409b68376c25e8
+SHA1: c612c992ae0b4cce4b67e7d00fb6e7eeedf7fd28
+SHA256: 0ad02e85fc6c5c4a5bda20bd0c56a894fcadd211ed22ff3e3d423884d0982ec6
+SHA512: bb076a9a20576cbe3c0199b7a241a6801efae55ab1792b6ce20fadffa0371ac5b65aab2cb4e1091c7b52855ef3d7193b1b80cbb2399ab62c6f7f4d9953d24a96
 Description: pseudo-codesign Mach-O files
 Tag: purpose::console, role::developer
 Author: Jay Freeman (saurik) <saurik@saurik.com>
@@ -8453,6 +8508,25 @@ Description: Interpreted, interactive, object-oriented programming language.
 Tag: purpose::console, role::hacker
 Name: Python 3
 
+Package: rtadvd
+Architecture: iphoneos-arm
+Version: 307.0.1-3
+Priority: important
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 6.0)
+Replaces: network-cmds
+Filename: debs/rtadvd_307.0.1-2_iphoneos-arm-fixed.deb
+Size: 24496
+MD5sum: 680e3aa63f542ade9458d186d2a4b936
+SHA1: 7f58c67a552c79852868e2f39c16024523d7ab36
+SHA256: 3deee944be88c21a8ae04172ffbea55b988c7f29fcaf08216d3b93993b75d23d
+SHA512: 3f6767927dc6164c1b1dd61e59c643b102045e434cebff75019a5622c481c6972773d46819ba95ade74baf0dcfb52d84a3556a5cc295179f39599fd39ea5a466
+Description: "mistakes were made" (on iOS 8)
+Name: Router Advisement Daemon
+
 Package: rtmpdump
 Architecture: iphoneos-arm
 Version: 2.4+20151223.gitfa8646d.1
@@ -8746,6 +8820,43 @@ Description: Command line interface for testing internet bandwidth using speedte
  high-speed connections. For more information, see the readme on:
  https://github.com/sivel/speedtest-cli
 
+Package: sqlite3-dylib
+Architecture: iphoneos-arm
+Version: 3.5.9-2
+Priority: required
+Section: Data_Storage
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 460
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 6.0)
+Replaces: sqlite3 (<= 3.5.9-11)
+Filename: debs/sqlite3-dylib_3.5.9-1_iphoneos-arm-fixed.deb
+Size: 237946
+MD5sum: cb6628f1088d9384faad5473fa95c667
+SHA1: d62f14b0084754795a3844ec99a93b3e9e3e183c
+SHA256: fbaa36f57ae5cf8e2bd3954b61bdf2452cd7d361d28bc3f57c2c17c9a2335844
+SHA512: 211465227c7f0430befc12b47c9dbee0e64628208e61ffbddeea17e408000d2e690ba433fa723b97c2bdfe661a4ae1c98324455bab3019b058ba5d10b907f97e
+Description: upgraded SQLite library for iPhoneOS 2.x
+Name: SQLite 3.x Upgrade
+
+Package: sqlite3-lib
+Architecture: iphoneos-arm
+Version: 3.5.9-3
+Priority: standard
+Section: Data_Storage
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 12
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 3.0) | sqlite3-dylib
+Filename: debs/sqlite3-lib_3.5.9-2_iphoneos-arm-fixed.deb
+Size: 686
+MD5sum: 0a8e894358bb70629b384f0033dcba33
+SHA1: 3293bf4537d477a4fc0becc4e433b3acce295706
+SHA256: 78c4e0062ded17be697b737874c041f595fd55d79f6fc95d423cf95eea9a97fd
+SHA512: 777b77e7bc541fa630182f832a3878c4bfc458daba0bc5b8866ebdc510f7a5b122c33c212b348ec35944ad09991b6f63bab22bdea4b07b16948af0eda3b2ba72
+Description: represents the library for SQLite
+Name: SQLite 3.x Library
+
 Package: sudo
 Architecture: iphoneos-arm
 Version: 1.9.6p1-4
@@ -9023,6 +9134,26 @@ Description: Text to man page CLI converter.
  txt2man is a command-line tool that utilizes GNU awk to convert flat
  ASCII text to man page format, and works on every Unix-like system.
 Author: Marc Vertes (mvertes)
+
+Package: uikittools
+Architecture: iphoneos-arm
+Version: 1.1.12-1
+Priority: optional
+Section: Utilities
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 944
+Depends: coreutils-bin, firmware (<< 4.3) | com.saurik.patcyh
+Filename: debs/uikittools_1.1.12_iphoneos-arm-fixed.deb
+Size: 32078
+MD5sum: 42fa69ca6e03ca85d54b1852c4de4d95
+SHA1: 5066bd6bc0f5c9d9beda752b32d147558cfa0f5a
+SHA256: 786a6f2659b9f162a9392e6609dae1b76ec0473dd0d94be39fada69640cb0886
+SHA512: 7b7e08ce76a962cf14caf018ec8e86b148908dbd91852cf08caed55e9295a3b26bc8c439876be280639be0eb5dcd05ad10d6151f24b3b4498767e209a2e510bb
+Description: UIKit/GraphicsServices command line access
+Tag: purpose::console, role::hacker
+Name: UIKit Tools
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/uikittools/
 
 Package: unrar
 Architecture: iphoneos-arm
