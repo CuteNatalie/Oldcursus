@@ -3669,11 +3669,11 @@ Depends: liblzma5 (>= 5.2.5-3)
 Conflicts: xz (<<1:0), lzma (<<3:0)
 Replaces: xz, lzma
 Filename: debs/liblzma-dev_5.2.5-3_iphoneos-arm.deb
-Size: 239372
-MD5sum: 4ed3dfbf2cd95de1998627ead6ee0fbd
-SHA1: 57189ff50d77878c4219881f55af2c9aecd553c5
-SHA256: 8aac1615f7e0c720aef517fba00badcebef2f89c3d9d490c9a5d559373ccc15d
-SHA512: 0914ad4ef95b6430dc1092439666b4b230284cad10cf960df910f65c70ae708c2c3faac3a762f77192f184a6d10a6f5767d294cdf61c82fa80d16f004b5d653d
+Size: 239336
+MD5sum: 8e415b1fa4d3825478c79dfcef5d5b88
+SHA1: 7fcf905212b3f16da33f1f5c5e90866208f0cda3
+SHA256: c540d239b1783de8419503589352344fe434765619d00f49df6acf6f26af4a68
+SHA512: ef0491c7951da9edb0688b04c31b9c88b9a57a7a7a60d2b156300adb0251ffb6028df64145e763f351f9c86c5f9bdbd27bcca83de7633567fe96f9f882ed4826
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression library - development files
  XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
@@ -3684,6 +3684,31 @@ Description: XZ-format compression library - development files
  streams and the older LZMA format used by lzma. (For 7-Zip's related
  format, use the p7zip package instead.) This package provides the
  development library needed to build programs using liblzma.
+
+Package: liblzma5
+Architecture: iphoneos-arm
+Version: 5.2.5-3
+Priority: standard
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 140
+Conflicts: xz (<<1:0), lzma (<<3:0)
+Replaces: xz, lzma
+Filename: debs/liblzma5_5.2.5-3_iphoneos-arm.deb
+Size: 68848
+MD5sum: 85ce34c67f78ec97714ec9ccf8ff79a3
+SHA1: 46485507d5db4170daa05a0e6b230cb1a5a8736a
+SHA256: 03bcae54acd5dfffa1fbdc090957948bb3f5b192e39ae9e96bd1f9a2bfda50eb
+SHA512: 26c246293db96a9f1e08043afcdf8c74f1544e0278e74a58416511946189233d60b426f228b4c32777368ebe84428536f4113a07656587b435e61d817d5d4948
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ The native format of liblzma is XZ; it also supports raw (headerless)
+ streams and the older LZMA format used by lzma. (For 7-Zip's related
+ format, use the p7zip package instead.)
 
 Package: liblzo2-2
 Architecture: iphoneos-arm
@@ -9411,18 +9436,17 @@ Version: 854.40.2-11
 Priority: required
 Essential: yes
 Section: Administration
-Maintainer: Hayden Seay <me@diatr.us>
-Installed-Size: 288
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 1520
 Provides: login, passwd, reboot
 Pre-Depends: libiosexec1
-Depends: firmware-sbin, file-cmds, libcrypt2, libpam2
-Recommends: vi
+Depends: firmware-sbin, file-cmds, libcrypt2
 Filename: debs/system-cmds_854.40.2-11_iphoneos-arm.deb
-Size: 79622
-MD5sum: 62db90c9973c9f0b0b7f790b4c9f6ba8
-SHA1: 00d5745287700bb45bc26f794b6d776c66f8ae55
-SHA256: 3e03701ec7c2af9b58523e67885232b1eabd5e2dc7354625647824c68797d8cd
-SHA512: 7ef2b9d7a0b3328d3fca248c024bfc6691d7f65a87b7c6237ad478d8bb00d015a6fa652a89423fe87191312dcdc3b2c15f5db5b02d6fe0d4ced9954322cb3ba4
+Size: 218388
+MD5sum: 6780ee7cad7088603427aff63f759d99
+SHA1: b02bd837a38661046d150c00d41b7bd391b69ee2
+SHA256: 3b8d242a9461791432ad8af9602f688e01b3b0f5c3b27a8aa4b9f36aab67b2b9
+SHA512: 8993ad27bd833627c21f8f0aca5ea0065cac1338173977b0aa41e847628df2bc11b0742315bb4976ded32a3cdc187dbd177419d026bfa8a037316bc26a142fb9
 Description: iostat, login, passwd, sync, sysctl, pw
 
 Package: tcsh
@@ -10334,11 +10358,11 @@ Depends: liblzma5 (>= 5.2.5-3), libintl8
 Conflicts: xz (<<1:0), lzma (<<3:0)
 Replaces: xz, lzma
 Filename: debs/xz-utils_5.2.5-3_iphoneos-arm.deb
-Size: 115924
-MD5sum: af3ff48fb90816bbc07f5f4fdaada933
-SHA1: 7edafd7e5902450e7ba816564da222324b3d012f
-SHA256: c8f1739009c970bac9f4b3ade7a534e020c928bd777168747e76bfb68f42e470
-SHA512: 23d99bba39bd0c5c8c5b0f1d512a533417eba607e608329b50b4627b88f2083fcd09a71710fcb4dc95c82a1d92490401470f773519b5f2d60ed23a6391908217
+Size: 115848
+MD5sum: cf735369f3bfc1ca94953475054c3264
+SHA1: e0cd1f66786f4625050d971adbfc79ad4bb2902e
+SHA256: 7d62bb0b4f9cf88fcfa710e3a7a8ee8ec96c813577ccab83ed9f91b5d3c55f35
+SHA512: 6ca725a669716b2393c63a4bc4c8f34006905329f7a6aaafa419d64c060781372a5d7bf89eb7fcf063ef328d94ecad5f3848cf9d04cb37ba191d14c365d5a1df
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression utilities
  XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
@@ -10371,11 +10395,11 @@ Installed-Size: 128
 Conflicts: xz (<<1:0), lzma (<<3:0)
 Replaces: xz, lzma
 Filename: debs/xzdec_5.2.5-3_iphoneos-arm.deb
-Size: 27540
-MD5sum: f3e4c411729c59da7ca48d1f9948b446
-SHA1: 8656204d46e0c414fce7bf9c33df9f03c037a526
-SHA256: 9cd8304303792e8ea028bb9758e95c35bf76452d07158ace0aa5d2b253bffa2c
-SHA512: c56f25a20473e214b3052da022f77faecd50e0f2353cd2572dea1e96d0163033de2cfa3db3ab7dd8190f1de057ad755b70a5e7e212997e91ee7c6bb2053941f8
+Size: 27528
+MD5sum: 1209b1d2a7bc55389ba5e39b6458ecbc
+SHA1: acf138963bb3fc8326cd3b3b700a910d929a7dd0
+SHA256: 3647ca62f72b56d349fa06aea8102e3d7215514a8d233e467dc9bcfd4a1b5123
+SHA512: 5892236a4f290d0cb78bb76c169d405d6bbee0a9707ebef7ec1197b7fc08210c329b3a0d8a95c48dc0f81662b7b571cda9a2dcfc35d092846791535e5152700f
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression utilities - tiny decompressors
  XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
