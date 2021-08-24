@@ -1,3 +1,20 @@
+Package: 2048
+Architecture: iphoneos-arm
+Version: 0.2019.6.29
+Priority: optional
+Section: Games
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 52
+Filename: debs/2048_0.2019.6.29_iphoneos-arm.deb
+Size: 5548
+MD5sum: 923f20993c4030ab46933d159d26b1cb
+SHA1: 65b440893525b5ef0756d9fd75d962b1ede9863a
+SHA256: eae68c35974806b1f3f30b884859de5da765774efed3a29334e7ed1c32b16f3a
+SHA512: 4b2fbb80c7763213d19f763fbe0ea5cbaac8680669d6e1df8d9b5d58674fd028b62a903ae8ebea2bc3c748ba71b720a574993bb85f2cfdd9141991c7872ccad1
+Homepage: https://github.com/mevdschee/2048.c
+Description: 4x4 tile mathematics puzzle game
+ The 2048 game is a mathematics based puzzle game where you have to slide tiles in a 4x4 board in any of the four possible directions. Touching tiles with the same value are then merged into tiles with the added value of the merged ones. You start with a couple of 2-valued tiles and new tiles appear randomly after sliding. The target of the game is to reach a tile with a value of 2048 before the board is full.
+
 Package: apt-utils
 Architecture: iphoneos-arm
 Version: 2.3.8
@@ -53,14 +70,14 @@ Version: 0.21-4
 Priority: optional
 Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 404
+Installed-Size: 432
 Depends: liblzma5 (>= 5.2.5)
 Filename: debs/autopoint_0.21-4_iphoneos-arm.deb
-Size: 408964
-MD5sum: 6f789a1b6164e42b71f631f43e113605
-SHA1: e9ed11033e05f98d81b176e98ba2808dadd5a496
-SHA256: b8b90f017ddbffc89ae960c96bc1d51342e832ce58b0b9ece1a4860bb9a035ef
-SHA512: 8d608622e593ab5cce2f2d9fc70a096ade236ced8499cbd178a553aed94e141818791bd59e3cec5267c5cf808f8b6bfa464712e2bcec9a7203bffd9fc4bf748d
+Size: 417412
+MD5sum: b68343545ce428b80f9ac4b8538e27dd
+SHA1: 9103771b6c8acba369d3fe45e8f10159f4e3bcca
+SHA256: 08523c997ceb45dbd7d689ecfc514a430ace009e8ce9b03d40648e62e44bc8f4
+SHA512: 81efaf110cc44d54dd6c4d77733543efbb6c3b97928089c9b98762b7c68b876b264bbf866ce99a78d284d8c7f42b4b95ddf977ec156f74365c2952bce516f827
 Homepage: http://www.gnu.org/software/gettext/
 Description: autopoint program from GNU gettext
 
@@ -178,6 +195,36 @@ Description: Resource monitor that shows usage and stats
  .
  Python port of bashtop.
 
+Package: bpytop
+Architecture: iphoneos-arm
+Version: 1.0.67
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 288
+Depends: python3, python3-psutil
+Filename: debs/bpytop_1.0.67_iphoneos-arm.deb
+Size: 57920
+MD5sum: 677849d877b1f5f9e439dfe47f1f4fa5
+SHA1: 358090fe5bd36a3e59e8eee7d9e8c387705b7f6e
+SHA256: ae9c04ce11e7d0d795ff2e6bfc04b30f9f73ea7531c692741f65146b62d2652f
+SHA512: 4af2b8b69f6aedb87bbab193165af8f77ad02a179fb7f056083ae4b676e04ed8901051a61ceb84022fac4d66f686d81e92ec52d189e68128366de7b9fcd1b8ac
+Description: Resource monitor that shows usage and stats
+ Resource monitor that shows usage and stats for processor,
+ memory, disks, network and processes. bpytop includes:
+  - Easy to use, with a game inspired menu system.
+  - Full mouse support, all buttons with a highlighted key is clickable
+      and mouse scroll works in process list and menu boxes.
+  - Fast and responsive UI with UP, DOWN keys process selection.
+  - Function for showing detailed stats for selected process.
+  - Ability to filter processes, multiple filters can be entered.
+  - Easy switching between sorting options.
+  - Send SIGTERM, SIGKILL, SIGINT to selected process.
+  - UI menu for changing all config file options.
+  - Auto scaling graph for network usage.
+  - Shows current read and write speeds for disks
+ .
+ Python port of bashtop.
+
 Package: brotli
 Architecture: iphoneos-arm
 Version: 1.0.9
@@ -195,6 +242,26 @@ SHA512: 3054fc3bc2128f3d06564d892b569ef3dcc349f8c6caf89d98a52d2a22fb390cd5672b57
 Homepage: https://www.brotli.org/
 Description: Command line utility for the Brotli compression format
 Tag: purpose::console, role::hacker
+
+Package: bsdiff
+Architecture: iphoneos-arm
+Version: 4.3
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 112
+Provides: bspatch
+Filename: debs/bsdiff_4.3_iphoneos-arm.deb
+Size: 9822
+MD5sum: 164888a1f0fa4232a2b1287486136688
+SHA1: 1268cd75bb7d7f312def6308a8e81cfaf8f2f15d
+SHA256: a0bfb85351237c82362449fffa9a24ddd7154a55992bc0b805ef64f11130e725
+SHA512: afd0a183256cb2436555263d77c91e20470895ff7e1b07f6d2b4514c113cee333e43437677fd42fca29026e7044e2243101df21e712baa8e7f0d2236d2330d02
+Description: generate/apply a patch between two binary files
+ bsdiff and bspatch are tools for building and applying patches to binary files.
+ By using suffix sorting (specifically, Larsson and Sadakane's qsufsort) and
+ taking advantage of how executable files change, bsdiff routinely produces
+ binary patches 50-80% smaller than those produced by Xdelta, and 15% smaller
+ than those produced by .RTPatch (a commercial patch tool).
 
 Package: bzip2
 Architecture: iphoneos-arm
@@ -368,6 +435,26 @@ Description: GNU privacy guard - network certificate management service
  among other tools.  Unless this package is installed, the parts of
  the GnuPG suite that try to interact with the network will fail.
 
+Package: dmg2img
+Architecture: iphoneos-arm
+Version: 1.6.7
+Priority: optional
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 8
+Depends: libssl1.1
+Filename: debs/dmg2img_1.6.7_iphoneos-arm.deb
+Size: 1918
+MD5sum: b67d9ca85d73c3f44f8acfcd9ac2bc7e
+SHA1: 03d72882eafac9a9fff82804213b15270d7258b2
+SHA256: dc6364b317d808dc9d36731ca3839bf06beb6b1cc3c5fea3abc5ebcb500f30e3
+SHA512: 66a073581b72757dc474d0750f9d58105e878be4d856600437b7f7d75a3190306ba8ef4d98aa54301b8c88cf376863135b6da6b4afcc262df8a068d643b87849
+Description: Tool for converting compressed dmg files to hfsplus images
+ DMG2IMG is a tool which allows converting Apple compressed dmg 
+ archives to standard (hfsplus) image disk files.
+ .   
+ This tool handles zlib and bzip2 compressed dmg images.
+
 Package: doas
 Architecture: iphoneos-arm
 Version: 6.8.1-2
@@ -410,6 +497,32 @@ Description: Debian package development tools
  required to unpack, build and upload Debian source packages.
 Name: Debian Packager (Devel)
 
+Package: dpkg-repack
+Architecture: iphoneos-arm
+Version: 1.47
+Priority: standard
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 16
+Depends: perl, libdpkg-perl
+Suggests: fakeroot
+Filename: debs/dpkg-repack_1.47_iphoneos-arm.deb
+Size: 8616
+MD5sum: 7806ec75f70718b66d037ccb754e75b1
+SHA1: 44f9b650f2f6c5c5072b3ddc323690f076012ba4
+SHA256: dd7b7269bddbe55d698f5905fbcace2d15c1c3b9a6d28f97fec87532bce39ba0
+SHA512: 80e99d565aa4d7ef6104c4d51452f93faeadb8ba65e9f62ccdcf9735126713372d1671d3ce48d3750b39ff11e9cbe9e02233a928ea2dfe926385aee65e02bebf
+Description: Debian package archiving tool
+ dpkg-repack creates a .deb file out of a package that has already been
+ installed. If any changes have been made to the package while it was
+ unpacked (i.e. files in /etc were modified), the new package will inherit
+ the changes.
+ .
+ This utility can make it easy to copy packages from one computer to another,
+ or to recreate packages that are installed on your system, but no longer
+ available elsewhere, or to store the current state of a package before you
+ upgrade it.
+
 Package: dpkg
 Architecture: iphoneos-arm
 Version: 1.20.9-1
@@ -451,6 +564,73 @@ Description: lightweight SSH2 server and client - command line tools
  .
  It implements most required features of the SSH 2 protocol, and other
  features such as authentication agent forwarding.
+
+Package: duktape-dev
+Architecture: iphoneos-arm
+Version: 2.6.0
+Priority: optional
+Section: Development
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 4404
+Depends: libduktape206
+Filename: debs/duktape-dev_2.6.0_iphoneos-arm.deb
+Size: 778590
+MD5sum: ecf453c73ae52543ae43a19155427ec7
+SHA1: 5e4985af3a572e61b1bcb9ca783c6579147118e3
+SHA256: 092bcb3bf5d556a326f1dc3a9a495606b20db01fa5b5998a79988960291c6e0c
+SHA512: f693ac6ee3c271c5e3553c35b2334d537b841fdef1b6daa29c2b7a1037a16cd632bfa2be04d55176304c52d04ed73880e3401cd62e0ab8df94637ee16855a710
+Homepage: https://duktape.org
+Description: embeddable Javascript engine, development files
+ Duktape is an embeddable Javascript engine, with a focus on portability
+ and compact footprint.
+ .
+ Duktape is easy to integrate into a C/C++ project: add duktape.c, duktape.h,
+ and duk_config.h to your build, and use the Duktape API to call Ecmascript
+ functions from C code and vice versa.
+ .
+ This package contains all source files to use in own projects.
+
+Package: duktape
+Architecture: iphoneos-arm
+Version: 2.6.0
+Priority: optional
+Section: interpreters
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 264
+Filename: debs/duktape_2.6.0_iphoneos-arm.deb
+Size: 143272
+MD5sum: 0d03f9ef8744164a7ef5925228038730
+SHA1: 971c547169f4c5ef92b2e32efccb728ba16e887d
+SHA256: 649fd471ae32766c50034a266f3999bdf981d62d101c25bc6d60dc3370ab6111
+SHA512: 0e468d0e29e86e4ed369c3be08a631ec9dd15e4b3f0e50b698d754446880b4d22a0b839c5613627c49cef8b1b593bf006c00a3d2aa810f152b816eada9381692
+Homepage: https://duktape.org
+Description: embeddable Javascript engine
+ Duktape is an embeddable Javascript engine, with a focus on portability
+ and compact footprint.
+ .
+ Duktape is easy to integrate into a C/C++ project: add duktape.c, duktape.h,
+ and duk_config.h to your build, and use the Duktape API to call Ecmascript
+ functions from C code and vice versa.
+ .
+ The main features are
+    - Embeddable, portable, compact: can run on platforms with
+      256kB flash and 64kB system RAM
+    - Ecmascript E5/E5.1 compliant, some features borrowed from
+      Ecmascript E6
+    - Khronos/ES6 TypedArray and Node.js Buffer bindings
+    - Built-in debugger
+    - Built-in regular expression engine
+    - Built-in Unicode support
+    - Minimal platform dependencies
+    - Combined reference counting and mark-and-sweep garbage
+      collection with finalization
+    - Custom features like coroutines, built-in logging framework,
+      and built-in CommonJS-based module loading framework
+    - Property virtualization using a subset of Ecmascript E6 Proxy
+      object
+    - Bytecode dump/load for caching compiled functions
+ .
+ This package contains a commandline duk interpreter
 
 Package: expat
 Architecture: iphoneos-arm
@@ -582,16 +762,16 @@ Version: 0.21-4
 Priority: optional
 Section: System
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 48
+Installed-Size: 272
 Depends: libintl8
 Conflicts: gettext (<< 0.21-4)
 Replaces: gettext (<< 0.21-4)
 Filename: debs/gettext-base_0.21-4_iphoneos-arm.deb
-Size: 11564
-MD5sum: 997addc3e5d9ef650ecfbfdf7faea9a3
-SHA1: 1852881e96b9905309e928cb6e9d9cd0cb57a045
-SHA256: df588a1ff5b31a9e0cc73c5d515cc5c33db426722359f3efa2b1e92ee9a5786a
-SHA512: 04a39ea9475b834028579d97f000d0b6a1acdf97aea5253f9baef84b8361a5f597d7dcf2c869f101527ce85b59097fc48d7803617e039cda8dc7e088ccead8bf
+Size: 35926
+MD5sum: 6843a7277f0884d6fe997909827c10c1
+SHA1: 29549a236277164191c0b78a65204123831a9379
+SHA256: 70da102a3574caed72cc1a005e52bcd20c42c624fa002005cb827b83b03da851
+SHA512: e99bd9ca63e8b27e922a8d9f2fc590ece009fb6861a4c7338723e50e4597144d10855199d2f85b64986ad9eb6df1e879f13e64a64e2075408bc16c9c80249f7f
 Homepage: http://www.gnu.org/software/gettext/
 Description: GNU Internationalization utilities for the base system
 
@@ -601,14 +781,14 @@ Version: 0.21-4
 Priority: optional
 Section: System
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 376
+Installed-Size: 2372
 Depends: libncursesw6, gettext-base, libintl8, libtextstyle0v5
 Filename: debs/gettext_0.21-4_iphoneos-arm.deb
-Size: 67272
-MD5sum: 53794f0513e260369edaf0342ca15a32
-SHA1: 58ecd3b6fe1c17f1b3bec2790ef7b1131835d406
-SHA256: 1ad315828a2ea2cc137b9b30662331ff34676ad08d1443323045bf88b08a67e9
-SHA512: 7775cdb715ef757ec8a7273133798453ed230f861d8531293bfe10e49fe195663032dfa26c77753c8e245f90ea21a3ae76bc1065b11af5b24a46957df97a8d0e
+Size: 508188
+MD5sum: 402218bb93826b43cff0dc0100c73abb
+SHA1: dd65828d597753b760e6fc8ab42ad32e2f37bfda
+SHA256: 283c51e2ebbace55c091a66f20343dfc83a7e71c67c9f5d23b4fb003db585c7d
+SHA512: e95a3c4620904de84612bbe63f0ae5a261de8c1b896153e238a7ea2d14322049d6c59f13f53990b2180a2842fe022bc89bc623e7ffc7cef78142297f123f8514
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 
@@ -1071,6 +1251,58 @@ Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
  as a low-level access to all features of the libapt-pkg library.
+
+Package: libarchive-dev
+Architecture: iphoneos-arm
+Version: 3.5.1
+Priority: optional
+Section: Development
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 292
+Depends: libarchive13 (>= 3.5.1), liblz4-dev, liblzma-dev, libzstd-dev, nettle-dev, liblzo2-dev
+Filename: debs/libarchive-dev_3.5.1_iphoneos-arm.deb
+Size: 132484
+MD5sum: 237e6d409ebe196d894e7230aef2c7cb
+SHA1: b882e2127c9061117320d46070076652a096af24
+SHA256: 1432a858910ebb8b6c540369bb286d4e4135cbe3c0848086bbba623f7d83d13d
+SHA512: 0adcc9f193492b3fb8f194ad3d30eebabd1c86f3543f7365120a33b38d61c04718db0280a08f4ba0fc5eb8d90710a6c8581f26d9c7a3dce056ec3d41a8abcea7
+Description: Multi-format archive and compression library - devel
+
+Package: libarchive-tools
+Architecture: iphoneos-arm
+Version: 3.5.1
+Priority: optional
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 220
+Depends: libarchive13 (>= 3.5.1)
+Conflicts: libarchive (<< 3.5.1)
+Filename: debs/libarchive-tools_3.5.1_iphoneos-arm.deb
+Size: 51276
+MD5sum: 3d9c716f4234fef0c815a84d192e0051
+SHA1: 88147920ca3bf3158750630b43f1a666e3a12a70
+SHA256: 38f07f6f1b9a1bb56133b8e033afa636da69ae6df2154a24e2d2cd515a79c386
+SHA512: 37cf0395b2263d62169457d96aa868af8fe310caa48a3350bcdafcb4323ec0da6f6bbcba88020b349455de77c6ee6aa5afff0fa2104c40638e5a4a689fbf99e2
+Description: FreeBSD implementations of 'tar' and 'cpio' and other archive tools
+
+Package: libarchive13
+Architecture: iphoneos-arm
+Version: 3.5.1
+Priority: optional
+Section: Utilities
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 540
+Provides: libarchive (= 3.5.1)
+Depends: liblz4-1, liblzma5 (>= 5.2.5), libzstd1, libnettle8, liblzo2-2
+Conflicts: libarchive
+Replaces: libarchive
+Filename: debs/libarchive13_3.5.1_iphoneos-arm.deb
+Size: 288964
+MD5sum: bd4e2fe2aa93415c651edb9c05d0334a
+SHA1: 87400828afb08f0230efd73faa7ad2903ba19a38
+SHA256: c1338f67c5d72f000d37f674f2301b4786d60fa78f5947f0fa4a7f248915bb76
+SHA512: 7ad84fea47a864c06ddef1341710a66a4b7f56ad068c260def53be353b3631503fbb9db8f1ebff6098f595015f1f85057b57d71b74685b263c10aabcf721ce23
+Description: Multi-format archive and compression library
 
 Package: libassuan-dev
 Architecture: iphoneos-arm
@@ -1947,15 +2179,15 @@ Architecture: iphoneos-arm
 Version: 0.5.18
 Priority: optional
 Section: Development
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 2876
 Depends: libcwidget4 (= 0.5.18), libncurses-dev, libsigc++-2.0-dev
 Filename: debs/libcwidget-dev_0.5.18_iphoneos-arm.deb
-Size: 864336
-MD5sum: 8da172745ae3c7ad16d7ca3b03534c98
-SHA1: e50f2cf783e0cda8fb922bd3b7e3ea4e741b7027
-SHA256: 4bf8c4ea75edb79e46272d3e24c0f0a0cb599165f4b1b99878a3ccf0e456f60d
-SHA512: 9e00a953f4ef897656c41c5db5b8fa516f10d703614afc42b90381a0f7c2b87363e80cbe2dd9e520e56be7f89ee405976201f9a1e6141a958643d81115c0c110
+Size: 864388
+MD5sum: 56c8d403bd3b4134076bdc707ffdf2cf
+SHA1: 59e9f861bc0a56ce9f80a555e2e5db94d907e3ac
+SHA256: e0f8945fe349c8324d04cc48c39e1e9d2b18ed2bce6ca99a956fb58a577f769e
+SHA512: 1e50d5d5d8039ce8aacac9e203d3045af13ac613b5488ea790c4cab554ad0837161fc5776df6c49cd9fd70f0cf01cafd662d84b7b61f70c933ac19d6901546c4
 Description: high-level terminal interface library for C++ (development files)
  libcwidget is a modern user interface library modeled on GTK+ and Qt,
  but using curses as its display layer and with widgets that are
@@ -1974,15 +2206,15 @@ Architecture: iphoneos-arm
 Version: 0.5.18
 Priority: optional
 Section: Libraries
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 740
 Depends: libncursesw6, libsigc++-2.0-0v5
 Filename: debs/libcwidget4_0.5.18_iphoneos-arm.deb
-Size: 219716
-MD5sum: 28d34a06455ec37ef0280c417d38074f
-SHA1: 65447f05b55f7b499dd82572ec5ea52dac11aed7
-SHA256: f7f54f5a00d23bd1d24b3eec7caa9df84e589e89c5b8e40d2aa0694760de4b85
-SHA512: 5be56374476f8a44133aca93d2e421140fb2776af4a59be2c3c6ffacbd6110cca716663732f4f1e51f623e2b336504427c5dcd19993f4b4c2fbe28a7f3ef8b44
+Size: 219714
+MD5sum: 8c96c6cf4a60f9dc68ee25358041f36b
+SHA1: 5361c9a8520ed2d79afa28de7c99bb6fc2337483
+SHA256: e57accb4508563a6e407ebe9b18f305a4c95fd2b91be937feef75ce8e18a0f64
+SHA512: e9b93ec7e6d2fdaca02cf7dd2625fbd1920bd9c1be02a9e079cc71437ab996e9d73414930afa22fbca7f296f6c11bf5775feb0f3a9752ae1e6fa1dab4a2fddc2
 Description: high-level terminal interface library for C++ (runtime files)
  libcwidget is a modern user interface library modeled on GTK+ and Qt,
  but using curses as its display layer and with widgets that are
@@ -2180,6 +2412,31 @@ Description: Dpkg perl modules
  .
  All the packages listed in Suggests or Recommends are used by some of the
  modules.
+
+Package: libduktape206
+Architecture: iphoneos-arm
+Version: 2.6.0
+Multi-Arch: same
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 264
+Filename: debs/libduktape206_2.6.0_iphoneos-arm.deb
+Size: 136782
+MD5sum: 6d92e8b78aaa5775d85f87d3c66e348a
+SHA1: c61cdc523c1582397242f18b7c79d7ddcfca6be9
+SHA256: 91a0488891632e9db5aec348de2435c19fe13f2c370e93180d3c34a482303433
+SHA512: 3382b6cbed8511173da6e8785ae531841db127bed380e2721557b4762e7ce6937a706ad9bfde2b90af6accd996208b29c85c7b8e69fc49bc440cfda68ac2a025
+Homepage: https://duktape.org
+Description: embeddable Javascript engine, library
+ Duktape is an embeddable Javascript engine, with a focus on portability
+ and compact footprint.
+ .
+ Duktape is easy to integrate into a C/C++ project: add duktape.c, duktape.h,
+ and duk_config.h to your build, and use the Duktape API to call Ecmascript
+ functions from C code and vice versa.
+ .
+ This package contains the shared library.
 
 Package: libedit-dev
 Architecture: iphoneos-arm
@@ -2481,14 +2738,14 @@ Architecture: iphoneos-arm
 Version: 0.21-4
 Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 1176
+Installed-Size: 428
 Depends: libgettextpo0 (= 0.21-4)
 Filename: debs/libgettexpo-dev_0.21-4_iphoneos-arm.deb
-Size: 368684
-MD5sum: 32c4bbc49b6f16b06c94abb24ac606bd
-SHA1: 2c598afd15a0b415a547fa8b705f74456f3dd014
-SHA256: 479d2441f5b6802cdac048ad61c2b6a56ced279f3cc8a7e126d51c7bafd8f884
-SHA512: db085dc64220a0076aa672783d4dd194ff6541430b6f806d15b7a6cd17997edc7c596eb929c2694f3ef666d36b91817d6c178a771a1423bdc0f549e7d4241cc6
+Size: 150402
+MD5sum: be744556e7ad5c376d6cfdb7233be524
+SHA1: 49e52e9fd2f2980c22064c635d1a5dead2b4eca8
+SHA256: 5211ae866bfdeef0fe884e69508b431b3ec91d0c6564f877d2ba7338e9eeb541
+SHA512: 8bb7b163715e8f4389fefe8067b28d2c543bc2f37276b91337a03673f9eb4b45ab495427398b1abf3d0e44282b68c82784732b257e0b5c67d1fa4f8673fa9809
 Homepage: http://www.gnu.org/software/gettext/
 Description: process PO files - static libraries and headers
 
@@ -2500,13 +2757,55 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 276
 Depends: libunistring2, libintl8
 Filename: debs/libgettextpo0_0.21-4_iphoneos-arm.deb
-Size: 111476
-MD5sum: 42842e8bb9dc280eb5df1e9c12a672ad
-SHA1: 785f6f343d0c718a9ea70ba8b49e691829fd1911
-SHA256: ee3b8396f960a4a28da73f476ead1dce348392b18060426d8a6929cc3d3dbba3
-SHA512: 20096c9516a14e46e33be5cae7dc4c45c46a353045d8067d18c66cd1e41f1bf405190fa9fa051e9a0b5e3dacde40be65fd2e00009214fdc5a0ef678df6bcdfa8
+Size: 110686
+MD5sum: 0e79d54a2109afc2eea97204088a2158
+SHA1: edc29632f3546c8f3c7a7d1b9eb20e4cae8b677f
+SHA256: d919ca02ef33a784ae159599e6f4fab33c88142547b788d27982b1e1136e5a4f
+SHA512: 5bf2095f224984b709d596fc0a0024a41cb14acdf7c66d1d91c07815453d94b2a67d542e1ad8bb2a3ad45c0cc6fc5de69217ce790a465ac3188386e50b63c7f6
 Homepage: http://www.gnu.org/software/gettext/
 Description: process PO files - shared library
+
+Package: libgit2-1.1
+Architecture: iphoneos-arm
+Version: 1.1.0
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 712
+Depends: libssl1.1, libssh2-1, libpcre2-8-0
+Filename: debs/libgit2-1.1_1.1.0_iphoneos-arm.deb
+Size: 388396
+MD5sum: 06be7dc84e955f25c71c4abffdaffce8
+SHA1: 7e113f62789777ffb95d81ce58d611a30dd880f8
+SHA256: 99ae4d91ecac9ef14b630cae2d19b65a93986b8d89ee6792ec426428de69bad6
+SHA512: d7421605f07e150195f5d4e0ffe566fc1e268715e152dafc114da716bdca69c1b9807d7c2442624a0a35f67b66cc1f26f570338255385a3780b07800b23fa858
+Description: low-level Git library
+ libgit2 is a portable, pure C implementation of the Git
+ distributed version control system core methods provided as a
+ re-entrant link-able library with a solid API.
+Tag: purpose::library, role::developer
+
+Package: libgit2-dev
+Architecture: iphoneos-arm
+Version: 1.1.0
+Priority: optional
+Section: Development
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 856
+Depends: libgit2-1.1 (= 1.1.0), libssl-dev (>= 1.1.0), libssh2-dev, libpcre2-dev
+Filename: debs/libgit2-dev_1.1.0_iphoneos-arm.deb
+Size: 132148
+MD5sum: b885e4f53a819e670a1ec525ad4ff00a
+SHA1: f78b18e21fc03c9626508be06a05bd0fba1ee44e
+SHA256: 69095d9bd3a0f95d53a71326f3f2d1b6303111f3f4c6877b6e4de2327526b3b3
+SHA512: f6d7a7e86cd24b23d2643c6524308233a248f0120d6ca71e12d4174754e0b2d5b6ea9d030c78a9227c771f5ccbf688886c6f31861783761b3a68e01abfcab5d1
+Description: low-level Git library (development files)
+ libgit2 is a portable, pure C implementation of the Git
+ distributed version control system core methods provided as a
+ re-entrant link-able library with a solid API.
+ .
+ This package contains the development files for libgit2.
+Tag: role::developer
 
 Package: libgl1-mesa-dev
 Architecture: iphoneos-arm
@@ -2638,6 +2937,62 @@ Description: free implementation of the OpenGL|ES 2.x API -- runtime
  .
  OpenGL|ES 2.x provides an API for programmable hardware including vertex
  and fragment shaders.
+
+Package: libglu1-mesa-dev
+Architecture: iphoneos-arm
+Version: 9.0.1
+Priority: optional
+Section: Development
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 544
+Provides: libglu-dev
+Depends: libglu1-mesa (= 9.0.1), libgl-dev
+Conflicts: libglu-dev
+Replaces: libglu-dev
+Filename: debs/libglu1-mesa-dev_9.0.1_iphoneos-arm.deb
+Size: 198672
+MD5sum: 3b8f4ca86aa012908c65fb9239c2cc21
+SHA1: 1504ef2c0c2528ef18b0c286214043d2ccb13f59
+SHA256: fa02bb78cd9742873af8b60092ba10f878b3e280ea534a71128ec46950f88810
+SHA512: dac5bb01344bf911c9cd99af4811db787ba6c3e33f2a55a85154c4202769a01248071ee878d494722bcab0edb8b15e2b5691c709da47ef8631e2115d2303c969
+Homepage: https://mesa3d.org/
+Description: Mesa OpenGL utility library -- development files
+ Includes headers and static libraries for compiling programs with GLU.
+ .
+ For a complete description of GLU, please look at the libglu1-mesa
+ package.
+
+Package: libglu1-mesa
+Architecture: iphoneos-arm
+Version: 9.0.1
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 324
+Provides: libglu1
+Depends: libgl1
+Conflicts: libglu1
+Replaces: libglu1
+Filename: debs/libglu1-mesa_9.0.1_iphoneos-arm.deb
+Size: 146884
+MD5sum: 6ef6c05f6719006a3be2b7be842a84e7
+SHA1: fe839876dc67ac661e0f8d51aadd19611af6bc69
+SHA256: 92d8a59d77b345b4a19d203e41d8d951f2f28203a32aafc7bf36cbf9b83607c1
+SHA512: 3963b654869c53eb1e14f474bcbcbe8aeff32e2dd9dbf9e1e97de273006b5a81756427027441421ec90e33baadf902470f41190d94e68faa469ed7d670af02d7
+Homepage: https://mesa3d.org/
+Description: Mesa OpenGL utility library (GLU)
+ GLU offers simple interfaces for building mipmaps; checking for the
+ presence of extensions in the OpenGL (or other libraries which follow
+ the same conventions for advertising extensions); drawing
+ piecewise-linear curves, NURBS, quadrics and other primitives
+ (including, but not limited to, teapots); tesselating surfaces; setting
+ up projection matrices and unprojecting screen coordinates to world
+ coordinates.
+ .
+ On Darwin, this library is also known as libGLU or libGLU.1.dylib.
+ .
+ This package provides the SGI implementation of GLU provided by the
+ Mesa project (ergo the "-mesa" suffix).
 
 Package: libgmp-dev
 Architecture: iphoneos-arm
@@ -2949,16 +3304,16 @@ Architecture: iphoneos-arm
 Version: 0.21-4
 Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 252
+Installed-Size: 88
 Depends: libintl8 (= 0.21-4)
 Conflicts: gettext (<< 0.21-4)
 Replaces: gettext (<< 0.21-4)
 Filename: debs/libintl-dev_0.21-4_iphoneos-arm.deb
-Size: 71922
-MD5sum: 60b08426ebb220c5ca31ab7f7b289ece
-SHA1: 8b4831531b51db905cdb3efb9b4896dad5d11484
-SHA256: 7b5cc0b64e06a4c22444bd2da6273c4111edb653b8ee767073268f4d9637f465
-SHA512: 3c6342bc1113e68513c22c515d5fcc58d4b19438a36c1d6c3f10f4d7060eb67acf7f02bfe9002deab39d6054dd90d3cb4c13984e5562ea6cb04c351f292ba592
+Size: 31300
+MD5sum: 6e8341fb699c87742beec141d4a86652
+SHA1: 87cd272232d3dde7d3559eab1b082683f53e759e
+SHA256: 42e3721f040af691cd7c9e50f4a27a2287cd56fc346bd3af6c56b2c08131d69d
+SHA512: fc22da430f680850cf9ef85cea73bd8ae37ac2ab88cb11e271f6b10936132fdaacddf1c57daa9fda2d7ad21aa222a94112f59337b1fd8c2486c8fb80b4049bbb
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings - development files
 
@@ -2969,11 +3324,11 @@ Section: System
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 72
 Filename: debs/libintl8_0.21-4_iphoneos-arm.deb
-Size: 20248
-MD5sum: 606061a0be57c1389b02c84f41d3a6b9
-SHA1: a6522e0d8e2e4ada744788550ab769b418d715ff
-SHA256: 5fba6e210b42437b9bc76f461a42a73755adad856fde7a0ed9c649c14d2e5f2a
-SHA512: 3fa412f8bb93895133a0164372fc2a564f2daebf9fd1502c9d6546b4beb24d5ed250bd1e64c5d36b5c1bfb63f1ab1943890bfc28f1781c27ba16e5ee815232b7
+Size: 20440
+MD5sum: c0289273eecd22adf168e55b06098d3e
+SHA1: 04b4467e510cb7984492a4af95c0ce8114afbeb3
+SHA256: 7604042985f4678b29c54ac002cf3c3442068526d6cafeaa0b528855533b9581
+SHA512: 4f2a1c181779a675a9cb7dc58c01403984362e54e146a4ef1090ba5c0332da1db713df109ce165c6b0dd7f46302a75ee6b37f0c497caf968c669cfb3c02263bd
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 Essental: yes
@@ -3252,6 +3607,23 @@ SHA512: 4e34dd57aebb3b6a91d9e78f74aa38ad502358c9830fd2b860f45a58a3c5cae2b92cbc22
 Homepage: http://tukaani.org/lzma/
 Description: Fast LZ compression algorithm library - runtime
 
+Package: liblz4-1
+Architecture: iphoneos-arm
+Version: 1.9.3
+Priority: important
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 120
+Conflicts: lz4 (<< 1.9.3)
+Filename: debs/liblz4-1_1.9.3_iphoneos-arm.deb
+Size: 50924
+MD5sum: d327ac21d490a18ec9dc7aea34590f85
+SHA1: 88ed2dc0b3b9df7bc08c411185887ee0452eb63f
+SHA256: d110aeef9bb0bb39564425c8fae3a8546ed954827ceb11ca9cfa65c82f98b466
+SHA512: 1ddd78723ed2990d1ea52bb7a85000c527de991be1817a6b90c22ba89331d261a1c061acf882f41956dbd9cade087d5eac7adeaf9472f0206b6ecc0217ec5bb3
+Homepage: http://tukaani.org/lzma/
+Description: Fast LZ compression algorithm library - runtime
+
 Package: liblz4-dev
 Architecture: iphoneos-arm
 Version: 1.9.2-2
@@ -3266,6 +3638,23 @@ MD5sum: 64883135c2b3da42dcf241511a9bfcea
 SHA1: 63be12d9e5286420cceed26c5508d62229e315fa
 SHA256: 95db8488b2e8a7c1ab3e2dba0e9622da01ecc8b88fa99495b30c3c26e2ea0da8
 SHA512: e74f5f919556abd2b975c8ca50796cd3f2658ff84d839f0ce020d293f4b361235cb05351e34eda992d8e88c72accf16c9f03ee34ea9d71eb77acfb22635e2b87
+Homepage: http://tukaani.org/lzma/
+Description: Fast LZ compression algorithm library - development files
+
+Package: liblz4-dev
+Architecture: iphoneos-arm
+Version: 1.9.3
+Section: Development
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 196
+Depends: liblz4-1 (= 1.9.3)
+Conflicts: lz4 (<< 1.9.3)
+Filename: debs/liblz4-dev_1.9.3_iphoneos-arm.deb
+Size: 73358
+MD5sum: 1457c2d0e802a2f79a5b941c31bdf72e
+SHA1: 2a8895d00fd362390776812e44020e11b94a831a
+SHA256: 9fb2a3466ce44a339de88b1c73b1f69e427dcfb143a3fc7bb94c50054ce1c85a
+SHA512: d97be05831a6972dcb34ff0a3e0cdea9ee68ba5ee30b18d09cd27b1317d4922993a6abcdf8703af98d394eeed73ad4c5271a31a2289e075b18dff29c5b62d14f
 Homepage: http://tukaani.org/lzma/
 Description: Fast LZ compression algorithm library - development files
 
@@ -4164,14 +4553,14 @@ Version: 3.0.1-1
 Priority: optional
 Section: Libraries
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 29424
+Installed-Size: 29336
 Depends: libjemalloc2, libgmp10, libcrypt2, libgdbm6, libncursesw6, libreadline8, libssl1.1, libyaml-0-2, libiosexec1
 Filename: debs/libruby3.0_3.0.1-1_iphoneos-arm.deb
-Size: 6049760
-MD5sum: 84c3288d290eedf3afc374c3574fab58
-SHA1: d936414c61457c9866bae309f7e5c0f16a6819bb
-SHA256: 4d116a31a6bedeb2b33684d90834a46f5081a933507efcd77d1525a095c38098
-SHA512: ec5dcbf890c68474115bf6db7bee27be76be7af53108c5873639224c26060d21b26c818b13f3951d5daa6aa5acd335b6cfb19607b05c1d6dd667097a88df66be
+Size: 5998112
+MD5sum: 19fe70d33c5b9bb3cd346b28a3ff374a
+SHA1: ced320937cb44489a516e7a867bf051a798b7cca
+SHA256: f2521143fd22e1db8c686bd58cbcef861417a3182dc99f3a3f17c9b0f6ce88e5
+SHA512: 1dd9e0f5f459bdaacaa5c143e6d36c6328a1389b163a4849bef01e20a6c96da3eb18b34672cc61587e5dc2a05e8b5f327188aacd7fca37dd0f4c2924b9d89455
 Description: Libraries necessary to run Ruby 3.0
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -4609,14 +4998,14 @@ Architecture: iphoneos-arm
 Version: 0.21-4
 Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 2016
+Installed-Size: 772
 Depends: libtextstyle0v5 (= 0.21-4)
 Filename: debs/libtextstyle-dev_0.21-4_iphoneos-arm.deb
-Size: 730770
-MD5sum: 8b5453da5e3af5e65fc8159419d1d746
-SHA1: ccf8143265f8495a97cfae1bff0fb7dccd76da00
-SHA256: 3a86e1aa962073ab50a7adb1d017df5ef4fafb88de6a2bf67d2574fc28de6192
-SHA512: e80315964e32de0b8a72cc7401d9488c580fc08b74d64fec731ce17036c82de869c4ac014eca49f9b51efc8375b48b4f9b843d6e8438e960e79daa9ee23af599
+Size: 287366
+MD5sum: db6a2087776a9feb4ec0492f884ab6ba
+SHA1: c39eb90f3440f965167836ad67bb678fcf07bac6
+SHA256: 6674b4222f2e0fa3100af275d043a6b8c33032359ff83418e32085897e771ebd
+SHA512: b85dd68de1af72323ed1bbdc29b5d813efe50b9a59eec2f1580269a684ac262b30758370c050666e47fcab79917d9e0257fc40e0821a903a4907d680305ac490
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings - development files
 
@@ -4625,14 +5014,14 @@ Architecture: iphoneos-arm
 Version: 0.21-4
 Section: Libraries
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 308
+Installed-Size: 376
 Depends: libncursesw6
 Filename: debs/libtextstyle0v5_0.21-4_iphoneos-arm.deb
-Size: 158102
-MD5sum: f2256e8f5d9b55525dba7063a615a4a8
-SHA1: 4fa08a8d07a3803ba6973d5d19f02ea735572b40
-SHA256: edb4e6a02f4a9de52ba8e286d4cd6b8f38824882e877f3f593186237003ada83
-SHA512: 09a9700d74b9dd680f392d159c4094aa2623ebf46983b9d78c922a8521a4e36dd0453d7d4b5ae04e8809f6c72942a7b51e8b883da92d4f617ef8d80b76595fe3
+Size: 189450
+MD5sum: 206abcb06f2356ccdbae4b16a547173c
+SHA1: 72b467de9b2b261639d8e882bb8e945ee224d2dd
+SHA256: 3e3cbe5e9d9a7f21e99c5fbd1075855ef8532afaaae15e9a2149950cd93b942b
+SHA512: 87220973fb0bf53984ea66456cfd27eef54e3667ad3cf5417a4cbcba4881a49c4b38a36670354f3b45a34e6341df871a933ab4c7062138063d95f39dfe130ad9
 Homepage: http://www.gnu.org/software/gettext/
 Description: internationalization helper for strings
 
@@ -7097,6 +7486,52 @@ Description: X C Binding
   * Easy creation of new extensions: automatically generates interface from
     machine-parsable protocol descriptions
 
+Package: libxcursor-dev
+Architecture: iphoneos-arm
+Version: 1.2.0
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 184
+Depends: libxcursor1 (= 1.2.0), libx11-dev, libxfixes-dev, libxrender-dev, x11proto-dev
+Filename: debs/libxcursor-dev_1.2.0_iphoneos-arm.deb
+Size: 24922
+MD5sum: e1d8aea7d67d158f44545c4c9991e797
+SHA1: ea142d34639113bfdd8da197c7466bc8658b6d99
+SHA256: 7fb5e524289374115af2166e4fd74d4ab9cc11d007091b55a10be5e4ebaedf76
+SHA512: 6f2babdbb09731994266fea3ed42001e5335ab08970f9e4dd04b658a51db6e92a6bb3a1126145919d40f3121eed823141ee3d1d94524690aa974595377a95e75
+Description: X cursor management library
+ Xcursor is a simple library designed to help locate and load cursors for the X Window System.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXau
+
+Package: libxcursor1
+Architecture: iphoneos-arm
+Version: 1.2.0
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 72
+Depends: libx11-6, libxfixes3, libxrender1
+Filename: debs/libxcursor1_1.2.0_iphoneos-arm.deb
+Size: 14468
+MD5sum: 64d5a7616858e596fca027f97b823316
+SHA1: f24ef8cd5ff923a9fb7b10eeb4452188c0933a99
+SHA256: 9641d9df0303117e25e46f778f160be5b2422de1bbe4399c98498d022832979a
+SHA512: e25c99c3ad06d738de98079172364af0775f73f3817f482d78caaa1d47c1ac2a3065d8bea4795f1837dea52ef826e338fa10b9059ed9fb76ff49cd17eefa1884
+Description: X cursor management library
+ Xcursor is a simple library designed to help locate and load cursors for the X Window System.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libXcursor
+
 Package: libxdmcp-dev
 Architecture: iphoneos-arm
 Version: 1.1.3
@@ -7390,6 +7825,48 @@ Description: X11 font rasterisation library
  .
  This module can be found at
  git://anongit.freedesktop.org/git/xorg/lib/libXfont
+
+Package: libxft-dev
+Architecture: iphoneos-arm
+Version: 2.3.3
+Priority: optional
+Section: Development
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 108
+Depends: libxft2 (= 2.3.3), libfontconfig-dev, libfreetype-dev, libx11-dev, libxrender-dev
+Filename: debs/libxft-dev_2.3.3_iphoneos-arm.deb
+Size: 44834
+MD5sum: 2fc03bc688d5757dda7dd62e9b1532a4
+SHA1: 2f706651ad5cbb20238b4e0aaec763a410b8ea2d
+SHA256: 1c7689b9d0ef43b94bdfd256162923484c15e58378be26d8d55a50220d8fb324
+SHA512: 1ecf3df04d6c07a6341c1ec41ae0c1b09552b170c3ad3c30b32896c849e73f1b1b9b78d1b28f796f1fbbf5650dc7b7a3b302b3287d2d6ea2bc6f6b0871dc7782
+Description: FreeType-based font drawing library for X (development files)
+ Xft provides a client-side font API for X applications, making the FreeType
+ font rasterizer available to X clients.  Fontconfig is used for font
+ specification resolution.  Where available, the RENDER extension handles
+ glyph drawing; otherwise, the core X protocol is used.
+ .
+ This package provides a static library and C header files.
+
+Package: libxft2
+Architecture: iphoneos-arm
+Version: 2.3.3
+Priority: optional
+Section: Libraries
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 96
+Depends: libfontconfig1, libfreetype6, libx11-6, libxrender1
+Filename: debs/libxft2_2.3.3_iphoneos-arm.deb
+Size: 29662
+MD5sum: 37d62c0b99304084ad62932602df50d6
+SHA1: 792f1f524140cfec62992ea276b20917c2dd1b41
+SHA256: aba3b30cb32f9ba4dca8cc201a10c40fd1fad2bb08ec0b1650c6a0e6a9bdbe70
+SHA512: ff0730e7b77a4a4e6aa355f810ae5c16ae6ab0cf9c6f05bfbd49c0b6817592b725a029b227a83780dac69338ea74c43492eac47c524ec116a0edcba964e9f412
+Description: FreeType-based font drawing library for X
+ Xft provides a client-side font API for X applications, making the FreeType
+ font rasterizer available to X clients.  Fontconfig is used for font
+ specification resolution.  Where available, the RENDER extension handles
+ glyph drawing; otherwise, the core X protocol is used.
 
 Package: libxinerama-dev
 Architecture: iphoneos-arm
@@ -7874,6 +8351,25 @@ MD5sum: f48211b6c128365c38db5b4d79876d30
 SHA1: ec18ece00bd3223a9b9fa0260e4cf28a405abc67
 SHA256: 7488952e2ee24a576d86e91c7bf1d4a186f25006657b85b6e3ecda9db471403f
 SHA512: ab150ab314dd86f23f41a49c907fd7aae1986cfaba0ae4c1e0376348f3efbba963e2f9c136f935621ca5796ffa440493be4c50ec530098eec99e7fdb3ed6ce62
+Homepage: http://tukaani.org/lzma/
+Description: Fast LZ compression algorithm library - tool
+Name: LZ4
+
+Package: lz4
+Architecture: iphoneos-arm
+Version: 1.9.3
+Multi-Arch: foreign
+Priority: important
+Section: Archiving
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 180
+Depends: liblz4-1 (= 1.9.3)
+Filename: debs/lz4_1.9.3_iphoneos-arm.deb
+Size: 80144
+MD5sum: fb7fe7a1efd394b2b4a2354efec12fcc
+SHA1: 26e322829cf6ec7181dd86c7ee03fa0b825c5097
+SHA256: 9d5721ec09d359904f8a5e5826481d5954dd220e0f472b5c1498673c4e89f524
+SHA512: a7b2625c787714b123fb2c0426b86347d159f63f11ebc92a22c82a508c2f9528e9d33b7eafb8864b1854c64d5c59362e60dcef05ab6797ff5e8924afd3ebb181
 Homepage: http://tukaani.org/lzma/
 Description: Fast LZ compression algorithm library - tool
 Name: LZ4
@@ -8552,15 +9048,15 @@ Version: 3.0.1-1
 Priority: optional
 Section: Development
 Maintainer: Nathan <nathan@oldcurs.us>
-Installed-Size: 2080
+Installed-Size: 2072
 Depends: libruby3.0 (= 3.0.1-1), libjemalloc-dev, libgmp-dev, libcrypt-dev
 Recommends: ruby3.0-doc
 Filename: debs/ruby3.0-dev_3.0.1-1_iphoneos-arm.deb
-Size: 216604
-MD5sum: 7cf218d1fe8f2fb0f28dce4a5b954e2d
-SHA1: aeddd2ffbdb4cd4b669e60892b0f074866aeb790
-SHA256: b63a212f94ae13f9ef78c3b13dbe6ebdcd661615bba1a0ee194b86222eac6afb
-SHA512: 911f7aaa419f15746fb7819d3493097c228c2a41b7986f0416dac043ed2eb7466c59289b45d9b6585a5c3edd7250f96528893541528b49e70a01f4c4bc18edde
+Size: 218140
+MD5sum: 4d617c8b1e8bb301525c179ea69b4444
+SHA1: f6ffd89f2cfd0872989ec1eb3218c4db6a1d7448
+SHA256: a5e61fa15f922e2fbf71647932a345dd8d6fd51d72972eb4167f831eff2602ef
+SHA512: 7b918a27c37078a7141d8a003a9817cb29882c6d3d65ee23af57b36ed34e3e01ac4a1fb4e8f0f8b4cb51ffe0ffe3e3c48fa0bbb17bebca0e321bd026dc5faa31
 Description: Header files for compiling extension modules for the Ruby 3.0
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8579,11 +9075,11 @@ Section: Documentation
 Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 49832
 Filename: debs/ruby3.0-doc_3.0.1-1_all.deb
-Size: 1869696
-MD5sum: d5a5b49798f89524a1edafa4925ff660
-SHA1: 440ccb0181dcb2a967315a2a577a8b9af512c179
-SHA256: 2a99bcf429acde1ce1c53a269d6659380166b146ea33662dc59a58ef2c6924be
-SHA512: 528671ce48814ae0093585bc3904e0834f57a8177a0704bf719b3acff161414a3e0e86c32c3af0a4bd99825a8a1cae65d63282a6203a1892726bfda4e64f7b39
+Size: 1855940
+MD5sum: 74dd28c582650dac7f376623d034c1a0
+SHA1: 6c7ff64f8977382460ad38f42e3c89274e9abd29
+SHA256: 1a7aafa81b7acae71e3a8540d55fc30886a5e37e24f8881a265fb68c92f81507
+SHA512: 3691eede9d68977b535f0d94f546197a7b242ef531240bc3e555732784877cb087f966802c854557d198e67a6b6ef32ba2036b37ebd5da293eb4e29235fc1f78
 Description: Documentation for Ruby 3.0
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8601,11 +9097,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 116
 Depends: libruby3.0 (= 3.0.1-1), libjemalloc2, libgmp10, libcrypt2, libiosexec1
 Filename: debs/ruby3.0_3.0.1-1_iphoneos-arm.deb
-Size: 16148
-MD5sum: 1178d5174aa9b6639f235f98f1dca448
-SHA1: 58f3a70b50518b9316ee7f40f889536895c31f1d
-SHA256: 3895d11ecd060835fc7bd6a228995f351286993f161406bb606e399d72dc3a67
-SHA512: 931f9ba5af9cf6f0b6d6fc125267f213e809616e9368cf8e053a50df00e2e18047422cbaa4e7f1409d28453660707265d41c1cbf7bbee7a7b3c1827708bf2650
+Size: 16168
+MD5sum: 3dbe84517fed9674630d32f98fe6b2e4
+SHA1: 43f37b8ec8b709532371c3bd973129111a9cc409
+SHA256: ef467a7d207ce7fc62825b6da12e06382be77559449bc5e4822c12b6c5e036e8
+SHA512: d2a435b67ac576ef5c76ae8ae60464e8723dfdecd5b6b8a11409ff25a69fc329e56ea0b066a8f7ca8d937b051e07ff4f895e6f255bdb3c81853c95fcb1b93b65
 Description: Interpreter of object-oriented scripting language Ruby
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8624,11 +9120,11 @@ Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 0
 Depends: ruby3.0
 Filename: debs/ruby_3.0.1-1_iphoneos-arm.deb
-Size: 982
-MD5sum: ded3312a863b6a19996818024fdcd9dd
-SHA1: a7657cecee6a383df5031278761e00c5fef559ee
-SHA256: 2ec69bd2abe29178edba9a448c3f478e61fce05d7cec3c42db6ca4537111bf5f
-SHA512: 7bfdcb860f56337a270955d2945721b1b6fcae42296aac9e651c3472fe24ebdd22abfb55e68545474030f5398ca334af2defcb3462276420930c2e0db6f90000
+Size: 980
+MD5sum: 5234dac7afa49b6416f3c11ffb7d1614
+SHA1: 8b55102a14b5a8978a348be97122a372b293a6c2
+SHA256: 8745d896c8dbc5c41528314a80d208d630b247859180fe43e17caf2591a1645d
+SHA512: 2c7ca73817cd9ad1f023675af09513fc9fc315e14287581f9d274891454552cde68e3a64a5507250c22962b0a9a4aa4e20af3bcfce262d28d179fbe357dce23c
 Description: Interpreter of object-oriented scripting language Ruby (default version)
  Ruby is the interpreted scripting language for quick and easy
  object-oriented programming.  It has many features to process text
@@ -8872,6 +9368,23 @@ MD5sum: 5879c68dd9927ddb131ac22c4fdd8775
 SHA1: a497c0c5600f4f420dded5fbb905d6f9b25fcca9
 SHA256: 01c79e1161ee977ef640e1c736b9da30f75961797178e1a127614e0d15ab9964
 SHA512: 951bf2ee7e6e430627aa3e588cee617e5f1b74f914611bd311fd26c25a0dcb5a9d3482dcbda24d4243dfb1c4d79dcedb65e738d876ffcc6567c588ff6368ee92
+Description: temporarily assume root priviledges
+
+Package: sudo
+Architecture: iphoneos-arm
+Version: 1.9.7p2-4
+Priority: required
+Essential: yes
+Section: Administration
+Maintainer: Nathan <nathan@oldcurs.us>
+Installed-Size: 5440
+Depends: libintl8, libiosexec1
+Filename: debs/sudo_1.9.7p2-4_iphoneos-arm.deb
+Size: 1251860
+MD5sum: 02686b99b508e964914f7c4f85704458
+SHA1: 6bad01869802639fdf542d2a0d7c42266e1bc6bd
+SHA256: c275b8ebf82cb52a06789fb06a9821125dc5a9b4980fafc99eeb4a2160eb319b
+SHA512: 985bc720f80175e118960be1a02a3f20626a01aee3895435f4af493817f5f89f70ca2558ff7819103ebd55bef55eac2eccf774d1c90dc561d08025a2d9e78995
 Description: temporarily assume root priviledges
 
 Package: sudoku
@@ -9659,15 +10172,15 @@ Architecture: iphoneos-arm
 Version: 367
 Priority: optional
 Section: X11
-Maintainer: Hayden Seay <me@diatr.us>
+Maintainer: Nathan <nathan@oldcurs.us>
 Installed-Size: 732
 Depends: libsixel1, libncursesw6, libpcre2-posix2, libfontconfig1, libfreetype6, libice6, libxaw7, libxext6, libxft2, libxmu6, libxpm4, libxt6, libxinerama1, xbitmaps
 Filename: debs/xterm_367_iphoneos-arm.deb
-Size: 329218
-MD5sum: 70d5efa7dd538328e4609938b6033f5c
-SHA1: 091d94665b1ecfcc3805a3fe039dad6d924222a5
-SHA256: 70dcf8637caa17d82c8e799ca9eaff37017d590a43f389498088a4c40fdc8199
-SHA512: 59e0845f841ae5c62a0918e2e7a52e05cc49f5f03d9148dd329034df15a4ca2915fc81ac9356dfc38e1c6cf0a8dcbe767b8680f2bcf1a153f52c66e1533356ca
+Size: 329198
+MD5sum: 84b1a46b1d40207e18792d84766ebee5
+SHA1: bee95029afa24b247c40745824d0ceef1b87558a
+SHA256: 1688de2fac68aa02367af6d4cbdb9e29c50af392760fdb7101eab73adefa3e10
+SHA512: 6e4d0f7a19a5f1051f33571ea44cc10996565701bd0a0212a8c44858770aa3e8a3ff975a1d705fc975c75af8e28adf99f54bf6b8e6e1205c4a2282ad6cb821c0
 Description: X terminal emulator
  xterm is a terminal emulator for the X Window System.  It provides DEC VT102
  and Tektronix 4014 compatible terminals for programs that cannot use the
